@@ -1,0 +1,10 @@
+Date,Region,Product,Units_Sold,Unit_Price
+2026-01-01,Addis Ababa,Electronics,20,500.0
+2026-01-01,Addis Ababa,Furniture,10,1200.0
+2026-01-01,Dire Dawa,Electronics,15,500.0
+2026-01-02,Addis Ababa,Electronics,25,500.0
+2026-01-02,Dire Dawa,Furniture,5,1200.0
+2026-01-02,Mekelle,Electronics,10,500.0
+2026-01-03,Addis Ababa,Furniture,8,1200.0
+2026-01-03,Dire Dawa,Electronics,12,500.0
+2026-01-03,Mekelle,Furniture,6,1200.0

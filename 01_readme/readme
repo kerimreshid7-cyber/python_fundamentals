@@ -1,0 +1,31 @@
+
+# Mini BI Project: Python Fundamentals for BI (Variables, Lists, Boolean, Data Types)
+
+## Overview
+This mini-project is designed to practice **Python basics** needed for BI analysis:
+- Variables
+- Data Types: int, float/double, string, boolean
+- Lists
+
+All challenges are **manual**, **no loops**, **no functions** — perfect for beginners and BI fundamentals.
+
+## Data
+`sales_data.csv` contains:
+- Date (string)
+- Region (string)
+- Product (string)
+- Units Sold (int)
+- Unit Price (float/double)
+
+## Challenges
+1. Calculate revenue per item (variables + float)
+2. Create high sale flag (boolean)
+3. Calculate total revenue (double)
+4. Calculate average unit price per product (float + list)
+5. Sum of units sold (list + int)
+
+## How to Run
+1. Create a virtual environment:
+   ```bash
+   python3 -m venv bi_env
+   source bi_env/bin/activate
