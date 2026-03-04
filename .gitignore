@@ -1,0 +1,12 @@
+Open it and add:
+
+# Virtual Environment
+pyfun_env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
