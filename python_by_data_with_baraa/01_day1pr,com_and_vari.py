@@ -1,3 +1,5 @@
+
+# I am going to learn python again to have strong foundatioin and to get more experiance by a person who worked as an expert data analyst with python for 17+ years.
 # what  is python,how it works and who is baraa 
 # python is high level programing languge so that we can command our computer to do something
 #  data analysis,mathimatical oprations,business logics,file handling and so on
