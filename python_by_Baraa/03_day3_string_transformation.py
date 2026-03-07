@@ -2,25 +2,25 @@
  # string  is the most fundamental data type in python bc in companies 80% of data are texts
  # so, we have to proccess analyse transform those datas. understanding string bhnd the sign is 
  # not an option.  that is why i am covering the video word by word.
-   
+      
 # 3 transformation
     #   replace()
 
 s_price="123,34"   
-print(price.replace(",","."))    # so in the out put we will see the comma changed by dot.
+print(s_price.replace(",","."))    # so in the out put we will see the comma changed by dot.
 
 Date="2026/03/07"
 print(Date.replace("/","-"))     # slash will changed by minus.
 
 
 s_price="123,34"   
-print(price.replace(",",""))    # the out put will show us the comma changed by nothing.
+print(s_price.replace(",",""))    # the out put will show us the comma changed by nothing.
 
 s_price="123,34"   
-print(price.replace(","," "))    # so in the out put we will see the comma changed by space.
+print(s_price.replace(","," "))    # so in the out put we will see the comma changed by space.
 
 s_price="123,34$"   
-print(price.replace(",",".").replace("$",""))   # this is how  we can replace more than one value once.
+print(s_price.replace(",",".").replace("$",""))   # this is how  we can replace more than one value once.
 
    # challenge in replace
 phone_number="+49 (234) 345-834"
@@ -57,18 +57,48 @@ print(f"{{this is the future of BI analyst}}")  # using double curly brace we ca
 
 
 
+# split method  this method is used to separate values by defining where we want to separate(crtical point).
+# return as a list.
+
+stamp='2026-03-07'
+full_name='kerim reshid '
+
+print(stamp.split("-"))       # we are spliting by telling exactly where we want to split.("-")
+print(full_name.split(" "))   # we are spliting by telling exactly where we want to split.(" ")
 
 
 
+# string repetition (*)
 
+print("ha"*4)
+print("#"*17)
+print('_'*12)  # this is used to make such signs or any values stable.
 
+print('ha'*7)
 
+ 
+ 
+#  4 extraction
 
+# indexing and slicing
+# indexing to get single value from string value.
+f_Name="kerim"
+print(f_Name[0])    # since +ve indexing start from zero so this will give as only k
+print(f_Name[3])    # this will give us exactly  i.
+print(f_Name[-2])   # this will give us exactly  i again because -ve indexing start from -1.
 
+#  slicing to get more than one value value from string value.
 
+print(f_Name[0:3]) # starting from 0 (bc start will include) up to exactly 2 (bc end won't include) 
+print(f_Name[:3])  # this is similar to the above we can ignor 0 if we start from the first.
 
+print(f_Name[-4:-1]) # will give us eri   e=-4 and i=-2   bc -1(end) won't included.
 
+# slicing with open end
+print(f_Name[2:])   # exactly equal to (rim) since we don't define the ending point python gonna understand that we want up to end.
+print(f_Name[-5:])   # exactly equal to (kerim )    sometimes this will make confusion bc it's looks like normal indexing but the difference is here we have (:).
 
-
+# slicing with step
+print(f_Name[-4:-1],2)   # new thing here we are commanding to jump 1 value. so it's = (ei)
 
 
