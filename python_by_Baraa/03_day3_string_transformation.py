@@ -6,20 +6,20 @@
 # 3 transformation
     #   replace()
 
-price="123,34"   
+s_price="123,34"   
 print(price.replace(",","."))    # so in the out put we will see the comma changed by dot.
 
 Date="2026/03/07"
 print(Date.replace("/","-"))     # slash will changed by minus.
 
 
-price="123,34"   
+s_price="123,34"   
 print(price.replace(",",""))    # the out put will show us the comma changed by nothing.
 
-price="123,34"   
+s_price="123,34"   
 print(price.replace(","," "))    # so in the out put we will see the comma changed by space.
 
-price="123,34$"   
+s_price="123,34$"   
 print(price.replace(",",".").replace("$",""))   # this is how  we can replace more than one value once.
 
    # challenge in replace
@@ -38,3 +38,37 @@ print(last_name)
 folder="c:user/kerim/Desktop/date_function_practice2"
 file="data.csv"  
 print(folder + "/" + file)
+
+
+
+    #   f string  modern and super easy way of format and build string
+age=23
+dep="SWE"
+year="3rd"
+# print("i am" + age + "i am studing" + dep)   this will return an error bc we caan't add int and str
+# print("i am" + str(age) + "i am studing" + dep)   now problem solved  but it's some thing boaring that is why we need to use f string.
+
+print(f"i am kerim reshid and i am {age} years old i am learnig at haramaya university {dep} field i am {year} year student.")
+# using f (stands for format)  we can print any values regardless of data type.
+
+print(f"2+3={2+3} any time bc mathimatics will never lie.") # so we can also do oprations usinf f string.
+# print(f"{this is the future of BI analyst}")  this code will return error bc when ever we have to put values in side curly brace({}) . if we want there is another method
+print(f"{{this is the future of BI analyst}}")  # using double curly brace we can print text.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
