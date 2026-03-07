@@ -39,9 +39,9 @@ print(name.upper())   # here we used method inside a function
 # and we can create functions to reuse it  we will see it around last days in detail.
 
 # methods belongs to objects/class
-print("SOMETHING".lower())          #first value then function name with parentesis   this is syntax of methode a
-print("letters".upper()) #and this is how method differ from function we usually use it inside function.
-print(id.bit_length())    #so now we can see the length of the id in bit 
+# print("SOMETHING".lower())          #first value then function name with parentesis   this is syntax of methode a
+# print("letters".upper()) #and this is how method differ from function we usually use it inside function.
+# print(id.bit_length())    #so now we can see the length of the id in bit 
  
  # in summery data type is the most fundamental concept in python bc it will store the values in appropriate memory space and 
  # values are  objects that belongs to a class. class(int,str)  values(7,kerim)
@@ -63,24 +63,28 @@ print(id.bit_length())    #so now we can see the length of the id in bit
               # type and str 
     #  1 types    
              
-print(type(Name))   # we can show what type of data the Name is
+# print(type(Name))   # we can show what type of data the Name is
 
 Name="kerim reshid" 
 age=23
 age=age-4         # we will show 19 on the upt put 
 # 2 str()
-age=23           
-age=str(age)      # we have changed the age from integer to string. 
-age=age-4         # so now in syntax it's correct but it's error in the out put bc we can't add str and int.
+# age=23           
+# age=str(age)      # we have changed the age from integer to string. 
+# age=age-4         # so now in syntax it's correct but it's error in the out put bc we can't add str and int.
 
 # 2 math (len and count)
-  #  len(length)
+  #  len(length) used to know the exact lenth of the text. even if there are white spaces it will count them.
 print(len(Name))    #it will count spaaces also we will have to see 12 on the out put
-print(len(age))     # it will return error
+print(len(age))     # it will return error bc one one the use of data type is differntiate function or oprater is allowe or not. Here is integer so using len for int is not allowed.
 
+    # count
 
-
-
+text="""
+kerim is smart student.
+every body in the  viallage knows kerim by his commitment.
+Kerim is SWE student at haramaya university."""
+print(text.count("kerim"))
 
 
 
