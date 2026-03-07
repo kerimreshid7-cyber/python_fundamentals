@@ -1,6 +1,6 @@
 
-# I am going to learn python again to have strong foundatioin and to get more experiance by a person who worked as an expert data analyst with python for 17+ years.
-# what  is python,how it works and who is baraa 
+# I am going to revise(learn) python again to have strong foundatioin and to get more experiance by a person who worked as an expert data analyst with python for 17+ years.
+# what  is python,how it works and who is Baraa 
 # python is high level programing languge so that we can command our computer to do something
 #  data analysis,mathimatical oprations,business logics,file handling and so on
 #  how it works?
@@ -8,7 +8,7 @@
 # the only languge our computer can understand.
 
 
-# baraa is speciallist data analyst with 17 yrs experiance and he worked in marchdis benz company
+# Barra is speciallist data analyst with 17 yrs experiance and he worked in marchdis benz company
 # I had taken practical python course and now I just wanna to revise and specifically to master in domain specific by merging sql,business logic and  pyhton . to become expert BI analyst.
 #  I will get proffesional adviseway of thinking  not only writing code. that is why i've  choosen to learn from barra.
   

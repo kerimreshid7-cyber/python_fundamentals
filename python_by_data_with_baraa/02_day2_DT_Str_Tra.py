@@ -57,22 +57,26 @@ print(id.bit_length())    #so now we can see the length of the id in bit
 
 
 
-                    # string 
-    #  1 types    type and str               
+ # string  is the most fundamental data type in python bc in companies 80% of data are texts
+ # so, we have to proccess analyse transform those datas. understanding string bhnd the sign is 
+ # not an option.  that is why i am covering the video word by word.  
+              # type and str 
+    #  1 types    
+             
 print(type(Name))   # we can show what type of data the Name is
 
 Name="kerim reshid" 
 age=23
 age=age-4         # we will show 19 on the upt put 
+# 2 str()
+age=23           
+age=str(age)      # we have changed the age from integer to string. 
+age=age-4         # so now in syntax it's correct but it's error in the out put bc we can't add str and int.
 
-# age=23           
-# age=str(age)      # we have changed to string  
-# age=age-4         # so now in syntax it's correct but it's error in the out put bc we can't add str and int.
-
-# 2 math len and
+# 2 math (len and count)
+  #  len(length)
 print(len(Name))    #it will count spaaces also we will have to see 12 on the out put
-
-
+print(len(age))     # it will return error
 
 
 
