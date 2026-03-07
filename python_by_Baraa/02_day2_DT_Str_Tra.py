@@ -33,15 +33,15 @@ print(basics)     # I am just trying to apply  the concept of dictionary from my
 # the dnce bn function and methode 
 # function is a block of codes that perform or do specific task and we can reuse it any time we want
 print("something")    #define fun name then pass a value.
-# print(type(name))     # this is afunction(type) inside another fun(print) and used to see the data type.
+print(type(name))     # this is afunction(type) inside another fun(print) and used to see the data type.
 print(len(name))      # used to see the length of our data value.
-print(name.upper())   # here we used method inside a function  
+
 # and we can create functions to reuse it  we will see it around last days in detail.
 
 # methods belongs to objects/class
-# print("SOMETHING".lower())          #first value then function name with parentesis   this is syntax of methode a
-# print("letters".upper()) #and this is how method differ from function we usually use it inside function.
-# print(id.bit_length())    #so now we can see the length of the id in bit 
+print("SOMETHING".lower())          #first value then function name with parentesis   this is syntax of methode a
+print("letters".upper()) #and this is how method differ from function we usually use it inside function.
+print(id.bit_length())    #so now we can see the length of the id in bit 
  
  # in summery data type is the most fundamental concept in python bc it will store the values in appropriate memory space and 
  # values are  objects that belongs to a class. class(int,str)  values(7,kerim)
@@ -60,15 +60,16 @@ print(name.upper())   # here we used method inside a function
  # string  is the most fundamental data type in python bc in companies 80% of data are texts
  # so, we have to proccess analyse transform those datas. understanding string bhnd the sign is 
  # not an option.  that is why i am covering the video word by word.  
-              # type and str 
-    #  1 types    
+               # 1  type and str 
+    #   types    
              
 print(type(Name))   # we can show what type of data the Name is
 
 Name="kerim reshid" 
 age=23
 age=age-4         # we will show 19 on the upt put 
-# 2 str()
+
+# str()
 # age=23           
 # age=str(age)      # we have changed the age from integer to string. 
 # age=age-4         # so now in syntax it's correct but it's error in the out put bc we can't add str and int.
