@@ -33,7 +33,7 @@ print(basics)     # I am just trying to apply  the concept of dictionary from my
 # the dnce bn function and methode 
 # function is a block of codes that perform or do specific task and we can reuse it any time we want
 print("something")    #define fun name then pass a value.
-print(type(name))     # this is afunction(type) inside another fun(print) and used to see the data type.
+# print(type(name))     # this is afunction(type) inside another fun(print) and used to see the data type.
 print(len(name))      # used to see the length of our data value.
 print(name.upper())   # here we used method inside a function  
 # and we can create functions to reuse it  we will see it around last days in detail.
@@ -63,7 +63,7 @@ print(name.upper())   # here we used method inside a function
               # type and str 
     #  1 types    
              
-# print(type(Name))   # we can show what type of data the Name is
+print(type(Name))   # we can show what type of data the Name is
 
 Name="kerim reshid" 
 age=23
@@ -76,7 +76,7 @@ age=age-4         # we will show 19 on the upt put
 # 2 math (len and count)
   #  len(length) used to know the exact lenth of the text. even if there are white spaces it will count them.
 print(len(Name))    #it will count spaaces also we will have to see 12 on the out put
-print(len(age))     # it will return error bc one one the use of data type is differntiate function or oprater is allowe or not. Here is integer so using len for int is not allowed.
+# print(len(age))     # it will return error bc one one the use of data type is differntiate function or oprater is allowe or not. Here is integer so using len for int is not allowed.
 
     # count
 
@@ -85,9 +85,14 @@ kerim is smart student.
 every body in the  viallage knows kerim by his commitment.
 Kerim is SWE student at haramaya university."""
 print(text.count("kerim"))
-
-
-
+# This method will show us 2 on the out put why kerim is appeare 3 time in the text bc python is very case sensetive. the one Kerim is start by capital.
+ 
+text="""
+kerim is smart student.
+every body in the$ viallage knows kerim by his commitment.
+Kerim is SWE student at haramaya$ university."""
+print(text.count("$"))
+# This method will show us 2 on out put bc we can handle this type of unccessary special characters using count() method.
 
 
 
