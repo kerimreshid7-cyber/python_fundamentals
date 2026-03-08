@@ -99,6 +99,7 @@ print(f_Name[2:])   # exactly equal to (rim) since we don't define the ending po
 print(f_Name[-5:])   # exactly equal to (kerim )    sometimes this will make confusion bc it's looks like normal indexing but the difference is here we have (:).
 
 # slicing with step
-print(f_Name[-4:-1],2)   # new thing here we are commanding to jump 1 value. so it's = (ei)
-
+print(f_Name[-4:-1:2])   # new thing here we are commanding to jump 1 value. so it's = (ei)
+numbers = [0,1,2,3,4,5,6,7,8,9]
+print(numbers[::2])    # we didn't define starting and ending point here so python gonna understand we want 0-9(including 9) with step 2
 
