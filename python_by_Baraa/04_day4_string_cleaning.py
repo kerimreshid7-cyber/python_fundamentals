@@ -7,7 +7,7 @@
 
 name='  $ kerim'.lstrip().strip('$')    # it's some boring and biggner method. won't give the exact what we want.
 print(name)      # this is how can clean left side of the value.
-name='  $ kerim#'.strip('# $')      # but this is advanced and easy way to remove every extra speces and Spe Char  s. with regardless of order when we pass argument(in 1 argument) like this ('$ ') or (' $') . but this function will accept only one argument
+name='  $ kerim#'.strip('# $')      # but this is advanced and easy way to remove every extra speces and Spe Char  s. with regardless of order when we pass parameter  like this ('$ ') or (' $') . but this function will accept only one argument
 print(name)  
 skill='front end,sql and data anlysis $####   '.rstrip('$# ')  # this is fantastic way to remove uncessary spaces and special characters 
 print(skill)
@@ -59,31 +59,36 @@ print(user_srch)    # in the out put i will get kerim reshid,Addis Ababa,ethiopi
 
 
 
-# search
+# search functions  now we are gonna see checking string value using search.
+text = "Data analysis with python".startswith('data')  
+print(text)    # (false bc of case) this searching is used to check whether our string values starts as we want or not and in the out we will see True or False
 
+stu_info='Kerim reshid,3rd year,SWE'
+print(stu_info.endswith("SWE"))          # True  since, no matter to use it in print function and also to use single and double qouts interchangeably.
 
+file='sample datas.csv'         
+print(file.endswith('.csv'))      # True agian and it's important to check file type. 
 
+stu_info='Kerim reshid,3rd year,SWE'
+print('3rd' in stu_info)                 # true bc python searchs in the string value it gets then return True.     
 
+city = "Addis Ababa is the capital of Ethiopia"
+print(city.find('Ababa'))     # now here we won't see bool values bc it's related with indexing so it counts starting from zero then return index no.
+ # and it's not about single letter it find the word Ababa when it get it return the first index no of this word.
 
+# challenge to find exactly the removeal part index no  and slice(extract phone no with out country code)
+phone='+241-979-73658'
+print(phone.find('-'))    # we got 4 it means - is in the 4 index(5th position since indexing starts from 0)  the let me apply slicing then.
 
+print(phone[5:])       # simply we can solve the problem like this.
+print(phone[phone.find('-')+1:])  # same result but it's alittle more professional and advanced.
 
+# validation  methods
 
-
-
-
-
-
-
-
-# validation
-
-
-
-
-
-
-
-
+text = "Kerim"
+print(text.isalpha())
+print(phone.isdecimal())
+print(city.isnumeric())     # we can check like this  we will get True or False.
 
 
 
