@@ -30,20 +30,32 @@ print(f'{{ohh cleaning is simple and very intersting with python}}')
 
 
 
+# case cleaning  lowwer and upper methods 
+#  we use these most of the time in searching tasks bc when 
+# users search some thing mostly with typo from the original value so to fix such type of probles use
+course='python'.upper()
+name='KERIM reshid'.upper()    # THESE two code will made the latters capital and if it's already capital it will ignore and displlay it self.
+user_srch='Kerim'
 
 
+act_data='keriM'   
+print(user_srch==act_data)     # we will get false since pyhton is case sensetive we won't get what we looking for.
+
+user_srch='% Kerim  '.lower()
+act_data='#$$ keriM %'.lower()
+print(user_srch==act_data)      #  stil it's false bc of extra space 
 
 
+user_srch='% 3Kerim  '.lower().strip('% 3')
+act_data='#$$ (keriM %'.lower().strip('(%#$ ')
+print(user_srch==act_data)        # since i applied the concept strip from left and righ side(evry uncessary values removed once). so we'll get true.
 
+# advanced challenge
+# clean this messy data 
+# expected output: Kerim Reshid,Addis Ababa,ethiopia
 
-
-
-
-
-
-
-
-
+user_srch='% ###3Kerim Reshid,@ddis @baba,Ethiopia   -'.lower().strip('#-% 3').replace('@','A')
+print(user_srch)    # in the out put i will get kerim reshid,Addis Ababa,ethiopia but still ethiopia is not match to the expected output  I think to fix this i need to learn more.
 
 
 
