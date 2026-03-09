@@ -1,14 +1,18 @@
 
 # string cleaning
-# since 80% of company datas are string which means texts and they have bad data quality 
-# before we doing something on them we have to clean it to get effective result fro the datas
+# since 80% of company datasets are string which means texts and they have bad data quality 
+# before we stsrt do something on them we have to clean it to get effective result from the datas
 
 # space cleaning: this  is common task in real data sets the task is simple removing uncessary space 
 
-name='  $ kerim'.lstrip().strip('$')    # it's some boring and biggner method. won't give the exact what we want.
+name='  $ kerim'.lstrip().lstrip('$')    # it's some boring and biggner method. won't give the exact what we want.
 print(name)      # this is how can clean left side of the value.
-name='  $ kerim#'.strip('# $')      # but this is advanced and easy way to remove every extra speces and Spe Char  s. with regardless of order when we pass parameter  like this ('$ ') or (' $') . but this function will accept only one argument
-print(name)  
+
+name='  $ kerim#'      # but this is advanced and easy way to remove every extra speces and Spe Char  s. with regardless of order when we pass parameter  like this ('$ ') or (' $') . but this function will accept only one argument
+print(name.strip('# $')) 
+name='  $ kerim#'.strip('# $')    
+print(name)                     #the same result so this is another way print final result
+
 skill='front end,sql and data anlysis $####   '.rstrip('$# ')  # this is fantastic way to remove uncessary spaces and special characters 
 print(skill)
 
@@ -48,14 +52,14 @@ print(user_srch==act_data)      #  stil it's false bc of extra space
 
 user_srch='% 3Kerim  '.lower().strip('% 3')
 act_data='#$$ (keriM %'.lower().strip('(%#$ ')
-print(user_srch==act_data)        # since i applied the concept strip from left and righ side(evry uncessary values removed once). so we'll get true.
+print(user_srch==act_data)        # since i applied the concept strip from left and righ side(every uncessary values removed once). so we'll get true.
 
 # advanced challenge
 # clean this messy data 
-# expected output: Kerim Reshid,Addis Ababa,ethiopia
+# expected output: Kerim Reshid,Addis Ababa,Ethiopia
 
-user_srch='% ###3Kerim Reshid,@ddis @baba,Ethiopia   -'.lower().strip('#-% 3').replace('@','A')
-print(user_srch)    # in the out put i will get kerim reshid,Addis Ababa,ethiopia but still ethiopia is not match to the expected output  I think to fix this i need to learn more.
+user_srch='% ###3Kerim Reshid,@ddis @baba,Ethiopia   -'.strip('#-% 3').replace('@','A')
+print(user_srch)    # in the out put i will get kerim Reshid,Addis Ababa,Ethiopia 
 
 
 
