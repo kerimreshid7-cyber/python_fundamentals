@@ -1,21 +1,22 @@
 
 # first let's see what is control flow is 
-# control flow is a logic we wrtie to control how our code runs
+# control flow is a logic we write to control how our code runs
 # lets classify code in to two 
 # 1 straight line code    it just python gonna understand line by line no itration,no loop so we can say the Code we have written up to 
 # day 6 was streight forward codes.
-# 2 control flow code is a code that is we can command python how we want to run it by writing the logic.
+# 2 control flow code is a code that is we can command python how we want to run it by writing the logic(control flow).
 # so from now on i think i will prctice more control flow codes.
 # conditioal statments,loops and functions are good examples of CF
 
 #  I will see one by one. I will gonna master python like Baraa.   so, now lets see logic and oprators
-# logic and oprators in this topic we gonna see values(true false),functions(bool,all,any,isinstance),comparision oprators(<,=,>...), membership like(in and not in) and identity oprators(is and is not).
+# logic and oprators in this topic we gonna see values(true false),functions(type,bool,all,any,isinstance),comparision oprators(<,=,>...), membership like(in and not in) and identity oprators(is and is not).
 
 # values
-print(True)
+print(True)                      
 print(False)
 
-# functions(type,bool,all,any,isinstance)
+# functions(type,bool,all,any,isinstance)               
+
 #type
 print(type(True))    # type used to know the type of the value as we saw last weak.
 
@@ -52,87 +53,5 @@ print(any([s_name,s_email,s_phone]))  # true bc 'any' get true if atleast one co
 print(isinstance(23.45,float))    # isinstance(buikt in function) first check the data type of value then return true or false, in htis case we'll get True.
 print('kerim'.endswith('m'))       # we can evaluate statments like this
 print("SWE".startswith('s'))      # false bc of the case (it's starts with S not s)
-
-
-# comparision oprators(<,=,>...) 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
