@@ -81,11 +81,11 @@ print(round(d))
 # is looking for even then round to it 3.5 to 4 again 4.5 to 4
 
 
-# dnce=2-6
-# print(abs(dnce))
-# grade=3.965273674
-# print(round(grade,2))
-# print(round(grade))
+dnce=2-6
+print(abs(dnce))
+grade=3.965273674
+print(round(grade,2))
+print(round(grade))
 
 
 
