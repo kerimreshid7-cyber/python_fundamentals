@@ -11,7 +11,7 @@ elif score>=80 and score<90:
     print('congra you got B')
 elif score>=70 and score<80 : 
     print('you got B-')
-elif score>=60 and score<70:
+elif score>=60 and score<70:       # we are applynig the concept of branching here.
     print('you got C')
 elif score<=50 and score>=40:
     print("sorry not for today. you got F")
