@@ -96,10 +96,14 @@ print(city.isnumeric())     # we can check like this  we will get True or False.
 
 
 
+# revision challenges
+# 1. Clean customer name
+name = input("Name: ")
+print(name.strip().title())
 
-
-
-
+# 2. Validate numeric string (sales input)
+value = input("Sales: ")
+print("Valid" if value.replace('.', '', 1).isdigit() else "Invalid")
 
 
 
