@@ -38,7 +38,7 @@ print("""next activities
 
 
 # 2  variables are names that stores values  they are like box to store value.
-x=7
+x=7           
 print(x)   
 print(7)
 # and variables are not permanent we can update them 
