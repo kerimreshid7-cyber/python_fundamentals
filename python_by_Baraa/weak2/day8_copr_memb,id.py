@@ -100,6 +100,12 @@
 # print(s_email is not None and s_email!= '')      # we will get false so  we can  easily reailize something wrong in user email. 
 
 
+# revision challenges
+# 3. Identity check (same object vs same value)
+a = [1,2]
+b = [1,2]
+print(a == b)   # True   we are comparing the values
+print(a is b)   # False   we are comparing the variable it self or the ID of the variable.
 
 
 
