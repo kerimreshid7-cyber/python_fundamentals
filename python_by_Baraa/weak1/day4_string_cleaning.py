@@ -106,10 +106,15 @@ value = input("Sales: ")
 print("Valid" if value.replace('.', '', 1).isdigit() else "Invalid")
 
 
+# 3. Check if email is clean
+email = input("Email: ").strip().lower()
+print("Valid" if "@" in email and "." in email else "Invalid")
+# cleaning+identity check+user input+case cleaning
 
-
-
-
+# 4.  Remove duplicates spaces
+text = input("Text: ")  
+print(" ".join(text.split()))
+# join and split aplied here
 
 
 
