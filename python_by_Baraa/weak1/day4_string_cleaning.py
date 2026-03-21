@@ -116,7 +116,9 @@ text = input("Text: ")
 print(" ".join(text.split()))
 # join and split aplied here
 
-
+# 5. Extract domain from email
+email = input("Email: ")
+print(email.split("@")[-1])
 
 
 
