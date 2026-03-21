@@ -101,13 +101,15 @@
 
 
 # revision challenges
-# 3. Identity check (same object vs same value)
+# 1. Identity check (same object vs same value)
 a = [1,2]
 b = [1,2]
 print(a == b)   # True   we are comparing the values
 print(a is b)   # False   we are comparing the variable it self or the ID of the variable.
 
-
+# 2. Check if ID is numeric
+id = 3476
+print("Valid ID" if id.isdigit() else "Invalid ID")
 
 
 
