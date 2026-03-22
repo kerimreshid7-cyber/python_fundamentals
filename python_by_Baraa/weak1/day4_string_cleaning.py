@@ -120,7 +120,7 @@ print(" ".join(text.split()))
 email = input("Email: ")
 print(email.split("@")[-1])
 
-
+# i have never ever seen important thing as strin and data cleaning  for data analysis.
 
 
 
