@@ -25,7 +25,7 @@ print(random.random())      # we got 0.something(it will never out of o.bla bla 
 print(random.randint(1,6))  # now we want to get random integer whenever we run the code and we define boundary so, we will never get out of these no. i think ludo(game) used it.
 print(random.randint(1,1000)) #  generate random numbers both boundaries will included. unlike slicing which is extracting[-3:-7] starting -3 included but end -7 not included.
 # so, how and when we will use it as data anlysts for ex. imagine we have a large data set(customers table) then we want to pick 10 customers. we can use random
-
+# it's not much more needed for data analysis. but knowig it is important.
 
 # # validation   
 n=23
