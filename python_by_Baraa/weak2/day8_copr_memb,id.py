@@ -111,8 +111,9 @@ print(a is b)   # False   we are comparing the variable it self or the ID of the
 id = 3476
 print("Valid ID" if id.isdigit() else "Invalid ID")
 
-
-
+#3 check membership
+region = input("Region: ").lower()
+print("Addis" if "addis" in region else "Other")
 
 
 
