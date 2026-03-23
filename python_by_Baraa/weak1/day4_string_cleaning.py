@@ -125,6 +125,7 @@ print(email.split("@")[-1])
 # 6. Normalize product code
 code = input("Code: ")
 print(code.strip().upper())
+
 # 7. Check substring (region)
 region = input("Region: ").lower()
 print("Addis" if "addis" in region else "Other")
