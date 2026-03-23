@@ -122,7 +122,12 @@ print(email.split("@")[-1])
 
 # i have never ever seen important thing as strin and data cleaning  for data analysis.
 
-
+# 6. Normalize product code
+code = input("Code: ")
+print(code.strip().upper())
+# 7. Check substring (region)
+region = input("Region: ").lower()
+print("Addis" if "addis" in region else "Other")
 
 
 
