@@ -58,8 +58,13 @@ else:
 # the exucution will be one after another not once. first come come fist seved.
 
 
-
-
+# simple challenges
+# 1. Sales category
+sales = float(input("Sales: "))
+print("High" if sales > 5000 else "Low")
+# 2. Check even transaction batch
+num = int(input("Transactions: "))
+print("Even batch" if num % 2 == 0 else "Odd batch")
 
 
 
