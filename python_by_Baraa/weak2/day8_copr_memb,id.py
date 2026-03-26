@@ -115,6 +115,10 @@ print("Valid ID" if id.isdigit() else "Invalid ID")
 region = input("Region: ").lower()
 print("Addis" if "addis" in region else "Other")
 
+# 13. Profit calculation
+r = float(input("Revenue: "))
+c = float(input("Cost: "))
+print("Profit:", r - c) 
 
 
 
