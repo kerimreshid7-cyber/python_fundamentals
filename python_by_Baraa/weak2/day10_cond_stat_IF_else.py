@@ -67,7 +67,10 @@ num = int(input("Transactions: "))
 print("Even batch" if num % 2 == 0 else "Odd batch")
 
 
-
+# 13. Profit calculation
+r = float(input("Revenue: "))
+c = float(input("Cost: "))
+print("Profit:", r - c) 
 
 
 
