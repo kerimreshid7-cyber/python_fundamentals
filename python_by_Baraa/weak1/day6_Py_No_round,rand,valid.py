@@ -35,12 +35,15 @@ print(isinstance(n,float))     # to validate our value using isinstance we will 
 print(isinstance(n,int))
 
 
-# c=3
-# print(c)
-# print(c.is_integer)
+c=3
+print(c)
+print(c.is_integer)
 
-# print(isinstance(c))
+print(isinstance(c))
 
+# 14. Round KPI
+kpi = float(input("KPI: "))
+print(round(kpi,2))
 
 
 
