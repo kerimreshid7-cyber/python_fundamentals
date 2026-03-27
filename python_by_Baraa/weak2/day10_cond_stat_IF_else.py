@@ -67,14 +67,14 @@ num = int(input("Transactions: "))
 print("Even batch" if num % 2 == 0 else "Odd batch")
 
 
-# 13. Profit calculation
+# 3. Profit calculation
 r = float(input("Revenue: "))
 c = float(input("Cost: "))
 print("Profit:", r - c) 
 
-
-
-
+# 15. Validate age range
+age = int(input("Age: "))
+print("Valid" if 0 <= age <= 120 else "Invalid")
 
 
 
