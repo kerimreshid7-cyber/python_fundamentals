@@ -103,3 +103,14 @@ print(f_Name[-4:-1:2])   # new thing here we are commanding to jump 1 value. so 
 numbers = [0,1,2,3,4,5,6,7,8,9]
 print(numbers[::2])    # we didn't define starting and ending point here so python gonna understand we want 0-9(including 9) with step 2
 
+
+# revision challenges
+# 1. First and last character
+text = input("Text: ")
+print(text[0], text[-1])
+
+
+
+
+
+
