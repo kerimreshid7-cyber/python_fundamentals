@@ -41,7 +41,9 @@ else:
 # else optional only one,come at the end, and condition optional.
 
 
-
+# 17. Password validation
+pw = input("Password: ")
+print("Strong" if len(pw)>=8 and any(c.isdigit() for c in pw) else "Weak")
 
 
 
