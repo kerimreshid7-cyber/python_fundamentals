@@ -57,8 +57,16 @@ except:
 
 
 
+# revision challenges
+# 1. Full Data Cleaning + Validation Pipeline
+raw = input("Enter customer name: ")
 
+clean = raw.strip().title()
 
+if clean and clean.replace(" ", "").isalpha():
+    print("Clean Name:", clean)
+else:
+    print("Invalid data")
 
 
 
