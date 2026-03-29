@@ -41,11 +41,45 @@ else:
 # else optional only one,come at the end, and condition optional.
 
 
-# 17. Password validation
+
+
+# revision challeges
+# 1. Password validation
 pw = input("Password: ")
 print("Strong" if len(pw)>=8 and any(c.isdigit() for c in pw) else "Weak")
 
+# 2. Email Cleaning + Domain Analysis
+email = input("Email: ").strip().lower()
 
+if "@" in email:
+    user, domain = email.split("@")
+    print("User:", user)
+    print("Domain:", domain)
+else:
+    print("Invalid email")
+#  3. Sales KPI System
+try:
+    sales = float(input("Sales: "))
+    cost = float(input("Cost: "))
+
+    if sales < 0 or cost < 0:
+        print("Invalid data")
+    else:
+        profit = sales - cost
+        margin = (profit / sales)*100 if sales else 0
+
+        print("Profit:", profit)
+        print("Margin:", round(margin,2), "%")
+
+        if margin > 30:
+            print("High")
+        elif margin > 10:
+            print("Medium")
+        else:
+            print("Low")
+
+except:
+    print("Invalid input")
 
 
 
