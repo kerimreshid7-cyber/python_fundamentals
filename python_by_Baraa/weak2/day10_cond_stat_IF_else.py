@@ -72,12 +72,31 @@ r = float(input("Revenue: "))
 c = float(input("Cost: "))
 print("Profit:", r - c) 
 
-# 15. Validate age range
+# 4. Validate age range
 age = int(input("Age: "))
 print("Valid" if 0 <= age <= 120 else "Invalid")
 
 
+#  4. Identity + Equality Check (IMPORTANT)
+a = input("Enter value: ")
+b = input("Enter value: ")
 
+print("Same value:", a == b)
+print("Same object:", a is b)
+
+
+# 5. Multi-step Data Validation System
+data = input("Enter numeric value: ").strip()
+
+if data.replace('.', '', 1).isdigit():
+    num = float(data)
+
+    if 0 <= num <= 100:
+        print("Valid score:", num)
+    else:
+        print("Out of range")
+else:
+    print("Invalid input")
 
 
 
