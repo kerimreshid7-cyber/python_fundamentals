@@ -55,3 +55,4 @@ print('kerim'.endswith('m'))       # we can evaluate statments like this
 print("SWE".startswith('s'))      # false bc of the case (it's starts with S not s)
 
 
+# revision challenge
