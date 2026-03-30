@@ -8,7 +8,7 @@ import math       # this is library in python to use mathimathical oprations(adv
 gpa=3.83436778
 print(math.floor(gpa))    # we will get 3 bc we didn't defined after decimal. 
 print(math.floor(gpa*1000)/1000) #advanced  # further the video i practicing with chat gpt  so this is how we can round to floor by expressing the digits after decimal we want using a method from chat gpt.
-
+print(math.floor(gpa*100)/100)
 print (math.ceil(gpa*100)/100) #advanced # to round to ceil the value by definig how many digits we want   after decimal.
 print(math.ceil(gpa))          # to round to neaxt no(ceil) with no decimals.(no more decimals like int(),trunc) but it's rounding and differ from others.
 
@@ -35,9 +35,9 @@ print(isinstance(n,float))     # to validate our value using isinstance we will 
 print(isinstance(n,int))
 
 
-c=3
-print(c)
-print(c.is_integer)
+# c=3
+# print(c)
+# print(c.is_integer)
 
 print(isinstance(c))
 
