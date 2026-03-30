@@ -25,8 +25,8 @@ print(s_price.replace(",",".").replace("$",""))   # this is how  we can replace 
    # challenge in replace
 phone_number="+49 (234) 345-834"
 print(phone_number.replace("+","").replace(" ","").replace("(","").replace(")","").replace("-",""))
-
-
+# further the video i got some thing new that how can we replace many things once 
+print(phone_number.translate(str.maketrans({"+":""," ":"","(":"",")":"","-":""})))
 # join to merge diferent strings   and we usually use it to open file bc the folder and the file puts distinctly.
 f_Name="kerim" 
 l_name="reshid"
