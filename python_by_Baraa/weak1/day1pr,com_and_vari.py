@@ -1,11 +1,11 @@
 
-# I am going to revise(learn) python again to have strong foundatioin and to get more experiance by a person who worked as an expert data analyst with python for 17+ years.
+# I am going to learn (revise) python again to have strong foundatioin and to get more experiance by a person who worked as an expert data analyst with python for 17+ years.
 # what  is python,how it works and who is Baraa 
 # python is high level programing languge so that we can command our computer to do something
-#  data analysis,mathimatical oprations,business logics,file handling and so on
-#  how it works?
+#  data analysis,mathimatical oprations,business logics,file handling and so on. and ti's interpritable languge mean the codes will iterprate line by line if it gets error stop excution then release error it's easy to tracback and fix the error.
+#  how it works? 
 #   there is compiler that translate source code in to low level languge called binary (0s and 1s)that is 
-# the only languge our computer can understand.
+# the only languge our computer can understand. then translate loine by line.
 
 # Barra is speciallist data analyst with 17 yrs experiance and he worked in marchdis benz company
 # I had taken practical python course and now I just wanna to revise and specifically to master in domain specific by merging sql,business logic and  pyhton . to become expert BI analyst.
@@ -16,14 +16,14 @@
  #so lets start
 #  1  print and comment
 # to print word or statment with quots. -- 1 puting back ward slash before the two quots. 2 using single quote.
-print("I have started practicing python basics bc \"practice makes perfect\" Ronaldo said.")
+print("I have started practicing python basics bc 'practice makes perfect' Ronaldo said.")
 print('I have started practicing python basics bc \"practice makes perfect\" Ronaldo said.')
 
 #  back ward slash is special character in python then we have to use double back ward slash to get one(\) in the out put
 print('path: c\\source\\pyhton')
 print ('step 1\n')      #so now  we are talking to python to create new line after step 1
 print ('step 2')         # if we want more new lines then we can use print ('step 1\n\n\n\n') this will gonna make 4 line gab.
-print ('step 1\nstep 2')  # it will make new line but it's not empty but it has word step 2 and this is the same as print ('step 1') 
+print ('step 1\nstep 2\n')  # it will make new line but it's not empty but it has word step 2 and this is the same as print ('step 1') 
                                                                                                                      #print ('step 2')        
 
 #    challnge 1 print 4 lines looks like topic and list but using one print()
@@ -52,19 +52,22 @@ print("my name is",name)
 #  challenge 2 print 3 lines and use variables to make it  dynamic 
  
 print("""next activities
-      \t1  using chat gpt make business logic challenges
-      \t2 practice more BL with python with chat gpt 
-      \t3 be smart in learning merge every thing (python,sql,business logic) use chat gpt to become BI professional.""")
+\t1  using chat gpt make business logic challenges
+\t2 practice more BL with python with chat gpt 
+\t3 be smart in learning merge every thing (python,sql,business logic) use chat gpt to become BI professional.""")
 # so now what if we want to change chat gpt in to gemini?  so we need variable assignment
-tool="chat gpt"
+tool="gemini"
 
 print(f"""next activities
-      \t1  using{tool}  make business logic challenges
+      \t1  using {tool}  make business logic challenges
       \t2 practice more BL with python with {tool}
       \t3 be smart in learning merge every thing (python,sql,business logic) {tool} gpt to become BI professional.""")
 # so now changing chat gpt in to gemini is so simple just change the value of the varible like this tool="gemini"
 
-
+print("""some thing new to print just to give a shot.
+      \t 1
+      \t 2
+""")
 
 
 
