@@ -56,3 +56,15 @@ print("SWE".startswith('s'))      # false bc of the case (it's starts with S not
 
 
 # revision challenge
+# Challenge 1 — Logical operators with any / all
+# You have a list of student scores:
+
+scores = [75, 82, 91, 66, 58]
+
+# 1. Check if all students passed (pass mark = 60)
+all_passed = all(score >= 60 for score in scores)
+print(all_passed)  # Output: False (because 58 < 60)
+
+# 2. Check if any student scored 90 or above
+any_top_score = any(score >= 90 for score in scores)
+print(any_top_score)  # Output: True (because 91 >= 90)
