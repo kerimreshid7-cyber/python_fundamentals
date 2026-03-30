@@ -1,6 +1,7 @@
  
     #  python numbers
-#types are built in functions in python
+
+#type is built in function in python
 # 1 type to know the type of the value,2 int we can use to change the value in to integer fro ex. from string,
 # 3 float to change to float and 4 complex to change to complex. these  are python built in functions.
 x=12 
