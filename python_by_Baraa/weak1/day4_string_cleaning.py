@@ -41,14 +41,12 @@ course='python'.upper()
 name='KERIM reshid'.upper()    # THESE two code will made the latters capital and if it's already capital it will ignore and displlay it self.
 user_srch='Kerim'
 
-
 act_data='keriM'   
 print(user_srch==act_data)     # we will get false since pyhton is case sensetive we won't get what we looking for.
 
 user_srch='% Kerim  '.lower()
 act_data='#$$ keriM %'.lower()
 print(user_srch==act_data)      #  stil it's false bc of extra space 
-
 
 user_srch='% 3Kerim  '.lower().strip('% 3')
 act_data='#$$ (keriM %'.lower().strip('(%#$ ')
@@ -62,10 +60,9 @@ user_srch='% ###3Kerim Reshid,@ddis @baba,Ethiopia   -'.strip('#-% 3').replace('
 print(user_srch)    # in the out put i will get kerim Reshid,Addis Ababa,Ethiopia 
 
 
-
 # search functions  now we are gonna see checking string value using search.
 text = "Data analysis with python".startswith('data')  
-print(text)    # (false bc of case) this searching is used to check whether our string values starts as we want or not and in the out we will see True or False
+print(text)    # (false bc of case) this searching is used to check whether our string values starts as we want or not. and, in the out we will see True or False
 
 stu_info='Kerim reshid,3rd year,SWE'
 print(stu_info.endswith("SWE"))          # True  since, no matter to use it in print function and also to use single and double qouts interchangeably.
@@ -78,13 +75,13 @@ print('3rd' in stu_info)                 # true bc python searchs in the string 
 
 city = "Addis Ababa is the capital of Ethiopia"
 print(city.find('Ababa'))     # now here we won't see bool values bc it's related with indexing so it counts starting from zero then return index no.
- # and it's not about single letter it find the word Ababa when it get it return the first index no of this word.
+ # and it's not about single letter it find the word Ababa when it get it return the first index number of the word.
 
 # challenge to find exactly the removeal part index no  and slice(extract phone no with out country code)
 phone='+241-979-73658'
 print(phone.find('-'))    # we got 4 it means - is in the 4 index(5th position since indexing starts from 0)  the let me apply slicing then.
+print(phone[5:])       # simply we can solve the problem like this. bc in slicing the starting condition will included
 
-print(phone[5:])       # simply we can solve the problem like this.
 print(phone[phone.find('-')+1:])  # same result but it's alittle more professional and advanced.
 
 # # validation  methods
@@ -94,7 +91,7 @@ print(text.isalpha())
 print(phone.isdecimal())
 print(city.isnumeric())     # we can check like this  we will get True or False.
 
-
+print(text.isalpha())
 
 # revision challenges
 # 1. Clean customer name
