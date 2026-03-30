@@ -13,11 +13,12 @@ print(name.strip('# $'))
 name='  $ kerim#'.strip('# $')    
 print(name)                     #the same result so this is another way print final result
 
-skill='front end,sql and data anlysis $####   '.rstrip('$# ')  # this is fantastic way to remove uncessary spaces and special characters 
+skill=' ,, front end,sql and data anlysis, ,,$####   '.strip('$# ,')  # this is fantastic way to remove uncessary spaces and special characters 
 print(skill)
 
-
-
+skul="  f$ront end,sql ##and data anlysis $####   "
+print(skul.strip("#$ ,"))  # this method will remove uncessary spaces and special characters that locate right and left of the text but lets try how can we remove where in the middle.
+print(skul.translate(str.maketrans({'$':'',"#":''})).strip(' $#,')) # wow this is the eseist way to clear data.
 
 dep='  # software engineering  '.strip().strip('#')     #(won't remove one extra space where before # ) this is how we can remove extra spaces and uncessary special characters.
 print(dep)
@@ -31,8 +32,7 @@ print(f'no of extra characters={len(dep)-len(cle_dep)}')
 print('is my data is clean?',is_clean)
 
 print(f'{{ohh cleaning is simple and very intersting with python}}')
-
-
+sm='sm'
 
 # case cleaning  lowwer and upper methods 
 #  we use these most of the time in searching tasks bc when 
