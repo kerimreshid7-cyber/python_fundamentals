@@ -2,9 +2,9 @@
 # first let's see what is control flow is 
 # control flow is a logic we write to control how our code runs
 # lets classify code in to two 
-# 1 straight line code    it just python gonna understand line by line no itration,no loop so we can say the Code we have written up to 
+# 1,straight line code    it just python gonna understand to excute line by line no itration,no loop so we can say the Code we have written up to 
 # day 6 was streight forward codes.
-# 2 control flow code is a code that is we can command python how we want to run it by writing the logic(control flow).
+# 2,control flow code is a code that is we can command python how we want to run it by writing the logic(control flow).
 # so from now on i think i will prctice more control flow codes.
 # conditioal statments,loops and functions are good examples of CF
 
@@ -12,7 +12,7 @@
 # logic and oprators in this topic we gonna see values(true false),functions(type,bool,all,any,isinstance),comparision oprators(<,=,>...), membership like(in and not in) and identity oprators(is and is not).
 
 # values
-print(True)                      
+print(True)                     
 print(False)
 
 # functions(type,bool,all,any,isinstance)               
@@ -40,7 +40,7 @@ email='ke77@gmail.com'
 phone=''                       # it's empty string and differ from None which is unknown or nothing or no value.
 print(any([name,email,phone]))   # oviously it's True bc  we have two true values that satisfy the condition to be true in function any.
 print(all([name,email,phone]))   # False bc there is one false value. to be True all values must be true.
-
+print([5>4,2==2,45<78])             #again true.
 s_name='kerim'
 s_email='ke77@gmail.com'
 s_phone='0976863826' 
@@ -68,3 +68,11 @@ print(all_passed)  # Output: False (because 58 < 60)
 # 2. Check if any student scored 90 or above
 any_top_score = any(score >= 90 for score in scores)
 print(any_top_score)  # Output: True (because 91 >= 90)
+
+
+
+
+
+
+
+
