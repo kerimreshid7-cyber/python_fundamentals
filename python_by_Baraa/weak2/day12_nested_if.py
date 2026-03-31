@@ -70,7 +70,7 @@ else:
 
 
 
-
+#i will master this concept through time over many practical challenges.
 
 
 
