@@ -29,8 +29,10 @@ if score<0 or score>100:
     print('invalid input')
 elif score>=90:
     print('congrates you got A')
+elif score>=75:
+    print('congrates you got B+')
 else:
-    print('invalid input')    #by the way i know about error handling from my back ground experiance but i just to follow the road map of the video.
+    print('sorry not for today you got NG')    #by the way i know about error handling from my back ground experiance but i just to follow the road map of the video.
 
 # these two out codes will excute one after another by order.first come first served.
 
