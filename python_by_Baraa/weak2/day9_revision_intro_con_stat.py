@@ -1,10 +1,13 @@
 # today let me revise and do practical exercise 
 # challenge to revise membership , logical oprators and identity oprators.
-# 1 check if the user name is not empty and the age is greater than or equal to 18
+# 1 check if the user name is unkown and email is not empty and also the age is greater than or equal to 18
+
+
 print("it's just for revision.")
+user_name='@abd_kerim7'
 email='ke@gmail.com'
 age=18
-print((email is not None and email != '') and age >=18) 
+print((email is not '' and email != '') and age >=18) 
 #if we get true every thing is fine if it's false we should check what whappend and why   as we are data analyst.
 
 # 2 check if the password is at least 8 characters long and does not contain space.
