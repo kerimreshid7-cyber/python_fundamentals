@@ -13,7 +13,8 @@ if h>0:
 k=0
 if k>0:
     print('yes it is positive')
-
+#this three are indipendent if statments wc mean there is no thing that reltes them.
+# and it's directly assigned varibles. so now what if it's like user input format then in that case pyton gonna excuter one after another with order(1st come 1st served.)
 # we got only one out bc the two conditions are false then pyhton just skipped them that we didn't get out put.
 
 
