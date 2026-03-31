@@ -28,6 +28,10 @@ if age>=18:
 #if we enter enter 18 and above with no limite the out put is you are adult 
 # and it's not satisfying bc if the user enter <18 then python give us nothing so this is where we actaully need else and also elif.
 
+# rule for if elif and else: if is mandatory comes always first assining condition is mandatory  only one if we can have unless it's nested if
+#                            elif is optional comes after if   assigninig con is mandatory       may be multiple elif we have in on if statment.
+#                            else optional comes at the last   assigninig con is optional        only one if we can have    
+
 
 # 1. Even or Odd (%)
 # Ask the user to enter a number.
