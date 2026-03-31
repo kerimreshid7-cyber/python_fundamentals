@@ -1,7 +1,7 @@
 # hello, how are you today, so today i will continue coparision,membership,identity and logical oprators  
 # 1 comparision oprators(<,>,==,!=,<=,>=)
 print(24*3+34-4/4+54-63 == 4/4+54-63-24*3+34)      #it's obvious its false bc they are not equal.
-print('a'<'b')     # we can compaire str(alaphabets) like this a is 1st and b is 2nd  python copare the string alphabeticaly any time the privious letter is less so our result is true.
+print('a'<'b')     # we can compaire str(alaphabets) like this a is 1st and b is 2nd  python copare the string alphabeticaly any time the privious letter is less(like 1 < 2) so our result is true.
 print('A'<'b')     # again true even if one capital and other small letter python compare them alphabetically 
 print('a'>'A')     # in python capital letters less than small one(which means they come first)  when we compare to  their small one like 'a'>'A'  or 'A'<'a' true
 print("a"=="A")    # false the are absolutly differnt in python python is very case sensetive.
@@ -23,7 +23,7 @@ print(18<=b_age<=25)       # it will true
 # logical oprators (and,or,not) used to combine boolians to build logic or rules.
 
 print(1>4<6<7 and 4<23<45)    # false bc to be true all conditions must be true here we  have one false condition
-print("Kerim"<='kerim' or 'kerim'<'')  #true bc in 'or' logic if we have one true value the that satisfys the condition to be true.
+print("Kerim"<='kerim' or 'kerim'<'' or 3!=4)  #true bc in 'or' logic if we have one true value the that satisfys the condition to be true.
 
 #are the two students get permission to enter (the criteria is they must be bn 18 and 30)  
 print(18<=a_age<=25 and 18<=b_age<=25)    # we got false that means i's not allowed to enter both of them
@@ -56,6 +56,8 @@ print(cpu_usage>90 or battery_usage>90 and memory_usage>90)
 # false 'and' oprator has higher priority than or oprator so python will excute battery_usage>90 and memory_usage>90 1st got false  then cpu_usage>90 or false(got bc of and ) finally we got false bc false or false is false.
 print((cpu_usage>90 or battery_usage>90) and memory_usage>90)
 # false again but the difference is now the 'parentesis' has higher priority than 'and'
+# priority step : comarision < > >= <= == !=
+# not then and then or 
 
 # allow to access oonly the user is logged in or guest 
 # must not be baneded. 
@@ -81,7 +83,6 @@ stu_name='kerim'
 print("k" in stu_name)       #true  this is differnt out of list(multiple value data type)
 
 #identity oprator
-
 a=5
 b=5
 print(a==b)               # True bc we are comparing the values here not the variable id
