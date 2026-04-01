@@ -57,11 +57,17 @@ for number in range(1,10,2):
 
 
 # i realised that for loop is important in data analysis plus how lets see it.
+# 1, to clear data in multiple data types like list and tuple 
+# 2, to transfer multiples files like tables documents once using for loop
+
+
+# lets go further and practice it.
+# first you should have to clean then manipulate(like lower and replace)
+
 files = [" file1.txt", "file2.txt ", " file3.txt "]
 for file in files:
-    file=file.strip()
+    file=file.strip().lower().replace("txt","csv")
     print(f"processing {file}" )
-
 
 
 
