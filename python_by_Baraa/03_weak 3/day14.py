@@ -56,7 +56,11 @@ for number in range(1,10,2):
     print(f"the total is {total}")   # the same result but the differnce is this'll show us the total is(sum) in every step which mean it'll show the progress.
 
 
-
+# i realised that for loop is important in data analysis plus how lets see it.
+files = [" file1.txt", "file2.txt ", " file3.txt "]
+for file in files:
+    file=file.strip()
+    print(f"processing {file}" )
 
 
 
