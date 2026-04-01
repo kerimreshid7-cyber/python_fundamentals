@@ -44,6 +44,19 @@ items=(1,2,3,4,5)
 for item in items:
     print(f"item {item}")
 
+# and then lets see for loop with range(built in function)
+total=0
+for number in range(1,10,2):
+    total=total+number
+print(f"the total is {total}") # it'll do it at the back ground then return the end result.
+
+total=0
+for number in range(1,10,2):
+    total=total+number
+    print(f"the total is {total}")   # the same result but the differnce is this'll show us the total is(sum) in every step which mean it'll show the progress.
+
+
+
 
 
 
