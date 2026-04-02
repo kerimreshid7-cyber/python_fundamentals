@@ -94,25 +94,11 @@ emails = [
     "selamwork12@gmail.com"
 ]
 
-# for email in emails:
-#     if ";" in email:
-#         print('here there is sql injection')
-#         break
-#     print(email)
-
-
-
-# for else
 for email in emails:
     if ";" in email:
-        print("here there is sql injection")
-        
-else:
-    print("end")
-
-
-
-
+        print('here there is sql injection')
+        break
+    print(email)
 
 
 
