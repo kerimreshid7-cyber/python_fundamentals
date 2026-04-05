@@ -6,9 +6,7 @@ for i in range(5):
     print('*'*i)
 print("the loop is complited")
 
-# revision on advanced for loop the concepts behind break,continue, and pass
-# today i started some thing intersting neted loop and its very important for data enginering and also data analysis.
-# and here is the evidence
+
 for i in range(5):
     print('*'*i)
 else:
@@ -67,7 +65,7 @@ files=[
 "sales_data.csv",
 "user_data.csv"
 ]
-seen=set()
+seen=set()    # to difine empty set we can't use {} bc its empty dictionary  not empty set.  () its for empty tuple.
 for file in files:
     if file in seen:
         print("duplicated file here!")
