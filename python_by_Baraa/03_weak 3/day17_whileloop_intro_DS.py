@@ -3,35 +3,35 @@
 # while loop is used to repeate a block of code as long as a condition is true
 
 # lets see it with example like counter.
-# counter=1                   #  this is initialization
-# while counter<=5:            # this is condition.   if it is true go and do some thing if is false exit from loop.
-#     print("no",counter)
-#     counter+=1         #  this is called update.    what if we don't give this increment? the loop never stop bc 1<5 is always true.
+counter=1                   #  this is initialization
+while counter<=5:            # this is condition.   if it is true go and do some thing if is false exit from loop.
+    print("no",counter)
+    counter+=1         #  this is called update.    what if we don't give this increment? the loop never stop bc 1<5 is always true.
 
-# print()
+print()
 
 
 answer=""
-# print('customer questionary')
-# while answer!='yes':
-#     answer=input('do you agree? (yes/no)')
-#     print("why? cause we offer you a lot of benefits")
-#     if answer=='yes':
-#         break
-# print("thank you!")   
+print('customer questionary')
+while answer!='yes':
+    answer=input('do you agree? (yes/no)')
+    print("why? cause we offer you a lot of benefits")
+    if answer=='yes':
+        break
+print("thank you!")   
 
-# print()
+print()
 
-# # while True: it is some slightly different from normal while
-# # it is more power full but its risky.
-# print('special customers questionary')
-# while True:
-#     answer=input('do you agree? (yes/no)')
-#     if answer=='yes':
-#        break
-# print("thank you!")   
+# while True: it is some slightly different from normal while
+# it is more power full but its risky.
+print('special customers questionary')
+while True:
+    answer=input('do you agree? (yes/no)')
+    if answer=='yes':
+       break
+print("thank you!")   
 
-# print()
+print()
 
 # the differnce here is our condition is always true so there is no need to check the con but the risk is it'll be infinite unless we put break with if statment so if thee statment we put is true the loop will end(exit).
 
