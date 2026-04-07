@@ -109,8 +109,3 @@ print(numbers[::2])    # we didn't define starting and ending point here so pyth
 text = input("Text: ")
 print(text[0], text[-1])
 
-
-
-
-
-

@@ -130,34 +130,3 @@ print("Addis" if "addis" in region else "Other")
 # 8. Count words
 text = input("Text: ")
 print(len(text.split()))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

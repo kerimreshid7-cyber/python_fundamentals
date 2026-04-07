@@ -69,10 +69,3 @@ print(all_passed)  # Output: False (because 58 < 60)
 any_top_score = any(score >= 90 for score in scores)
 print(any_top_score)  # Output: True (because 91 >= 90)
 
-
-
-
-
-
-
-

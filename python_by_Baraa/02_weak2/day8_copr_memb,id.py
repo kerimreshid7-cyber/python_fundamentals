@@ -130,19 +130,3 @@ city = input("City: ").lower()
 print(city in ["addis", "adama"])
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -49,7 +49,3 @@ print((is_admin or is_moderator) and (is_banned or is_verified) )
 
 # simple if statment : if the condition is True  then go and excute if nnot just skip it.
 
-
-
-
-

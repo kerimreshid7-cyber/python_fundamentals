@@ -96,32 +96,3 @@ Kerim is SWE student at haramaya$ university."""
 print(text.count("$"))
 # This method will show us 2 on out put bc we can handle this type of unccessary special characters using count() method.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
