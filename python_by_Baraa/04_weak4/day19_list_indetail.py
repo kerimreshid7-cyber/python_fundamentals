@@ -90,4 +90,4 @@ numbers.pop(1)          # now we specify the index
 matrix.pop()        # will remove the last row  
 matrix.pop(2)            # to remove specific row by telling python which row we want to remove using pop + index no.
 
-matrix[2].pop(4)
+matrix[2].pop(-1)
