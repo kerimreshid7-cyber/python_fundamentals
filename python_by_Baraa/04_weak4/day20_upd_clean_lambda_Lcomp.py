@@ -9,20 +9,26 @@ matrix=[[1,3,4,7],
 
 numbers[3]=9
 matrix[2][4]=True
+matrix[-1]=[1,1,7,5]
+print(matrix)
 
 # sorting and composition
 numbers.sort(reverse=True)
-new_matrix=matrix.sotred(reversed=True)      # it's different from sort
+new_matrix=sorted(matrix,reverse=True)     # it's different from sort bc the original list will not be removed.
+matrix.sort()    # when  we want sort nested list python will check the first item and sort according to that result if the first item is the same then check the second item like that...
+matrix[-2].sort(reverse=True)   # to order specific row in descending.
+numbers.reverse()      # or ::-1
+new_numbers=reversed(numbers)   # it won't remove the orignal list like sorted.
 
 
+no1=[1,1,7,5]
+no2= [7,3.83]
+sum_no=no1+no2   # or no2 is extended after no1
+print(sum_no)     
+sum_no=no1.extend(no2)    # these two methods have the same result.
 
-
-
-
-
-
-
-
+# copy the list   it's important to put data if something happened and we need to get the orignal data and also to compare the analysed data.
+matrix_copy=matrix    # python won't make another list object it will store the objecte that is created for the original list.
 
 
 
