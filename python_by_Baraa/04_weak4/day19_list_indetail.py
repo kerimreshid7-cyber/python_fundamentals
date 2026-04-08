@@ -2,7 +2,7 @@
 # we will answer this question soon.
 # so lets start todays lesson it's nice to start from skipping values from list("_" )
 
-# skipping values from list("_" )
+# skipping values from list("_" )  when packing and unpacking.
 teacher=['amir',19,'SWE','BI analyst',"ethiopia"]
 name,_,_,_,country=teacher # to unpack and to trash unwanted values using '_'.
 name,*_,country=teacher    # this is the easiest way to trash un wanted values. but there are still in list.
@@ -21,7 +21,7 @@ print(any([1,1,0,"",None,False]))
 print(any(numbers))
 
 # to know index of the value.
-print("index",numbers.index(3.83))
+print("index",numbers.index(3.83))        # try to remember find
 
 # # membership and identity check in list
 print(3.83 in numbers)
@@ -45,7 +45,7 @@ numbers.append("x")
 numbers.append(3+4j)
 matrix.append(34)        # we can add single value in nested list 
 matrix.append([34,45])   #we can also add anothe list like this.
-matrix[2].append(True)
+matrix[2].append(True)    # to add in index two wc is third row at the end.
 print(matrix)
 print()
 
@@ -69,13 +69,13 @@ print(numbers)
 
 # clear items in ilist
 # there are two possible ways to remove values out of list
-# 1 remove by value     clear()
+# 1 remove by value     clear()to remove every thing and remove() to specify.
 
 #numbers.clear()   # this will remove everything inside numbers.
 numbers.remove(90.98)
 #matrix.clear()  # to clear everything inside this nested list
-matrix[3].clear()
-matrix[2].remove("")
+#matrix[3].clear()
+#matrix[2].remove("")
 
 
 # matrix.clear()         #  to clear everything including the nested lists then we will hav[] only.
@@ -84,9 +84,10 @@ matrix[2].remove("")
 
 
 # 2 remove by position  (pop())
-numbers.pop()           # this will automatically remove the last value
+numbers.pop()         # this will automatically remove the last value
 numbers.pop(1)          # now we specify the index
 
-matrix.pop([7,3.83])
+matrix.pop()        # will remove the last row  
 matrix.pop(2)            # to remove specific row by telling python which row we want to remove using pop + index no.
 
+matrix[2].pop(4)
