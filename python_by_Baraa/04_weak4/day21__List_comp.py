@@ -108,5 +108,21 @@ print("Team B wins =", B_wins)
 print("Draws =", draws)
 
 
+# lambda:thiny or simple function it is inline function
+sqaure=lambda x:x**2
+print(sqaure(3))
+
+sqaure=lambda x,y: x +y
+print(sqaure(3,5))
+
+membership=lambda i: i in "python"
+print(membership('p'))
+
+# lambda + map 
+
+
+
+
+
 
 names=[' #kerim #$','  ebrahim$$#']
