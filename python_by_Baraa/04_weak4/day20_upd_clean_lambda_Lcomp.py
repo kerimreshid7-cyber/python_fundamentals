@@ -8,7 +8,8 @@ matrix=[[1,3,4,7],
         [1,1,7,5,90.98]]
 
 numbers[3]=9
-matrix[2][4]=True
+matrix[2][4]=[True,False,None]
+matrix[2][3]='wow'
 matrix[-1]=[1,1,7,5]
 print(matrix)
 
@@ -23,8 +24,17 @@ new_numbers=reversed(numbers)   # it won't remove the orignal list like sorted.
 no1=[1,1,7,5]
 no2= [7,3.83]
 sum_no=no1+no2   # or no2 is extended after no1
-print(sum_no)     
-sum_no=no1.extend(no2)    # these two methods have the same result.
+print(sum_no)       # everithing merged and appear.
+sum_no=no1.extend(no2)  
+print(sum_no)  #   we get in hte out put NOne  so don't confused these two methods have the same result.
+sum_no=list(zip(no1,no2))   # it's complitly different and interesting idea lets see it with real life example.
+
+id=[101,102,103]
+name=['kerim','ebrahim','abduselam']
+print(list(zip(id,name)))      # we can get id then name for each relation.  it's amazing.
+
+print("sum but with out duplication",sum_no) 
+
 
 # copy the list   it's important to put data if something happened and we need to get the orignal data and also to compare the analysed data.
 matrix_copy=matrix    # python won't make another list object it will store the objecte that is created for the original list.
@@ -34,55 +44,4 @@ print(matrix)        # so to fix this what we have to do?
 
 matrix_copy_independent=matrix_copy.copy       # so now we can easily analyse the orignal or copy list. no more affecting the copy while anlysing the orignal one and vice versa.
 # i think it's clear and easy right? lets continue.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
