@@ -120,9 +120,65 @@ print(membership('p'))
 
 # lambda + map 
 
+prices=["$123.45",'$34.56']
+print(list(map(lambda p:float(p.replace('$','')),prices)))    # this is how we can clean by replacing using map and lambda
+
+
+# filter: to filter out the needed items from list 
+# real life challenge  using direct filter function
+
+car_brand = ['toyota','marchedise','volvo']
+car_prices = ["$123,500.45", "$340,000.56", "$430,000"]
+
+# Convert prices to numbers
+numeric_prices = [float(p.replace('$','').replace(',','')) for p in car_prices]
+
+# Zip brand + numeric price
+full_info = list(zip(car_brand, numeric_prices))
+
+# Filter expensive cars (>200000)
+expensive_cars = list(filter(lambda x: x[1] > 200000, full_info))
+
+# Print results
+for car, price in expensive_cars:
+    print(car)
+
+# the same challenge with no direct filter function.
+car_brand=['toyota','marchedise','volvo']
+car_prices=["$123,500.45",'$340,000.56','$430,000']
+ 
+numeric_prices = list(
+    map(lambda p: float(p.replace('$','').replace(',','')), car_prices)
+)
+full_info = list(zip(car_brand, car_prices, numeric_prices))
+
+for car, price_text, price_num in full_info:
+    if price_num > 200000:
+        print(car, price_text)
 
 
 
+# List Comprehension
+# A list comprehension is a compact way to create a new list in Python by applying an expression to each 
+# item in an existing iterable (like a list, tuple, or range), optionally including a condition.
+#lets pracitce with real life examples.
+
+#  1. Squaring numbers
+# Easy but very common in data analysis and math problems.
+numbers = [1, 2, 3, 4, 5]
+squares = [x**2 for x in numbers]
+print(squares)
 
 
-names=[' #kerim #$','  ebrahim$$#']
+# 2. Filtering even numbers
+# Use a condition inside the comprehension to keep only certain elements.
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+evens = [x for x in numbers if x % 2 == 0]
+print(evens)
+
+
+# 3. Cleaning messy strings
+# Perfect for real-world data cleaning (like we did with prices or names).
+names = ['  bilal  ', '  ebrahim$$#', ' #kerim #$']
+clean_names = [name.strip().replace('#','').replace('$','') for name in names]
+print(clean_names)
