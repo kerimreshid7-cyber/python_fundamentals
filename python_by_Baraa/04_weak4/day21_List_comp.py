@@ -185,3 +185,12 @@ print(evens)
 names = ['  bilal  ', '  ebrahim$$#', ' #kerim #$']
 clean_names=[name.strip(' #$') for name in names]
 print(clean_names)
+
+#so in list comprension we can use data transformation,loop,and filtering.
+#characterstics of list 
+# orderd: when print outr list vriable we will get exactly as we put
+# allow duplicate:repition in items
+# indexed:we can access specific item using indexe no(position)
+# mutuable: we can update what we want
+
+#list is wiedly used in real companies.

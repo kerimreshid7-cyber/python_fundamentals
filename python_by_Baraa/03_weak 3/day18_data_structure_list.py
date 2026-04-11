@@ -10,6 +10,20 @@
 
 # 1 list
 # are widly used in python bc it allows to update store similar data values(duplicate)
+#  List → accepts everything
+# Lists are the most flexible container.
+
+data = [
+    10,
+    "hello",
+    3.14,
+    True,
+    [1,2,3],
+    (4,5),
+    {"name":"Bilal"},
+    {1,2,3}
+]
+
 mixed=[1,7,True,'kerim',3.83,]    # this is how we can create list and in list we can store dfnt data types 
 # but how pyhton store it?  fist crate  object list then store each values uniqly by create another objects regarding to there daata type.
 print(type(mixed))
