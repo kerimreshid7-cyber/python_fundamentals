@@ -1,4 +1,4 @@
-# finall day in list and i will start tuple in this day.
+# finall day in list and i will cover tuple,set, and dictionary in this day. an i will differntiate the characterstics of all and then i will be smart enough to chooese data structure for every single real life tasks.
 
 # tuple:is ordered data structure or multiple data type. and moslty it share the characterstics of list
 #  but differ from list by it doesn't allow to change values mean it's fixed once created.
@@ -138,7 +138,7 @@ set_sample.remove(50)
 set_sample.discard(500)  #if the value is in set then it will remove it unless it will do nothing. we won't get an error.
 
 
-# lets practice relation ships in set
+# lets practice set oprations
 candidate_A = {
     "Python", "SQL", "Excel", "PowerBI",
     "Pandas", "NumPy", "Git", "Linux",
@@ -152,21 +152,102 @@ candidate_B = {
     "Data Visualization"
 }
 
+candidate_C = {
+    "Excel", "PowerBI", "Communication",
+    "Business Analysis", "SQL",
+    "Project Management", "Presentation",
+    "Data Visualization"
+}
+# find:   union
+# A ∪ B
+# A ∪ C
+# A ∪ B ∪ C
+print(candidate_A.union(candidate_B))
+print(candidate_A|candidate_B)
+
+print(candidate_A.union(candidate_C))
+print(candidate_A.union(candidate_B.union(candidate_C)))
+print(candidate_A|candidate_B|candidate_C)
+
+#  intersaction
+# A ∩ B
+# A ∩ C
+# B ∩ C
+# A ∩ B ∩ C (skills ALL candidates share)
+
+print(candidate_A.intersection(candidate_B))
+print(candidate_A & candidate_B)
+
+print(candidate_A.intersection(candidate_B).intersection(candidate_C))
+print(candidate_A & candidate_B & candidate_C)
+
+#difference
+# Skills only A has (A − B)
+# Skills only B has (B − A)
+# Skills only C has (C − A)
+# Skills A has but C doesn’t (A − C)
+
+print(candidate_A.difference(candidate_B))
+print(candidate_A-candidate_B)
+
+#symetric diffence
+# Skills not shared between A and C
+# Skills not shared between B and C
+
+print(candidate_A.symmetric_difference(candidate_C))
+print(candidate_A ^ candidate_C)
+
+# now lets practice relationships in set
+# PART 5 — Subset & Superset Checks
+# Job requirement:
+job_requirements = {"Python", "SQL", "Git", "Linux"}
+
+# Check:
+# Who qualifies for the job?
+
+
+print("is candidate A is ready for job",job_requirements.issubset(candidate_A)) # we are checking all cources in job requirments are in candidate_A?
+print("is candidate B is ready for job",job_requirements.issubset(candidate_B))
+print("is candidate C is ready for job",job_requirements.issubset(candidate_C))
+
+# then we can easily hire the employee by checking their skills using relation ship in set
+
+# lets go depper in relations in set
+python_dev = {"Python", "Git", "SQL"}
+data_scientist = {"Python", "Git", "SQL", "Statistics", "Machine Learning"}
+frontend_dev = {"HTML", "CSS", "JavaScript"}
+backend_dev = {"Python", "SQL", "API", "Git"}
+
+# challenge 1: (supper set)
+# Check if data_scientist is a superset of python_dev
+
+print("have data_scintists all skills that pyhton developers have",data_scientist.issuperset(python_dev))
+
+#challenge 2:  (proper sub set and proper  subset)
+# is python_dev a proper subset of data_scientist
+# Use operators:
+# <   proper subset
+# >   proper superset
+print('is python_dev a proper subset of data_scientist',python_dev<data_scientist)
+
+# challenge 3:  (proper sub set and proper  super subset))
+# is python_dev a proper supersubset of data_scientist.
+print('is python_dev a proper supersubset of data_scientist',python_dev>data_scientist)
+
+# Check if frontend_dev and python_dev are disjoint.
+
+print("are frontend_dev and python_dev absolutly differnt?" ,frontend_dev.isdisjoint(python_dev))
 
 
 
+# dictioanries:are  power full data structures in python
+# dictionariy characterstics:
+# 1 orderd
+# 2 unique for keys but allow duplication for values
+# 3 not indexed(it's keyed) : which means we can acces the value by the key not index no.
+# 4 mutable
 
-
-
-
-
-
-
-
-
-
-
-
+# special methods for dictionaries
 
 
 
