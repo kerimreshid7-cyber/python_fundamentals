@@ -13,16 +13,16 @@ print("orignal",matrix)
 print("copy",   matrix_copy)
 
 
-# this is when exactly we need to use copy module by import. by the way it for nested list.
+# this is when exactly we need to use copy module by import. by the way it's for nested matrix list.
 
 import copy
 matrix_copy=copy.copy(matrix)     # so the problem is fixed.
 matrix_copy[-1].append("now it won't affect the parent list ") 
-
 print("orignal",matrix)
 print("copy",   matrix_copy)
 
 
+#identity check
 copy1=matrix 
 print('are the same',copy1 is matrix )    #true bc python made same  store id for both. that is why when we change the orginal the copy also affectd and vice versa.
 
@@ -40,7 +40,7 @@ for l in itrable:
 
 print()
 
-#   or if we don't want the progres we just want the final answer.
+#   or if we don't want the progres we just want to see the final answer.
 itrable=['k','r','m',]
 new_itrable=[]
 for l in itrable:
@@ -52,19 +52,22 @@ print()
 
 # but we can easily change to upper case with out for loop.
 print(list(map(str.upper,itrable)))
+
 numbers=["7","4","3","5"]
 print(list(map(int,numbers)))      # to change the string in list to integer. 
 
 stus_name=['  kerim  ','  ebrahim   ']
+clean_stus_name=[]
 for name in list(map(str.strip,stus_name)):
-    print(name)
+    clean_stus_name.append(name)
+print(clean_stus_name)
 
 
+print(list(map(str.upper,stus_name)))
 
 # enumerate: to just show the items in list with there index no.
-
-print(list(enumerate(itrable)))            # this is more powerful  and amazing function in python.
-print(list(enumerate(itrable, start=1)))   #if we wnat to start fro one cause the diffault is zero.
+print(list(enumerate(itrable)))           # this is more powerful  and amazing function in python.
+print(list(enumerate(itrable, start=1)))  #if we wnat to start fro one cause the diffault is zero.
 
 # Challenge — Compare two football teams match results
 # You have two lists:
@@ -180,5 +183,5 @@ print(evens)
 # 3. Cleaning messy strings
 # Perfect for real-world data cleaning (like we did with prices or names).
 names = ['  bilal  ', '  ebrahim$$#', ' #kerim #$']
-clean_names = [name.strip().replace('#','').replace('$','') for name in names]
+clean_names=[name.strip(' #$') for name in names]
 print(clean_names)
