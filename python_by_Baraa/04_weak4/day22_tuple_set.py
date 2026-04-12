@@ -1,4 +1,4 @@
-# finall day in list and i will cover tuple,set, and dictionary in this day. an i will differntiate the characterstics of all and then i will be smart enough to chooese data structure for every single real life tasks.
+# finall day in list and i will cover tuple,set, and dictionary in this day. and i will differntiate the characterstics of all and then i will be smart enough to chooese data structure for every single real life tasks.
 
 # tuple:is ordered data structure or multiple data type. and moslty it share the characterstics of list
 #  but differ from list by it doesn't allow to change values mean it's fixed once created.
@@ -12,97 +12,97 @@ data = (
     {"age":21}
 )
 
-# point = (3, 7)
-# print(point[0])   # x value
-# print(point[1])   # y value
+point = (3, 7)
+print(point[0])   # x value
+print(point[1])   # y value
 
-# students = [
-#     ("Abel", 85),
-#     ("Sara", 92),
-#     ("John", 78)
-# ]
+students = [
+    ("Abel", 85),
+    ("Sara", 92),
+    ("John", 78)
+]
 
-# for name, score in students:
-#     print(name, score)
-
-
-# # Challenge 1 — Football Match Scores ⚽
-# # You have match results stored as tuples.
-# # Tasks
-# # Print only teams that won the match.
-# # Count how many matches ended in a draw.
-
-# matches = [
-#     ("Arsenal", "Chelsea", 2, 1),
-#     ("Barcelona", "Real Madrid", 3, 3),
-#     ("PSG", "Bayern", 0, 2)
-# ]
-
-# for team1, team2, score1, score2 in matches:
-#     if score1 > score2:
-#         print(team1, "won")
-#     elif score2 > score1:
-#         print(team2, "won")
-
-# draws = 0
-
-# for team1, team2, score1, score2 in matches:
-#     if score1 == score2:
-#         draws += 1
-
-# print("Draw matches:", draws)
+for name, score in students:
+    print(name, score)
 
 
-# # Challenge 2 — Student Ranking System 🎓
-# # You receive student results:
-# # Tasks
-# # Print students who scored above 90.
-# # Find the top scorer.
+# Challenge 1 — Football Match Scores ⚽
+# You have match results stored as tuples.
+# Tasks
+# Print only teams that won the match.
+# Count how many matches ended in a draw.
 
-# students = [
-#     ("Bilal", 88),
-#     ("Ibrahim", 95),
-#     ("Abel", 70),
-#     ("Sara", 91)
-# ]
-# # 1) Students who scored above 90
-# for name, score in students:
-#     if score > 90:
-#         print(name, score)
+matches = [
+    ("Arsenal", "Chelsea", 2, 1),
+    ("Barcelona", "Real Madrid", 3, 3),
+    ("PSG", "Bayern", 0, 2)
+]
+
+for team1, team2, score1, score2 in matches:
+    if score1 > score2:
+        print(team1, "won")
+    elif score2 > score1:
+        print(team2, "won")
+
+draws = 0
+
+for team1, team2, score1, score2 in matches:
+    if score1 == score2:
+        draws += 1
+
+print("Draw matches:", draws)
 
 
+# Challenge 2 — Student Ranking System 🎓
+# You receive student results:
+# Tasks
+# Print students who scored above 90.
+# Find the top scorer.
 
-# #2) Find the top scorer
-# top_student = students[0]
-
-# for student in students:
-#     if student[1] > top_student[1]:
-#         top_student = student
-
-# print("Top scorer:", top_student[0], top_student[1])
+students = [
+    ("Bilal", 88),
+    ("Ibrahim", 95),
+    ("Abel", 70),
+    ("Sara", 91)
+]
+# 1) Students who scored above 90
+for name, score in students:
+    if score > 90:
+        print(name, score)
 
 
 
-# # Challenge 3 — Shop Receipt System 🛒
-# # Each item is stored as tuple (item, price, quantity)
-# # Tasks
-# # Calculate total cost of each item.
-# # Calculate the final bill.
+#2) Find the top scorer
+top_student = students[0]
 
-# cart = [
-#     ("Bread", 20, 2),
-#     ("Milk", 30, 1),
-#     ("Egg", 5, 12)
-# ]
+for student in students:
+    if student[1] > top_student[1]:
+        top_student = student
 
-# final_bill = 0
+print("Top scorer:", top_student[0], top_student[1])
 
-# for item, price, qty in cart:
-#     total = price * qty
-#     final_bill += total
-#     print(item, "total =", total)
 
-# print("Final bill =", final_bill)
+
+# Challenge 3 — Shop Receipt System 🛒
+# Each item is stored as tuple (item, price, quantity)
+# Tasks
+# Calculate total cost of each item.
+# Calculate the final bill.
+
+cart = [
+    ("Bread", 20, 2),
+    ("Milk", 30, 1),
+    ("Egg", 5, 12)
+]
+
+final_bill = 0
+
+for item, price, qty in cart:
+    total = price * qty
+    final_bill += total
+    print(item, "total =", total)
+
+print("Final bill =", final_bill)
 
 
 
@@ -135,7 +135,7 @@ print(set_sample)   #it look like it added new value randomly.
 
 set_sample.remove(50)
 #set_sample.remove(500)  # if we try to remove values that don't appear in set then we will get an error to fix this isssue we can use discard.
-set_sample.discard(500)  #if the value is in set then it will remove it unless it will do nothing. we won't get an error.
+set_sample.discard(500)  #if the value is in set then it will remove it. unless, It will do nothing. we won't get an error.
 
 
 # lets practice set oprations
@@ -158,10 +158,10 @@ candidate_C = {
     "Project Management", "Presentation",
     "Data Visualization"
 }
-# find:   union
-# A ∪ B
-# A ∪ C
-# A ∪ B ∪ C
+# # find:   union
+# # A ∪ B
+# # A ∪ C
+# # A ∪ B ∪ C
 print(candidate_A.union(candidate_B))
 print(candidate_A|candidate_B)
 
@@ -169,11 +169,11 @@ print(candidate_A.union(candidate_C))
 print(candidate_A.union(candidate_B.union(candidate_C)))
 print(candidate_A|candidate_B|candidate_C)
 
-#  intersaction
-# A ∩ B
-# A ∩ C
-# B ∩ C
-# A ∩ B ∩ C (skills ALL candidates share)
+# #  intersaction
+# # A ∩ B
+# # A ∩ C
+# # B ∩ C
+# # A ∩ B ∩ C (skills ALL candidates share)
 
 print(candidate_A.intersection(candidate_B))
 print(candidate_A & candidate_B)
@@ -202,12 +202,12 @@ print(candidate_A ^ candidate_C)
 # Job requirement:
 job_requirements = {"Python", "SQL", "Git", "Linux"}
 
-# Check:
-# Who qualifies for the job?
+# # Check:
+# # Who qualifies for the job?
 
 
-print("is candidate A is ready for job",job_requirements.issubset(candidate_A)) # we are checking all cources in job requirments are in candidate_A?
-print("is candidate B is ready for job",job_requirements.issubset(candidate_B))
+print("is candidate A is ready for job",job_requirements.issubset(candidate_A)) # we are checking all cources in job requirments are apppear in candidate_A?
+print("is candidate B is ready for job",job_requirements.issubset(candidate_B)) 
 print("is candidate C is ready for job",job_requirements.issubset(candidate_C))
 
 # then we can easily hire the employee by checking their skills using relation ship in set
@@ -218,12 +218,12 @@ data_scientist = {"Python", "Git", "SQL", "Statistics", "Machine Learning"}
 frontend_dev = {"HTML", "CSS", "JavaScript"}
 backend_dev = {"Python", "SQL", "API", "Git"}
 
-# challenge 1: (supper set)
-# Check if data_scientist is a superset of python_dev
+# # challenge 1: (supper set)
+# # Check if data_scientist is a superset of python_dev
 
 print("have data_scintists all skills that pyhton developers have",data_scientist.issuperset(python_dev))
 
-#challenge 2:  (proper sub set and proper  subset)
+#challenge 2:  (proper sub set and proper supersubset)
 # is python_dev a proper subset of data_scientist
 # Use operators:
 # <   proper subset
@@ -241,6 +241,8 @@ print("are frontend_dev and python_dev absolutly differnt?" ,frontend_dev.isdisj
 
 
 # dictioanries:are  power full data structures in python
+# variable={'key':'value',key:value,'key',value,key:"value"}  these are possible ways to create dict.
+
 # dictionariy characterstics:
 # 1 orderd
 # 2 unique for keys but allow duplication for values
@@ -248,6 +250,43 @@ print("are frontend_dev and python_dev absolutly differnt?" ,frontend_dev.isdisj
 # 4 mutable
 
 # special methods for dictionaries
+users={'name':'kerim','age':23,'roll':'BI analyst'}
+print(users['name'])  # but the problem is if key name not in dict. so it better to use .get
+#print(users.get['name'])  # if there is no name then return None
+
+# checking keys and values in dict
+print('name' in users)
+print(23 in users)
+print('country' not in users)
+
+# to access  only key and only value.
+print(users.keys())    #to get all keys
+print(users.values())  # to get all values
+print(users.items())   # to get all keys and values in set of tuple so it makes easy to itrate,loop,transform and so on...
+print()
+
+# itration and loop in dictionary.
+for u in users:
+    print(u)    # we will get only keys
+
+for u in users:
+    print(u,users[u])    # doon't confused here bc it seems to indexing but its not actually indexing  dict is keyed not indexed.
+ 
+for key,value in users.items():    # the best recomended way to loop and itrate.
+    print(key,value)
+
+
+# update, add remove in dict
+users["counrty"]='england'    # to add new keyand value
+users["name"]='kyredin'       # to update the existing item
+users.update({'age':20,'country':'paris'})
+
+#users.clear()      # to remove evryhting in dict.
+#users.pop('roll',)    #?????????
+
+users.popitem()     # to remove the last item.
+
+
 
 
 
