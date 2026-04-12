@@ -75,7 +75,7 @@ team_A_goals = [2, 1, 3, 0, 4]
 team_B_goals = [1, 2, 1, 0, 2]
 
 # Your task:
-# Read the matches from last → first (use reversed())
+# Read the matches from list → first (use reversed())
 # Compare goals using zip()
 # For each match print result like:
 
@@ -127,20 +127,20 @@ prices=["$123.45",'$34.56']
 print(list(map(lambda p:float(p.replace('$','')),prices)))    # this is how we can clean by replacing using map and lambda
 
 
-# filter: to filter out the needed items from list 
-# real life challenge  using direct filter function
+# # filter: to filter out the needed items from list 
+# # real life challenge  using direct filter function
 
 car_brand = ['toyota','marchedise','volvo']
 car_prices = ["$123,500.45", "$340,000.56", "$430,000"]
 
-# Convert prices to numbers
+# # Convert prices to numbers
 numeric_prices = [float(p.replace('$','').replace(',','')) for p in car_prices]
 
 # Zip brand + numeric price
 full_info = list(zip(car_brand, numeric_prices))
-
-# Filter expensive cars (>200000)
-expensive_cars = list(filter(lambda x: x[1] > 200000, full_info))
+print(full_info)
+# # Filter expensive cars (>200000)
+# expensive_cars = list(filter(lambda x: x[1] > 200000, full_info))
 
 # Print results
 for car, price in expensive_cars:
@@ -186,11 +186,11 @@ names = ['  bilal  ', '  ebrahim$$#', ' #kerim #$']
 clean_names=[name.strip(' #$') for name in names]
 print(clean_names)
 
-#so in list comprension we can use data transformation,loop,and filtering.
-#characterstics of list 
+# so in list comprension we can use data transformation,loop,and filtering.
+# characterstics of list 
 # orderd: when print outr list vriable we will get exactly as we put
 # allow duplicate:repition in items
 # indexed:we can access specific item using indexe no(position)
 # mutuable: we can update what we want
 
-#list is wiedly used in real companies.
+# list is wiedly used in real companies.
