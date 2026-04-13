@@ -29,7 +29,15 @@ def greeting():           # oh the user is commanding me to create function name
 print(greeting)             # this is how we can exactly call a function.
 
 
+#lets startby this brain storming code   what is this?
+x = 100
 
+def test(x):
+    x = x + 50
+    print("Inside:", x)
+
+test(10)
+print("Outside:", x)
 
 
 
