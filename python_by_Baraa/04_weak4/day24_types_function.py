@@ -168,122 +168,198 @@ admission_process()
 
 
 
-# so now i have understod every thing in function so lets do mini projet now.
+# so now i have understod every thing in function so lets do mini projet.
 
-# MINI PROJECT — SALES DATA CLEANING & ANALYSIS PIPELINE
-# Goal:
-# Clean messy sales data and calculate business insights.
+"""
+MINI PROJECT — SALES DATA CLEANING & ANALYSIS PIPELINE
 
-# RAW DATA (Messy dataset from "company system")
-# Each row = [customer_name, city, product, price, quantity]
+Author: Bilal Habesha
+Goal:
+    Simulate a real-world data analysis workflow:
+    1) Validate raw data quality
+    2) Clean and transform messy records
+    3) Produce business insights
 
+Dataset format per row:
+    [customer_name, city, product, price, quantity]
+"""
+
+# --------------------------------------------------
+# RAW DATA (Simulated messy export from company system)
+# --------------------------------------------------
 
 sales_data = [
     [" bilal ", "Addis Ababa", "Laptop", "45000", "1"],
     ["sara", "addis ababa", "Mouse", "800", "2"],
-    ["mike", "Adama", "Keyboard", "", "1"],   # bad price
-    ["", "Adama", "Monitor", "12000", "1"],   # missing name
+    ["mike", "Adama", "Keyboard", "", "1"],   # Missing price
+    ["", "Adama", "Monitor", "12000", "1"],   # Missing customer name
     ["John", "ADDIS ABABA", "Laptop", "45000", "1"],
 ]
 
 
-# VALIDATOR FUNCTION
-# Check if row is usable (data quality check)
+# --------------------------------------------------
+# VALIDATION LAYER
+# --------------------------------------------------
 
-def is_valid_row(row):
+def is_valid_row(row: list) -> bool:
+    """
+    Validate a raw data row.
+
+    Rules:
+        - Customer name must exist
+        - Price must exist
+
+    Parameters
+    ----------
+    row : list
+        Raw record from dataset.
+
+    Returns
+    -------
+    bool
+        True if row passes validation checks, False otherwise.
+    """
     name, city, product, price, qty = row
-    
-    if name == "":
-        return False
-    if price == "":
-        return False
-    
-    return True
+    return name != "" and price != ""
 
-# TRANSFORMER FUNCTIONS
-# Clean text and convert numbers
 
-def clean_text(text):
+# --------------------------------------------------
+# TRANSFORMATION LAYER
+# --------------------------------------------------
+
+def clean_text(text: str) -> str:
+    """
+    Standardize text values.
+
+    Operations:
+        - Remove extra whitespace
+        - Convert to title case
+
+    Example:
+        " addis ababa " → "Addis Ababa"
+    """
     return text.strip().title()
 
-def to_int(value):
+
+def to_int(value: str) -> int:
+    """
+    Convert numeric string to integer.
+
+    Raises ValueError if conversion fails.
+    """
     return int(value)
 
-def transform_row(row):
+
+def transform_row(row: list) -> list:
+    """
+    Convert a raw row into a clean structured record.
+
+    Transformations:
+        - Standardize text fields
+        - Convert price and quantity to integers
+
+    Returns
+    -------
+    list
+        Cleaned row in same column order.
+    """
     name, city, product, price, qty = row
-    
-    name = clean_text(name)
-    city = clean_text(city)
-    product = clean_text(product)
-    price = to_int(price)
-    qty = to_int(qty)
-    
-    return [name, city, product, price, qty]
 
-# ACTION FUNCTION
-# Show cleaned dataset
+    return [
+        clean_text(name),
+        clean_text(city),
+        clean_text(product),
+        to_int(price),
+        to_int(qty)
+    ]
 
-def show_clean_data(data):
-    print("\nCLEAN DATA:")
+
+# --------------------------------------------------
+# PRESENTATION LAYER
+# --------------------------------------------------
+
+def show_clean_data(data: list) -> None:
+    """
+    Display cleaned dataset in readable format.
+    """
+    print("\nCLEAN DATASET")
+    print("-" * 40)
     for row in data:
         print(row)
 
 
-# ANALYSIS FUNCTIONS (Computation)
+# --------------------------------------------------
+# ANALYTICS LAYER
+# --------------------------------------------------
 
-def calculate_total_revenue(data):
+def calculate_total_revenue(data: list) -> int:
+    """
+    Compute total revenue.
+
+    Formula:
+        revenue = price * quantity
+    """
     total = 0
-    for row in data:
-        price = row[3]
-        qty = row[4]
+    for name, city, product, price, qty in data:
         total += price * qty
     return total
 
 
-def revenue_by_city(data):
+def revenue_by_city(data: list) -> dict:
+    """
+    Aggregate revenue grouped by city.
+
+    Returns
+    -------
+    dict
+        { city : total_revenue }
+    """
     result = {}
-    
-    for row in data:
-        city = row[1]
-        price = row[3]
-        qty = row[4]
+
+    for name, city, product, price, qty in data:
         revenue = price * qty
-        
-        if city not in result:
-            result[city] = 0
-        
-        result[city] += revenue
-    
+        result[city] = result.get(city, 0) + revenue
+
     return result
 
-# ORCHESTRATOR FUNCTION (MAIN PIPELINE)
-# Controls full workflow step-by-step
 
-def run_sales_pipeline(raw_data):
-    
-    # 1) VALIDATE DATA
-    valid_rows = []
-    for row in raw_data:
-        if is_valid_row(row):
-            valid_rows.append(row)
-    
-    # 2) TRANSFORM DATA
-    clean_rows = []
-    for row in valid_rows:
-        clean_rows.append(transform_row(row))
-    
-    # 3) SHOW CLEAN DATA
+# --------------------------------------------------
+# PIPELINE ORCHESTRATOR
+# --------------------------------------------------
+
+def run_sales_pipeline(raw_data: list) -> None:
+    """
+    Main controller for the entire pipeline.
+
+    Pipeline Steps:
+        1) Validate raw data
+        2) Transform valid records
+        3) Display cleaned dataset
+        4) Compute business metrics
+    """
+
+    # Step 1 — Validate
+    valid_rows = [row for row in raw_data if is_valid_row(row)]
+
+    # Step 2 — Transform
+    clean_rows = [transform_row(row) for row in valid_rows]
+
+    # Step 3 — Display cleaned dataset
     show_clean_data(clean_rows)
-    
-    # 4) ANALYSE DATA
-    total = calculate_total_revenue(clean_rows)
+
+    # Step 4 — Business analytics
+    total_revenue = calculate_total_revenue(clean_rows)
     city_sales = revenue_by_city(clean_rows)
-    
-    print("\nTOTAL REVENUE:", total)
-    print("\nREVENUE BY CITY:")
-    print(city_sales)
+
+    print("\nBUSINESS INSIGHTS")
+    print("-" * 40)
+    print("Total Revenue:", total_revenue)
+    print("Revenue by City:", city_sales)
 
 
-# here we go we are about to run the project
+# --------------------------------------------------
+# EXECUTION ENTRY POINT
+# --------------------------------------------------
 
-run_sales_pipeline(sales_data)
+if __name__ == "__main__":
+    run_sales_pipeline(sales_data)
