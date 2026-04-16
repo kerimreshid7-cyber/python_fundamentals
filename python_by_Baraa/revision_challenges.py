@@ -1,10 +1,5 @@
 
-# I have already finished every thing in video Barra is absolutly different i mean his experiance the way he understand concepts the way he teaches he explain
-# his flow of learning something the raod map he is something special he helped me alot. i start thinking like data analyst.
 
-# I give a shot to revise everything practically by doing real life chalenges and some mini projects.
-
-# here we go
 
 # challenge 1 — CLEAN SALES DATA
 # A shop exported messy sales data from its system.
@@ -85,6 +80,7 @@ users = [
 # 1 Keep only users age >= 18
 # 2 Create list of valid user names
 # 3 Print number of valid users
+
 # challenge 6 — PRODUCT PRICE ANALY# Store inventory prices
 
 products = {
