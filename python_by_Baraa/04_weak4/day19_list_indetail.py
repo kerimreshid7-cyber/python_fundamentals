@@ -2,12 +2,12 @@
 # we will answer this question soon.
 # so lets start todays lesson it's nice to start from skipping values from list("_" )
 
-# skipping values from list("_" )  when packing and unpacking.
+# Skipping values from list("_" )  when packing and unpacking.
 teacher=['amir',19,'SWE','BI analyst',"ethiopia"]
 name,_,_,_,country=teacher # to unpack and to trash unwanted values using '_'.
 name,*_,country=teacher    # this is the easiest way to trash un wanted values. but there are still in list.
 
-# # exploring and analysing data vallues in list
+# # Exploring and analysing data vallues in list
 numbers=[1,1,7,5,90.98,76,3.83]
 print("max:",max(numbers))
 print("min:",min(numbers))
@@ -20,10 +20,10 @@ print(all([1,1,0,"",None,False]))
 print(any([1,1,0,"",None,False]))
 print(any(numbers))
 
-# to know index of the value.
+# To know index of the value.
 print("index",numbers.index(3.83))        # try to remember find
 
-# # membership and identity check in list
+# # Membership and identity check in list
 print(3.83 in numbers)
 print([1,7,3.83] in numbers)
 print(8 not in numbers)
@@ -32,7 +32,7 @@ print([1,3,4,7] is [1,3,4,7])   # false bc we are not all about the value rather
 print([1,3,4,7] ==[1,3,4,7])    # true bc the values are the same. 
 
 
-# update list:change the data value in list 
+# Udate list:change the data value in list 
 # there are three ways to change values in list.
 # 1 append: to add values at the end
 matrix=[[1,3,4,7],
@@ -49,14 +49,14 @@ matrix[2].append(True)    # to add in index two wc is third row at the end.
 print(matrix)
 print()
 
-# 2 extend: to add multiple values at the end of the list
+# 2 Extend: to add multiple values at the end of the list
 print(numbers.extend(['wow',"i like it",3.83]))   # don't use this way untill you became advanced bc it will confuse you.the value changed in abstract way and in the out put you will see None.
 numbers.extend(['wow',"i like it",3.83])     # use exactly this.
 print(numbers)
 matrix.extend(['wow',"i like it",3.83])      # this is how exactly we can add multiple values at the end of the nested loop.
 print(matrix)
 
-# # 3 insert: to add values any where in sing and matrix list
+# # 3 Insert: to add values any where in sing and matrix list
 numbers.insert(2,56)
 matrix.insert(3,54)        # to insert single values specifically where we want.
 matrix.insert(2,[36,78,90])   # to insert multiple values specifically where we want. 
@@ -67,7 +67,7 @@ print()
 print(numbers)
 
 
-# clear items in ilist
+# Clear items in ilist
 # there are two possible ways to remove values out of list
 # 1 remove by value     clear()to remove every thing and remove() to specify.
 
@@ -83,7 +83,7 @@ numbers.remove(90.98)
 #    row.clear
 
 
-# 2 remove by position  (pop())
+# 2 Remove by Position  (pop())
 numbers.pop()         # this will automatically remove the last value
 numbers.pop(1)          # now we specify the index
 

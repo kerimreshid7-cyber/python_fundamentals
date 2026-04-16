@@ -1,4 +1,4 @@
-# deeper copy this is not built in function so we gotto to import the copy module.
+# Deeper copy this is not built in function so we gotto to import the copy module.
 matrix=[[1,3,4,7],
         [7,3.83],
         [1,1,0,"",None,False],
