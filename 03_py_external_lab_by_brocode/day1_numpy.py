@@ -18,7 +18,7 @@ array_0d=np.array('ohh array')          #it's 0 dimentional array
 
 array_1d=np.array(['kerim',3.18,3,'wow'])    #it's 1 dimentional array
 
-array_2d=np.array([['kerim',3.83,3,'wow'],['ebrahim',3.79,2,'wow']])
+array_2d=np.array([[3.83,3,],[3.79,2,]])
 
 
 array_3d = np.array([
@@ -40,13 +40,19 @@ array_3d = np.array([
 ])
 
 
+print(array_0d.ndim)
+
+print(array_1d.ndim)
+
+print(array_2d.ndim)
+
 print(array_3d.ndim)
 
 
+# so now we can easily applie mathimathical oprations like additioan and multiplication on array bc we have imoprted numpy
 
-
-
-
+pro_array_2d=array_2d*3
+print(pro_array_2d)
 
 
 
