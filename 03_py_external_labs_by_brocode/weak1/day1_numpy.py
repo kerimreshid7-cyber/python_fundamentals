@@ -1,6 +1,9 @@
 
+# hello how are you today i am gonna start numpy(numerical pyhton) which makes pyhton fast. "with out numpy python is slow." brocode said. i am learning by bro code video. he is one of the most influencer in coding.
+#and, I will cover every thing i need to to know in the video also i will read some documentations for future. but the most important thing is practice practic and practice.
 
 
+# here we go
 # list vs array
 matrix=[[1,3,4,7],
         [7,3.83],
@@ -20,7 +23,7 @@ array_1d=np.array(['kerim',3.18,3,'wow'])    #it's 1 dimentional array
 
 array_2d=np.array([[3.83,3,7],
                    [3.79,2,5],
-                   [3.65,2,3]])
+                   [3.65,2,3]])   #array won't store different data type unlike list what it gonna do is like it will choose the safe data type to store every thing then it'll treate all values as one data type. This process is called type promotion (upcasting).
 
 array_3d = np.array([
     [
@@ -39,7 +42,6 @@ array_3d = np.array([
         ['arebu',3.7,2,'her']
     ]
 ])
-
 
 print(array_0d.ndim)
 
@@ -60,6 +62,7 @@ print(pro_array_2d)
 print(pro_array_2d[-1][1])
 print(array_3d[2][2][3])     # this is how we can acces specific value from  3d arary using chain indexing
 print()
+
 # slicing
 print(array_2d[::2])
 print(array_2d[::-1])
@@ -71,42 +74,17 @@ print(array_2d[:,1])
 print(array_2d[1:3,1:3])   # this how we can easily access the specific row and specific column using this power full library.
 print()
 print(array_2d[:,0:2])
+print()
 
+print(array_2d[0:1,:])
 
+print(array_2d[1:3,1:3])
+print(array_2d.dtype)
 
+woo=np.array([[3,3,7],
+              [3,2,5],
+              [3,2,3],
+              ['wow array','array loves rectangle','if i miss even one value python return an error']])
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(woo.dtype)
+print(woo[3:,1:])
