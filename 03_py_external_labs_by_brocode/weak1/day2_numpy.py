@@ -1,4 +1,4 @@
-# hello how are you today i am gonna cover some concepts in numpy i am learning by bro code video.
+# hello how are you today i am gonna cover some concepts in numpy 
 
 #scalar arithmetic
 import numpy as np
@@ -82,7 +82,7 @@ multiplicand=np.array([1,2,3,4,5,6,7,8,9])
 multiplier=np.array([[1],[2],[3],[4],[5],[6],[7],[8],[9]])
 
 products=multiplicand*multiplier
-print('==========multiply table==========')
+print('==========multiple table==========')
 print(products)
 
 
