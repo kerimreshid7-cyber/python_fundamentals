@@ -25,14 +25,14 @@ print(array_2d//4)
 
 # vectorized math funcs
 print(np.sqrt(array_2d))
-print(np.round(array_2d))
 print()
-print(np.round(array_2d,1))
+print(np.round(array_2d))   # to round in integers mean we'll get int
+print('this is how we can round decimals with specific no after decimal',np.round(array_2d,1))  # to round with  specific numbers after decimal.
 print(np.floor(array_2d))
 print()
-
 print(np.ceil(array_2d))
 print(np.pi)
+
 
 # exercise   find the area of circle for all list(radius given in the list)
 radius=np.array([2,4,6])
@@ -67,7 +67,6 @@ for score in stu_scores:
 stu_scores[stu_scores<60]=0
 print(stu_scores)
 
-
 # brodcasting
 array1=np.array([[1,2,3,4]])
 array2=np.array([[1],[3],[5],[7]])
@@ -85,14 +84,6 @@ products=multiplicand*multiplier
 print('==========multiple table==========')
 print(products)
 
-
-
-
-
-
-
-
-
-
-
+# so to brodcast two arrays fist we have to compare the last or the right dim if they are the same or on them are 1 
+# fine jump to to next again if the are the same or one of the two are 1 the we can apply broadcasting on them.
 
