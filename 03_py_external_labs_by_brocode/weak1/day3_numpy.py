@@ -11,7 +11,7 @@ sales = np.array([
     [130, 170, 123, 160, 141],  #week3
     [150, 187, 130, 191, 160]   #week4
 ])
-
+print(np.sum(sales))
 print('the total sale is ',np.sum(sales))
 print('the mean of the sales',np.mean(sales))
 
@@ -25,7 +25,7 @@ print(np.argmin(sales))
 
 
 # to aggregate specific axis
-print('to add by column',np.sum(sales,axis=0))    #to addd by column so python will summerize and give immidiatly.
+print('to add by column',np.sum(sales,axis=0))    #to add by column so python will summerize and give immidiatly.
 print()
 print("to add by row",np.sum(sales,axis=1))
 
@@ -46,8 +46,8 @@ print('odd sales',sales[sales%2==1])
 # Where
 higher_sales=np.where(sales>160,sales,'low sale')    #first we filter then we command to take the original array then third we have to replace the filterd out(uncessary datas) by some thing else.
 print(higher_sales)
-
-
+print(np.where(sales>160,sales,'low sale'))
+print(np.where((sales>160) & (sales<240),sales,'out of budget'))
 # random number generation in numpy
 print('==============random number generating========')
 ran_num_gen=np.random.default_rng()
@@ -63,7 +63,7 @@ print(ran_num.integers(3,75,size=(2,3)))
 print('=============')
 ran_num2=np.random.default_rng(seed=100)
 print(ran_num2.integers(30,70,(1,3)))   # i don't understand well about seed 
-                                         #but it's enogh in this stage  but i relized one thing new that there is no need to write like(low=,high,size)
+#                                          #but it's enogh in this stage  but i relized one thing new that there is no need to write like(low=,high,size)
 print()
 # generating random numbers using 'uniform'. 
 ran_num_global2=np.random.uniform()
@@ -84,6 +84,7 @@ print('=====random students out of students=====')
 # shuffle
 ran_gen_stu.shuffle(students)
 print(students)
+
 # choice
 ran_choice=ran_gen_stu.choice(students)
 print("the choice for today==",ran_choice)
@@ -93,7 +94,3 @@ print("the choices for today==",ran_choice)
 
 an_choice=ran_gen_stu.choice(students,(2,3))
 print("the choices for today==",ran_choice)
-
-
-
-
