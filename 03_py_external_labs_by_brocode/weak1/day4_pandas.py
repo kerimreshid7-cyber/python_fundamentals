@@ -44,8 +44,8 @@ stu_data = {'name':['kerim','ebrahim','abduselam'],
         'gpa':[3.83,3.77,3.7],
         }
 
-indx=[f'stu{stu}' for stu in  range(1,4)]
-df= pd.DataFrame(stu_data,index=indx)
+indx=[f'stu{stu}' for stu in  range(1,4)]    # this is how we can give index our self using list comprehension and for loop and also i used f string.
+df= pd.DataFrame(stu_data,index=indx) 
 print(df)
 
 
