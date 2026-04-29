@@ -73,7 +73,7 @@ print(df)
 
 new_row=pd.DataFrame([{'name':'sadiq','gpa':3.75,'job':'web app developer'},
                      {'name':'kyredin','gpa':3.6,'job':'GIS professional'}],
-                     index=['stu7','stu8'])
+                   index=['stu7','stu8'])
 
 
 df=pd.concat([df,new_row])
