@@ -1,0 +1,6 @@
+[
+  {"id": 1, "name": "Ali", "score": 85, "city": "Addis"},
+  {"id": 2, "name": "Sara", "score": 92, "city": "Hawassa"},
+  {"id": 3, "name": "John", "score": 78, "city": "Arba Minch"},
+  {"id": 4, "name": "Mimi", "score": 88, "city": "Bahir Dar"}
+]
