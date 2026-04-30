@@ -3,11 +3,11 @@
 
 import pandas as pd
 
-df=pd.read_csv("orders.csv")
+df=pd.read_csv("data/orders.csv")
 print('==========================here we go ===============================')
 print(df)
 # # print(df.to_string())    # to get every thing in the file.
-df = pd.read_csv("orders.csv")
+df = pd.read_csv("data/orders.csv")
 leable=[f'cus{cus}' for cus in range(1,len(df)+1)]
 df.index=leable     # this is another way to give an index own self.
 print()
@@ -20,20 +20,20 @@ print(df)     # we will get the first 5 and last 5 rows and the discribtion for 
 # this is how we can import csv file and print it.
 
 
+# import json file
+# df2=pd.read_json('stu.json')
+# leble=[f'stu{stu}' for stu in range(1,len(df2)+1)]
+# df2.index=leble
+# print()
 
-df2=pd.read_json('stu.json')
-leble=[f'stu{stu}' for stu in range(1,len(df2)+1)]
-df2.index=leble
-print()
+# print('==========================json changed in to data fram ===============================')
 
-print('==========================json changed in to data fram ===============================')
-
-print(df2.to_string)
+# print(df2.to_string)
 
 
 # selection by column/s
 print(df['payment_method'])
-print(df2['name'].to_string)   #to get specificcol but all rows using .to_string
+# print(df2['name'].to_string)   #to get specificcol but all rows using .to_string
 print()
 print('==========================wow ===============================')
 
@@ -56,7 +56,7 @@ print('=============wow python========')
 print(df.iloc[3:6])  
 print(df.iloc[5:8,:3])
 
-df_df=pd.read_csv('orders.csv',index_col=('name'))     # we can easily change the default index column by what we want that is from our data frame in this case we change it by name so later we can easily select by giving the name.
+df_df=pd.read_csv('data/orders.csv',index_col=('name'))     # we can easily change the default index column by what we want that is from our data frame in this case we change it by name so later we can easily select by giving the name.
 print(df_df.loc['Ali Hassan'])     # so we can accces like this inthe out i got 5 rows that means this customer appear 5 times the more i practice the more i will understand.
 
 
@@ -80,13 +80,4 @@ try:
     print(df.iloc[customer2])
 except:
     print(f'{customer2} not found')
-
-
-
-
-
-
-
-
-
 
