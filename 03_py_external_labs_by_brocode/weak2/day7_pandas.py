@@ -49,10 +49,10 @@ print(df.groupby('category'))
 # multiple group by
 print(df.groupby(['payment_method','category'])['discount'].sum())    # i have to practice more here bc it's just like title there are so many concepts bhind this.
 
+#the next is aggregation with group by ........
 
 
-
-
+# aggrgation with group by
 
 
 
