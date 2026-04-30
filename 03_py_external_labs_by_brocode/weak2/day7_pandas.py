@@ -53,23 +53,3 @@ print(df.groupby(['payment_method','category'])['discount'].sum())    # i have t
 
 
 # aggrgation with group by
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

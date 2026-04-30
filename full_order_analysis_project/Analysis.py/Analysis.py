@@ -1,246 +1,303 @@
 
-import plotly as plt
+import numpy as np
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from pathlib import Path
 
-df = pd.read_csv("data/orders.csv",index_col='id')
-
-print(df.head())
-print(df.shape)
-print()
-print('=========================how to get all columns=======================')
-print(df.columns)
+DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "orders.csv"
+OUTPUT_DIR = Path(__file__).resolve().parent.parent / "analysis_charts"
+OUTPUT_IMAGE = Path(__file__).resolve().parent.parent / "orders_analysis_dashboard.png"
 
 
-columns = ['name', 'email', 'phone', 'payment_method', 'product', 'category',
-           'price', 'quantity', 'discount', 'order_date', 'shipping_date']
+def load_orders(path: Path) -> pd.DataFrame:
+    df = pd.read_csv(path, index_col="id")
+    df["order_date"] = pd.to_datetime(df["order_date"], errors="coerce")
+    df["shipping_date"] = pd.to_datetime(df["shipping_date"], errors="coerce")
+    df["discount"] = df["discount"].fillna(0.0)
+    df["payment_method"] = df["payment_method"].fillna("Unknown")
+    df["total_value"] = (df["price"] * df["quantity"]) - df["discount"]
+    df["gross_value"] = df["price"] * df["quantity"]
+    df["shipping_delay_days"] = (df["shipping_date"] - df["order_date"]).dt.days
+    df["order_month"] = df["order_date"].dt.to_period("M")
+    return df
 
-# Data preprocessing
-df['order_date'] = pd.to_datetime(df['order_date'])
-df['year_month'] = df['order_date'].dt.to_period('M')
-df['total_value'] = (df['price'] * df['quantity']) - df['discount'].fillna(0)
 
-print("=" * 80)
-print("COMPREHENSIVE ORDERS ANALYSIS")
-print("=" * 80)
+def print_section(title: str) -> None:
+    print("\n" + "=" * 80)
+    print(title)
+    print("=" * 80)
 
-# 1. CATEGORY ANALYSIS
-print("\n📊 CATEGORY PERFORMANCE ANALYSIS")
-print("-" * 50)
-category_stats = df.groupby('category').agg({
-    'total_value': ['sum', 'mean', 'count'],
-    'quantity': 'sum',
-    'discount': 'sum'
-}).round(2)
-category_stats.columns = ['Total Sales', 'Avg Order Value', 'Order Count', 'Total Quantity', 'Total Discount']
-category_stats = category_stats.sort_values('Total Sales', ascending=False)
-print(category_stats)
 
-# # 2. PAYMENT METHOD ANALYSIS
-# print("\n💳 PAYMENT METHOD ANALYSIS")
-# print("-" * 50)
-# payment_stats = df.groupby('payment_method').agg({
-#     'total_value': ['sum', 'mean', 'count'],
-#     'discount': 'sum'
-# }).round(2)
-# payment_stats.columns = ['Total Sales', 'Avg Order Value', 'Order Count', 'Total Discount']
-# payment_stats = payment_stats.sort_values('Total Sales', ascending=False)
-# print(payment_stats)
+def save_chart(fig, output_path: Path) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    fig.savefig(output_path, dpi=250, bbox_inches="tight")
+    plt.close(fig)
 
-# # 3. CUSTOMER ANALYSIS
-# print("\n👥 CUSTOMER ANALYSIS")
-# print("-" * 50)
-# customer_stats = df.groupby('customer_name').agg({
-#     'total_value': ['sum', 'mean', 'count'],
-#     'order_id': 'count'
-# }).round(2)
-# customer_stats.columns = ['Total Spent', 'Avg Order Value', 'Order Count', 'Order Count2']
-# customer_stats = customer_stats.sort_values('Total Spent', ascending=False).head(10)
-# print("Top 10 Customers by Total Spending:")
-# print(customer_stats)
 
-# # Repeat customers analysis
-# repeat_customers = df.groupby('customer_name').size().reset_index(name='order_count')
-# repeat_customers = repeat_customers[repeat_customers['order_count'] > 1]
-# print(f"\n📈 Repeat Customers: {len(repeat_customers)} out of {df['customer_name'].nunique()} unique customers")
-# print(f"Repeat Rate: {len(repeat_customers)/df['customer_name'].nunique()*100:.1f}%")
+def save_dashboard(df: pd.DataFrame, output_path: Path) -> None:
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# # 4. PRODUCT PERFORMANCE
-# print("\n🛍️  PRODUCT PERFORMANCE ANALYSIS")
-# print("-" * 50)
-# product_stats = df.groupby('product_name').agg({
-#     'total_value': ['sum', 'mean', 'count'],
-#     'quantity': 'sum'
-# }).round(2)
-# product_stats.columns = ['Total Revenue', 'Avg Order Value', 'Order Count', 'Total Quantity']
-# product_stats = product_stats.sort_values('Total Revenue', ascending=False)
-# print(product_stats)
+    # 1) Revenue by Category
+    fig, ax = plt.subplots(figsize=(10, 6))
+    sales_by_category = df.groupby("category")["total_value"].sum().sort_values(ascending=False)
+    sales_by_category.plot(kind="bar", ax=ax, color=["#2C7BB6", "#ABD9E9", "#FEE08B"])
+    ax.set_title("Revenue by Category")
+    ax.set_xlabel("")
+    ax.set_ylabel("Net Sales ($)")
+    save_chart(fig, OUTPUT_DIR / "01_revenue_by_category.png")
 
-# # 5. DISCOUNT ANALYSIS
-# print("\n💰 DISCOUNT ANALYSIS")
-# print("-" * 50)
-# discount_analysis = {
-#     'Orders with Discount': df[df['discount'].notna()].shape[0],
-#     'Orders without Discount': df[df['discount'].isna()].shape[0],
-#     'Total Discount Given': df['discount'].sum(),
-#     'Average Discount': df['discount'].mean(),
-#     'Max Discount': df['discount'].max()
-# }
-# for key, value in discount_analysis.items():
-#     if isinstance(value, float):
-#         print(f"{key}: ${value:.2f}")
-#     else:
-#         print(f"{key}: {value}")
+    # 2) Sales by Payment Method
+    fig, ax = plt.subplots(figsize=(10, 6))
+    payment_share = df.groupby("payment_method")["total_value"].sum().sort_values()
+    payment_share.plot(kind="barh", ax=ax, color="#F46D43")
+    ax.set_title("Sales by Payment Method")
+    ax.set_xlabel("Net Sales ($)")
+    save_chart(fig, OUTPUT_DIR / "02_sales_by_payment_method.png")
 
-# # 6. MONTHLY TRENDS
-# print("\n📅 MONTHLY TRENDS ANALYSIS")
-# print("-" * 50)
-# monthly_stats = df.groupby('year_month').agg({
-#     'total_value': ['sum', 'mean', 'count'],
-#     'quantity': 'sum',
-#     'discount': 'sum'
-# }).round(2)
-# monthly_stats.columns = ['Total Sales', 'Avg Order Value', 'Order Count', 'Total Quantity', 'Total Discount']
-# monthly_stats = monthly_stats.sort_index(ascending=False)
-# print(monthly_stats)
+    # 3) Top Products by Net Revenue
+    fig, ax = plt.subplots(figsize=(10, 6))
+    top_products = df.groupby("product")["total_value"].sum().sort_values(ascending=False).head(8)
+    top_products.plot(kind="bar", ax=ax, color="#5E4FA2")
+    ax.set_title("Top 8 Products by Net Revenue")
+    ax.set_xlabel("")
+    ax.set_ylabel("Net Revenue ($)")
+    save_chart(fig, OUTPUT_DIR / "03_top_products.png")
 
-# # Create comprehensive visualizations
-# plt.style.use('seaborn-v0_8')
-# fig = plt.figure(figsize=(20, 16))
+    # 4) Monthly Sales Trend
+    fig, ax = plt.subplots(figsize=(10, 6))
+    monthly_sales = df.groupby("order_month")["total_value"].sum()
+    monthly_sales.plot(kind="line", ax=ax, marker="o", linewidth=2, color="#D73027")
+    ax.set_title("Monthly Sales Trend")
+    ax.set_xlabel("Month")
+    ax.set_ylabel("Net Sales ($)")
+    save_chart(fig, OUTPUT_DIR / "04_monthly_sales_trend.png")
 
-# # 1. Category Sales Pie Chart
-# ax1 = plt.subplot(3, 3, 1)
-# category_sales = df.groupby('category')['total_value'].sum()
-# colors = ['#FF9999', '#66B2FF', '#99FF99', '#FFCC99']
-# ax1.pie(category_sales.values, labels=category_sales.index, autopct='%1.1f%%', colors=colors, startangle=90)
-# ax1.set_title('Sales by Category', fontsize=14, fontweight='bold')
+    # 5) Average Order Value by Discount Status
+    fig, ax = plt.subplots(figsize=(10, 6))
+    avg_by_discount = df.groupby(df["discount"] > 0)["total_value"].mean()
+    avg_by_discount.index = ["No Discount", "With Discount"]
+    avg_by_discount.plot(kind="bar", ax=ax, color=["#66C2A5", "#FC8D62"])
+    ax.set_title("Average Order Value by Discount Status")
+    ax.set_ylabel("Average Order Value ($)")
+    save_chart(fig, OUTPUT_DIR / "05_discount_impact.png")
 
-# # 2. Payment Methods Bar Chart
-# ax2 = plt.subplot(3, 3, 2)
-# payment_sales = df.groupby('payment_method')['total_value'].sum().sort_values(ascending=True)
-# payment_sales.plot(kind='barh', ax=ax2, color='#FF6B6B')
-# ax2.set_title('Total Sales by Payment Method', fontsize=14, fontweight='bold')
-# ax2.set_xlabel('Total Sales ($)')
+    # 6) Order Quantity Distribution
+    fig, ax = plt.subplots(figsize=(10, 6))
+    sns.histplot(df["quantity"], bins=12, kde=False, color="#8DA0CB", ax=ax)
+    ax.set_title("Order Quantity Distribution")
+    ax.set_xlabel("Quantity")
+    ax.set_ylabel("Order Count")
+    save_chart(fig, OUTPUT_DIR / "06_order_quantity_distribution.png")
 
-# # 3. Top Customers Bar Chart
-# ax3 = plt.subplot(3, 3, 3)
-# top_customers = df.groupby('customer_name')['total_value'].sum().sort_values(ascending=False).head(8)
-# top_customers.plot(kind='bar', ax=ax3, color='#4ECDC4')
-# ax3.set_title('Top 8 Customers by Spending', fontsize=14, fontweight='bold')
-# ax3.set_xlabel('Customer Name')
-# ax3.set_ylabel('Total Sales ($)')
-# ax3.tick_params(axis='x', rotation=45)
+    # 7) Shipping Delay Distribution
+    fig, ax = plt.subplots(figsize=(10, 6))
+    delay_data = df["shipping_delay_days"].dropna()
+    sns.boxplot(x=delay_data, color="#E78AC3", ax=ax)
+    ax.set_title("Shipping Delay Distribution (days)")
+    ax.set_xlabel("Delay Days")
+    save_chart(fig, OUTPUT_DIR / "07_shipping_delay_distribution.png")
 
-# # 4. Monthly Sales Trend
-# ax4 = plt.subplot(3, 3, 4)
-# monthly_trend = df.groupby('year_month')['total_value'].sum()
-# monthly_trend.plot(kind='line', ax=ax4, marker='o', linewidth=2, markersize=8, color='#FF6B9D')
-# ax4.set_title('Monthly Sales Trend', fontsize=14, fontweight='bold')
-# ax4.set_xlabel('Month')
-# ax4.set_ylabel('Total Sales ($)')
-# ax4.tick_params(axis='x', rotation=45)
-# ax4.grid(True, alpha=0.3)
+    # 8) Order Value Distribution
+    fig, ax = plt.subplots(figsize=(10, 6))
+    order_value = df["total_value"].dropna()
+    sns.histplot(order_value, bins=20, kde=True, color="#66C2A5", ax=ax)
+    ax.set_title("Order Value Distribution")
+    ax.set_xlabel("Order Value ($)")
+    ax.set_ylabel("Order Count")
+    save_chart(fig, OUTPUT_DIR / "08_order_value_distribution.png")
 
-# # 5. Product Performance
-# ax5 = plt.subplot(3, 3, 5)
-# top_products = df.groupby('product_name')['total_value'].sum().sort_values(ascending=False).head(6)
-# top_products.plot(kind='bar', ax=ax5, color='#C9B1FF')
-# ax5.set_title('Top 6 Products by Revenue', fontsize=14, fontweight='bold')
-# ax5.set_xlabel('Product Name')
-# ax5.set_ylabel('Total Revenue ($)')
-# ax5.tick_params(axis='x', rotation=45)
+    # 9) Category vs. Month Net Sales Heatmap
+    fig, ax = plt.subplots(figsize=(12, 8))
+    category_month = df.pivot_table(
+        values="total_value",
+        index="category",
+        columns="order_month",
+        aggfunc="sum",
+        fill_value=0,
+    )
+    sns.heatmap(
+        category_month,
+        annot=True,
+        fmt=".0f",
+        cmap="YlGnBu",
+        ax=ax,
+        cbar_kws={"label": "Net Sales ($)"},
+    )
+    ax.set_title("Category vs. Month Net Sales")
+    ax.set_xlabel("Month")
+    ax.set_ylabel("Category")
+    save_chart(fig, OUTPUT_DIR / "09_category_month_heatmap.png")
 
-# # 6. Order Value Distribution
-# ax6 = plt.subplot(3, 3, 6)
-# ax6.hist(df['total_value'], bins=20, color='#95E1D3', alpha=0.7, edgecolor='black')
-# ax6.set_title('Order Value Distribution', fontsize=14, fontweight='bold')
-# ax6.set_xlabel('Order Value ($)')
-# ax6.set_ylabel('Frequency')
-# ax6.axvline(df['total_value'].mean(), color='red', linestyle='--', label=f'Mean: ${df["total_value"].mean():.0f}')
-# ax6.legend()
+    # Save combined dashboard too
+    fig, axes = plt.subplots(3, 3, figsize=(20, 16))
+    axes = axes.flatten()
+    sales_by_category.plot(kind="bar", ax=axes[0], color=["#2C7BB6", "#ABD9E9", "#FEE08B"])
+    axes[0].set_title("Revenue by Category")
+    axes[0].set_xlabel("")
+    axes[0].set_ylabel("Net Sales ($)")
+    payment_share.plot(kind="barh", ax=axes[1], color="#F46D43")
+    axes[1].set_title("Sales by Payment Method")
+    axes[1].set_xlabel("Net Sales ($)")
+    top_products.plot(kind="bar", ax=axes[2], color="#5E4FA2")
+    axes[2].set_title("Top 8 Products by Net Revenue")
+    axes[2].set_xlabel("")
+    axes[2].set_ylabel("Net Revenue ($)")
+    monthly_sales.plot(kind="line", ax=axes[3], marker="o", linewidth=2, color="#D73027")
+    axes[3].set_title("Monthly Sales Trend")
+    axes[3].set_xlabel("Month")
+    axes[3].set_ylabel("Net Sales ($)")
+    avg_by_discount.plot(kind="bar", ax=axes[4], color=["#66C2A5", "#FC8D62"])
+    axes[4].set_title("Average Order Value by Discount Status")
+    axes[4].set_ylabel("Average Order Value ($)")
+    sns.histplot(df["quantity"], bins=12, kde=False, color="#8DA0CB", ax=axes[5])
+    axes[5].set_title("Order Quantity Distribution")
+    axes[5].set_xlabel("Quantity")
+    axes[5].set_ylabel("Order Count")
+    sns.boxplot(x=delay_data, color="#E78AC3", ax=axes[6])
+    axes[6].set_title("Shipping Delay Distribution (days)")
+    axes[6].set_xlabel("Delay Days")
+    sns.histplot(order_value, bins=20, kde=True, color="#66C2A5", ax=axes[7])
+    axes[7].set_title("Order Value Distribution")
+    axes[7].set_xlabel("Order Value ($)")
+    axes[7].set_ylabel("Order Count")
+    sns.heatmap(category_month, annot=True, fmt=".0f", cmap="YlGnBu", ax=axes[8], cbar_kws={"label": "Net Sales ($)"})
+    axes[8].set_title("Category vs. Month Net Sales")
+    axes[8].set_xlabel("Month")
+    axes[8].set_ylabel("Category")
+    plt.tight_layout()
+    save_chart(fig, output_path)
 
-# # 7. Discount Impact
-# ax7 = plt.subplot(3, 3, 7)
-# discount_impact = df.groupby(df['discount'].notna())['total_value'].mean()
-# discount_impact.index = ['No Discount', 'With Discount']
-# discount_impact.plot(kind='bar', ax=ax7, color=['#FFB6C1', '#FFA07A'])
-# ax7.set_title('Average Order Value: Discount Impact', fontsize=14, fontweight='bold')
-# ax7.set_ylabel('Average Order Value ($)')
-# ax7.tick_params(axis='x', rotation=0)
 
-# # 8. Quantity Distribution
-# ax8 = plt.subplot(3, 3, 8)
-# quantity_dist = df['quantity'].value_counts().sort_index()
-# quantity_dist.plot(kind='bar', ax=ax8, color='#87CEEB')
-# ax8.set_title('Quantity per Order Distribution', fontsize=14, fontweight='bold')
-# ax8.set_xlabel('Quantity')
-# ax8.set_ylabel('Number of Orders')
-# ax8.tick_params(axis='x', rotation=0)
+def main() -> None:
+    if not DATA_FILE.exists():
+        raise FileNotFoundError(f"Missing expected file: {DATA_FILE}")
 
-# 9. Heatmap of Sales by Category and Month
-ax9 = plt.subplot(3, 3, 9)
-category_month = df.pivot_table(values='total_value', index='category', columns='year_month', aggfunc='sum', fill_value=0)
-sns.heatmap(category_month, annot=True, fmt='.0f', cmap='YlOrRd', ax=ax9, cbar_kws={'label': 'Sales ($)'})
-ax9.set_title('Sales Heatmap: Category vs Month', fontsize=14, fontweight='bold')
-ax9.set_xlabel('Month')
-ax9.set_ylabel('Category')
+    df = load_orders(DATA_FILE)
 
-plt.tight_layout()
-plt.savefig('/home/kerim/CascadeProjects/comprehensive_dashboard.png', dpi=300, bbox_inches='tight')
-plt.show()
+    print_section("ORDER DATA OVERVIEW")
+    print(f"Dataset rows: {len(df):,}")
+    print(f"Time span: {df['order_date'].min().date()} to {df['order_date'].max().date()}")
+    print(f"Unique customers: {df['name'].nunique():,}")
+    print(f"Unique products: {df['product'].nunique():,}")
+    print(f"Missing shipping dates: {df['shipping_date'].isna().sum():,}")
 
-# Generate Key Insights Summary
-print("\n" + "=" * 80)
-print("🎯 KEY BUSINESS INSIGHTS")
-print("=" * 80)
+    print_section("SALES SUMMARY")
+    print(f"Total gross revenue: ${df['gross_value'].sum():,.2f}")
+    print(f"Total net revenue: ${df['total_value'].sum():,.2f}")
+    print(f"Average order value: ${df['total_value'].mean():,.2f}")
+    print(f"Median order value: ${df['total_value'].median():,.2f}")
+    print(f"Average discount per order: ${df['discount'].mean():,.2f}")
 
-insights = []
+    category_stats = (
+        df.groupby("category")
+        .agg(
+            total_sales=("total_value", "sum"),
+            avg_order=("total_value", "mean"),
+            order_count=("total_value", "count"),
+            quantity_sold=("quantity", "sum"),
+            total_discount=("discount", "sum"),
+        )
+        .sort_values("total_sales", ascending=False)
+        .round(2)
+    )
+    print_section("CATEGORY PERFORMANCE")
+    print(category_stats.to_string())
 
-# Category insights
-top_category = category_stats.index[0]
-category_revenue = category_stats.loc[top_category, 'Total Sales']
-category_percentage = (category_revenue / df['total_value'].sum()) * 100
-insights.append(f"🏆 {top_category} dominates with ${category_revenue:,.0f} ({category_percentage:.1f}% of total sales)")
+    payment_stats = (
+        df.groupby("payment_method")
+        .agg(
+            total_sales=("total_value", "sum"),
+            avg_order=("total_value", "mean"),
+            order_count=("total_value", "count"),
+        )
+        .sort_values("total_sales", ascending=False)
+        .round(2)
+    )
+    print_section("PAYMENT METHOD ANALYSIS")
+    print(payment_stats.to_string())
 
-# Payment method insights
-top_payment = payment_stats.index[0]
-payment_percentage = (payment_stats.loc[top_payment, 'Total Sales'] / df['total_value'].sum()) * 100
-insights.append(f"💳 {top_payment} is preferred payment method ({payment_percentage:.1f}% of transactions)")
+    customer_stats = (
+        df.groupby("name")
+        .agg(
+            total_spent=("total_value", "sum"),
+            avg_order=("total_value", "mean"),
+            order_count=("total_value", "count"),
+        )
+        .sort_values("total_spent", ascending=False)
+        .head(10)
+        .round(2)
+    )
+    print_section("TOP CUSTOMERS")
+    print(customer_stats.to_string())
 
-# Customer insights
-top_customer = customer_stats.index[0]
-customer_spending = customer_stats.loc[top_customer, 'Total Spent']
-insights.append(f"👤 Best customer: {top_customer} spent ${customer_spending:,.0f}")
+    repeat_customers = (
+        df.reset_index().groupby("name")["id"].count().reset_index(name="order_count")
+    )
+    repeat_customers = repeat_customers[repeat_customers["order_count"] > 1]
+    repeat_rate = len(repeat_customers) / df["name"].nunique() * 100
+    print(f"\nRepeat customers: {len(repeat_customers):,}")
+    print(f"Repeat purchase rate: {repeat_rate:.1f}%")
 
-# Product insights
-top_product = product_stats.index[0]
-product_revenue = product_stats.loc[top_product, 'Total Revenue']
-insights.append(f"🛍️  Best-selling product: {top_product} generated ${product_revenue:,.0f}")
+    product_stats = (
+        df.groupby("product")
+        .agg(
+            total_sales=("total_value", "sum"),
+            avg_order=("total_value", "mean"),
+            order_count=("total_value", "count"),
+            quantity_sold=("quantity", "sum"),
+        )
+        .sort_values("total_sales", ascending=False)
+        .head(10)
+        .round(2)
+    )
+    print_section("PRODUCT PERFORMANCE")
+    print(product_stats.to_string())
 
-# Discount insights
-discount_rate = (df[df['discount'].notna()].shape[0] / df.shape[0]) * 100
-insights.append(f"💰 {discount_rate:.1f}% of orders include discounts")
+    print_section("DISCOUNT INSIGHTS")
+    discount_orders = df[df["discount"] > 0]
+    discount_rate = len(discount_orders) / len(df) * 100
+    print(f"Orders with discount: {len(discount_orders):,} ({discount_rate:.1f}%)")
+    print(f"Average discount when offered: ${discount_orders['discount'].mean():,.2f}")
+    print(f"Maximum discount: ${discount_orders['discount'].max():,.2f}")
 
-# Monthly insights
-best_month = monthly_stats['Total Sales'].idxmax()
-worst_month = monthly_stats['Total Sales'].idxmin()
-insights.append(f"📅 Peak month: {best_month}, Lowest: {worst_month}")
+    monthly_stats = (
+        df.groupby("order_month")
+        .agg(
+            total_sales=("total_value", "sum"),
+            order_count=("total_value", "count"),
+            avg_order=("total_value", "mean"),
+        )
+        .sort_index()
+        .round(2)
+    )
+    print_section("MONTHLY TREND ANALYSIS")
+    print(monthly_stats.to_string())
 
-# Customer retention insights
-insights.append(f"🔄 {len(repeat_customers)} customers made repeat purchases ({len(repeat_customers)/df['customer_name'].nunique()*100:.1f}% repeat rate)")
+    print_section("SHIPPING PERFORMANCE")
+    shipping_stats = df["shipping_delay_days"].dropna().describe().round(2)
+    print(shipping_stats.to_string())
+    delayed_pct = (df["shipping_delay_days"] > 0).mean() * 100
+    print(f"Orders shipped after the order date: {delayed_pct:.1f}%")
 
-# Average order value
-insights.append(f"📊 Average order value: ${df['total_value'].mean():.0f}")
+    save_dashboard(df, OUTPUT_IMAGE)
+    print_section("SUMMARY INSIGHTS")
 
-for insight in insights:
-    print(insight)
+    top_category = category_stats.index[0]
+    top_product = product_stats.index[0]
+    top_payment = payment_stats.index[0]
+    top_customer = customer_stats.index[0]
 
-print(f"\n📈 Total Revenue: ${df['total_value'].sum():,.2f}")
-print(f"🛒 Total Orders: {len(df)}")
-print(f"👥 Unique Customers: {df['customer_name'].nunique()}")
-print(f"📅 Analysis Period: {df['order_date'].min().strftime('%Y-%m-%d')} to {df['order_date'].max().strftime('%Y-%m-%d')}")
+    print(f"Top category: {top_category} with ${category_stats.iloc[0].total_sales:,.2f}")
+    print(f"Top product: {top_product} with ${product_stats.iloc[0].total_sales:,.2f}")
+    print(f"Most valuable payment method: {top_payment} with ${payment_stats.iloc[0].total_sales:,.2f}")
+    print(f"Best customer: {top_customer} spent ${customer_stats.iloc[0].total_spent:,.2f}")
+    print(f"Highest sales month: {monthly_stats['total_sales'].idxmax()} (${monthly_stats['total_sales'].max():,.2f})")
+    print(f"Dashboard saved to: {OUTPUT_IMAGE}")
 
-print(f"\n🎨 Comprehensive dashboard saved as 'comprehensive_dashboard.png'")
-print("✅ Analysis Complete!")
+
+if __name__ == "__main__":
+    main()
 
 
 
