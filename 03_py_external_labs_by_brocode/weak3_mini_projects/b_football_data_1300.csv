@@ -1,0 +1,1301 @@
+match_id,date,team,opponent,player,goals,assists,shots,passes,minutes_played,result
+1,2025-11-03,Juventus,PSG,Player_285,0,0,5,17,61,Draw
+2,2024-12-18,Chelsea,PSG,Player_266,1,0,3,12,19,Loss
+3,2023-12-16,Arsenal,Real Madrid,Player_15,0,0,3,65,12,Win
+4,2023-11-25,Barcelona,Arsenal,Player_249,1,0,4,71,55,Loss
+5,2025-11-13,Arsenal,Arsenal,Player_80,1,0,0,53,72,Loss
+6,2024-01-25,PSG,Real Madrid,Player_17,0,0,3,93,77,Loss
+7,2025-12-21,Juventus,Juventus,Player_314,0,0,7,38,50,Win
+8,2025-05-27,PSG,Liverpool,Player_55,1,0,7,10,17,Draw
+9,2023-09-18,Bayern,Arsenal,Player_117,0,0,0,111,40,Win
+10,2025-11-06,Juventus,Bayern,Player_220,1,0,1,12,87,Win
+11,2024-08-03,Arsenal,Barcelona,Player_400,2,1,2,68,86,Loss
+12,2025-01-11,Real Madrid,Barcelona,Player_19,1,0,5,26,71,Loss
+13,2025-07-17,Real Madrid,Liverpool,Player_359,0,0,5,99,43,Loss
+14,2025-04-22,Arsenal,Real Madrid,Player_22,1,0,3,13,62,Win
+15,2025-07-06,Barcelona,Arsenal,Player_143,0,0,2,31,46,Win
+16,2025-09-01,Bayern,PSG,Player_360,1,0,5,110,78,Draw
+17,2025-06-04,Arsenal,Real Madrid,Player_366,1,0,5,106,21,Win
+18,2024-06-19,Real Madrid,Bayern,Player_244,0,0,7,70,92,Draw
+19,2023-06-18,Real Madrid,Liverpool,Player_302,1,0,6,79,48,Loss
+20,2024-01-13,Barcelona,Liverpool,Player_362,1,0,0,29,19,Win
+21,2024-01-11,Barcelona,Real Madrid,Player_184,0,3,1,94,49,Draw
+22,2024-08-26,Liverpool,Chelsea,Player_20,0,0,1,92,93,Win
+23,2023-04-29,Real Madrid,Liverpool,Player_22,2,0,1,29,89,Draw
+24,2024-12-04,Arsenal,PSG,Player_290,1,0,7,74,92,Win
+25,2023-06-16,PSG,Bayern,Player_382,0,0,5,27,50,Loss
+26,2025-10-10,Barcelona,Juventus,Player_33,0,1,0,78,50,Loss
+27,2025-05-16,Liverpool,PSG,Player_284,1,0,5,43,39,Draw
+28,2025-06-26,Barcelona,Real Madrid,Player_187,0,0,6,93,58,Loss
+29,2025-01-18,PSG,Real Madrid,Player_48,1,1,6,75,68,Loss
+30,2024-12-21,Juventus,Arsenal,Player_369,1,2,0,74,59,Draw
+31,2023-12-27,Juventus,PSG,Player_92,0,0,5,52,91,Draw
+32,2023-01-24,PSG,Real Madrid,Player_189,0,0,5,29,54,Draw
+33,2023-10-24,Bayern,Real Madrid,Player_343,1,1,0,75,17,Draw
+34,2025-04-25,Real Madrid,Chelsea,Player_262,0,0,1,61,26,Loss
+35,2025-12-20,Chelsea,Arsenal,Player_262,1,0,7,48,15,Win
+36,2024-02-28,Arsenal,Arsenal,Player_308,1,0,1,43,13,Win
+37,2024-07-05,Barcelona,Chelsea,Player_164,0,0,4,12,12,Loss
+38,2023-02-20,PSG,Liverpool,Player_24,0,0,7,109,57,Draw
+39,2025-09-15,Liverpool,Liverpool,Player_313,1,0,1,28,22,Draw
+40,2024-01-15,Arsenal,Real Madrid,Player_35,1,0,7,32,74,Draw
+41,2025-01-19,Chelsea,Real Madrid,Player_97,0,0,4,63,72,Draw
+42,2023-05-31,Real Madrid,Barcelona,Player_278,0,0,6,98,53,Loss
+43,2025-03-19,Bayern,Arsenal,Player_328,0,0,1,68,15,Draw
+44,2025-04-02,Bayern,PSG,Player_330,2,0,4,72,65,Loss
+45,2023-06-14,Real Madrid,Juventus,Player_54,1,0,6,16,34,Loss
+46,2023-09-14,Bayern,Bayern,Player_262,0,0,3,53,37,Draw
+47,2025-02-25,Barcelona,Bayern,Player_135,0,0,5,30,10,Win
+48,2023-01-07,Real Madrid,Chelsea,Player_207,0,0,3,88,24,Draw
+49,2024-04-28,Real Madrid,Juventus,Player_183,0,0,2,53,18,Loss
+50,2025-04-16,Real Madrid,Real Madrid,Player_329,1,0,0,16,21,Win
+51,2024-02-27,Chelsea,Bayern,Player_334,0,1,7,89,88,Win
+52,2024-02-08,Liverpool,Arsenal,Player_12,1,0,5,99,63,Loss
+53,2023-09-07,Real Madrid,Barcelona,Player_242,0,0,3,29,89,Draw
+54,2023-07-04,Arsenal,Arsenal,Player_276,0,1,4,90,61,Loss
+55,2024-12-26,Juventus,Chelsea,Player_298,0,1,2,34,37,Loss
+56,2024-11-29,Real Madrid,Chelsea,Player_116,0,0,4,105,40,Draw
+57,2023-08-25,Liverpool,Barcelona,Player_308,2,0,5,104,13,Draw
+58,2023-02-15,Real Madrid,Bayern,Player_81,1,2,1,25,26,Win
+59,2025-08-19,Real Madrid,Barcelona,Player_232,0,0,0,104,33,Loss
+60,2024-01-27,Arsenal,Arsenal,Player_206,0,0,0,72,37,Draw
+61,2024-03-02,Liverpool,Barcelona,Player_182,1,0,2,30,85,Draw
+62,2023-04-04,Arsenal,Chelsea,Player_59,0,0,3,72,74,Draw
+63,2025-10-31,Real Madrid,PSG,Player_260,0,0,1,114,88,Loss
+64,2025-03-14,Real Madrid,PSG,Player_32,2,0,0,102,55,Draw
+65,2025-03-01,Bayern,PSG,Player_358,2,1,5,83,18,Draw
+66,2025-10-07,Bayern,Barcelona,Player_32,2,0,1,34,78,Win
+67,2023-11-02,Liverpool,Barcelona,Player_326,0,0,7,100,33,Loss
+68,2025-03-14,Liverpool,Chelsea,Player_249,3,1,0,76,44,Draw
+69,2024-01-04,Real Madrid,PSG,Player_71,1,0,0,109,73,Win
+70,2023-03-31,Bayern,Bayern,Player_269,0,0,0,46,18,Win
+71,2024-08-23,Chelsea,Real Madrid,Player_179,0,0,7,47,62,Win
+72,2025-02-07,Bayern,Chelsea,Player_137,1,0,5,39,25,Draw
+73,2024-09-08,Chelsea,Barcelona,Player_356,1,0,1,117,45,Win
+74,2025-01-30,Juventus,Juventus,Player_96,0,1,1,114,88,Loss
+75,2025-10-14,Liverpool,Arsenal,Player_283,1,0,7,87,75,Win
+76,2023-06-20,Chelsea,Real Madrid,Player_167,0,0,2,61,30,Draw
+77,2025-06-16,Bayern,Arsenal,Player_292,0,0,1,22,36,Win
+78,2024-03-17,Arsenal,Liverpool,Player_61,0,1,0,68,29,Draw
+79,2025-08-09,Liverpool,Chelsea,Player_389,1,1,1,101,49,Win
+80,2024-10-02,Liverpool,Bayern,Player_159,0,0,1,74,90,Loss
+81,2023-08-13,Bayern,Chelsea,Player_22,0,0,0,60,63,Loss
+82,2023-12-05,Liverpool,Real Madrid,Player_321,2,1,2,108,81,Win
+83,2024-01-25,Real Madrid,Real Madrid,Player_353,2,0,1,78,74,Loss
+84,2023-10-19,Bayern,Juventus,Player_43,0,0,7,18,35,Draw
+85,2024-05-06,Barcelona,Liverpool,Player_348,1,1,2,28,61,Loss
+86,2024-09-10,Liverpool,PSG,Player_179,0,0,5,100,46,Loss
+87,2024-03-17,Juventus,Bayern,Player_368,0,0,7,47,57,Win
+88,2023-11-14,Liverpool,Liverpool,Player_76,1,0,4,112,59,Win
+89,2025-07-09,Chelsea,Bayern,Player_249,0,0,1,32,20,Win
+90,2023-01-14,Juventus,Arsenal,Player_354,1,1,2,114,31,Loss
+91,2025-03-25,Barcelona,Real Madrid,Player_159,1,0,2,97,83,Loss
+92,2025-09-27,Barcelona,Arsenal,Player_332,1,0,6,91,59,Draw
+93,2025-02-16,Liverpool,Real Madrid,Player_210,0,0,5,115,23,Draw
+94,2024-03-05,Barcelona,Real Madrid,Player_189,0,0,1,56,22,Win
+95,2024-03-21,PSG,Real Madrid,Player_381,0,1,6,87,89,Loss
+96,2024-09-25,Barcelona,Bayern,Player_277,0,0,2,105,89,Loss
+97,2024-01-10,Arsenal,PSG,Player_262,0,0,0,98,60,Loss
+98,2023-12-15,Barcelona,Arsenal,Player_374,0,0,7,100,31,Win
+99,2023-11-22,Arsenal,Chelsea,Player_49,3,0,6,111,85,Loss
+100,2024-07-28,Barcelona,Chelsea,Player_41,1,0,2,22,16,Win
+101,2025-03-10,Chelsea,Bayern,Player_400,0,1,0,59,75,Win
+102,2025-11-02,Juventus,Chelsea,Player_300,1,0,4,105,85,Win
+103,2024-07-16,PSG,Real Madrid,Player_252,1,0,6,105,72,Win
+104,2024-11-09,Liverpool,Bayern,Player_393,1,0,4,63,34,Draw
+105,2023-03-21,Chelsea,Real Madrid,Player_245,1,0,0,33,69,Loss
+106,2024-07-25,Barcelona,Chelsea,Player_218,1,0,3,34,81,Win
+107,2023-09-14,Barcelona,Juventus,Player_321,0,0,7,20,55,Win
+108,2024-12-07,Arsenal,Bayern,Player_12,0,0,0,106,71,Draw
+109,2025-11-07,Bayern,Liverpool,Player_43,0,0,7,85,25,Draw
+110,2025-02-17,Juventus,Bayern,Player_104,0,0,3,18,92,Loss
+111,2023-05-23,Chelsea,PSG,Player_137,1,0,4,104,94,Win
+112,2023-08-13,Chelsea,Barcelona,Player_27,0,0,3,41,57,Draw
+113,2024-10-16,Real Madrid,Barcelona,Player_338,0,0,3,49,41,Draw
+114,2025-10-29,Liverpool,Bayern,Player_8,0,0,1,32,44,Loss
+115,2024-05-31,Juventus,Real Madrid,Player_63,0,0,2,36,32,Win
+116,2023-05-04,Bayern,Arsenal,Player_48,0,0,4,49,25,Draw
+117,2025-10-28,Arsenal,Barcelona,Player_46,1,0,1,94,25,Win
+118,2023-12-24,Barcelona,Arsenal,Player_84,1,0,5,72,40,Draw
+119,2025-08-12,Real Madrid,Chelsea,Player_377,2,0,3,98,13,Loss
+120,2025-12-28,Real Madrid,Bayern,Player_132,0,0,6,76,35,Loss
+121,2023-10-18,Juventus,Liverpool,Player_38,0,1,5,73,31,Loss
+122,2025-11-16,Chelsea,Bayern,Player_234,1,0,0,17,62,Win
+123,2025-03-06,Bayern,Arsenal,Player_323,0,0,3,44,67,Draw
+124,2023-11-15,Arsenal,Liverpool,Player_84,0,0,5,78,50,Win
+125,2025-03-26,Bayern,Chelsea,Player_64,2,0,3,14,16,Draw
+126,2023-11-30,Chelsea,Barcelona,Player_107,0,1,4,60,94,Win
+127,2025-10-26,Chelsea,Bayern,Player_284,0,2,6,45,51,Draw
+128,2025-08-29,Juventus,Juventus,Player_193,0,0,0,71,49,Win
+129,2024-03-09,Bayern,Barcelona,Player_254,0,0,2,27,67,Win
+130,2025-11-13,Bayern,Arsenal,Player_11,0,1,7,47,28,Loss
+131,2025-03-16,Liverpool,PSG,Player_299,1,1,2,97,53,Win
+132,2023-12-31,Real Madrid,Liverpool,Player_364,0,0,1,77,59,Loss
+133,2024-08-03,Liverpool,Bayern,Player_65,1,0,0,26,80,Draw
+134,2025-06-15,Barcelona,PSG,Player_248,0,2,6,50,68,Win
+135,2024-01-15,Bayern,PSG,Player_373,1,0,7,54,91,Draw
+136,2024-03-04,Arsenal,Barcelona,Player_128,3,0,7,80,67,Draw
+137,2023-02-06,Arsenal,PSG,Player_363,1,1,4,61,64,Draw
+138,2025-01-18,Liverpool,Chelsea,Player_124,0,0,2,43,15,Win
+139,2024-03-29,Real Madrid,Juventus,Player_373,1,0,1,61,59,Win
+140,2023-05-12,Bayern,PSG,Player_222,0,1,1,96,77,Loss
+141,2023-03-29,PSG,Bayern,Player_278,2,0,5,112,18,Win
+142,2024-04-06,Real Madrid,Arsenal,Player_231,0,0,7,101,28,Win
+143,2023-11-09,Liverpool,PSG,Player_202,0,2,0,27,85,Win
+144,2024-04-08,Real Madrid,Arsenal,Player_295,0,0,4,82,91,Draw
+145,2023-06-10,Arsenal,Juventus,Player_320,0,0,3,73,24,Win
+146,2025-05-17,Chelsea,Juventus,Player_8,0,0,0,97,88,Loss
+147,2024-10-29,Chelsea,Real Madrid,Player_37,0,0,5,34,16,Draw
+148,2025-12-06,Arsenal,Liverpool,Player_41,1,0,4,102,30,Loss
+149,2024-02-20,Juventus,Arsenal,Player_229,0,0,4,47,18,Loss
+150,2024-04-24,Liverpool,Liverpool,Player_303,2,1,2,74,14,Loss
+151,2024-05-28,Barcelona,Liverpool,Player_344,1,0,7,81,16,Draw
+152,2025-08-01,Barcelona,Chelsea,Player_198,0,0,2,75,62,Win
+153,2023-08-29,Bayern,PSG,Player_47,0,1,1,16,21,Loss
+154,2024-05-02,Liverpool,Barcelona,Player_13,1,0,1,119,88,Win
+155,2023-09-27,Arsenal,Bayern,Player_296,0,0,3,42,62,Draw
+156,2023-01-17,Real Madrid,Barcelona,Player_313,0,0,7,51,47,Win
+157,2024-09-05,Juventus,Barcelona,Player_53,1,1,1,83,89,Win
+158,2025-08-01,Chelsea,Chelsea,Player_30,0,0,5,29,56,Win
+159,2023-08-18,Chelsea,PSG,Player_288,1,0,5,66,12,Loss
+160,2024-12-29,Juventus,Liverpool,Player_189,0,2,1,14,20,Win
+161,2025-10-29,Real Madrid,Arsenal,Player_155,0,0,4,75,27,Loss
+162,2024-05-05,Bayern,Bayern,Player_78,0,2,6,65,81,Loss
+163,2025-08-15,Liverpool,Barcelona,Player_43,1,0,3,90,50,Win
+164,2023-04-03,Real Madrid,Juventus,Player_348,0,2,2,64,90,Loss
+165,2023-06-05,Real Madrid,Bayern,Player_151,1,0,0,94,66,Draw
+166,2023-10-14,Juventus,Real Madrid,Player_169,0,0,2,80,75,Loss
+167,2023-10-27,PSG,Liverpool,Player_232,0,0,3,60,35,Draw
+168,2025-01-29,Bayern,PSG,Player_289,2,0,2,53,47,Loss
+169,2023-06-15,Real Madrid,Juventus,Player_15,0,0,4,116,14,Win
+170,2025-10-17,Chelsea,Juventus,Player_96,0,0,6,13,41,Win
+171,2023-01-26,Real Madrid,Liverpool,Player_225,1,1,0,37,68,Draw
+172,2023-05-01,Bayern,Bayern,Player_32,3,0,0,59,79,Win
+173,2023-02-17,Chelsea,Liverpool,Player_375,0,1,5,107,38,Draw
+174,2024-03-02,Barcelona,PSG,Player_223,0,0,2,95,33,Win
+175,2023-01-01,Real Madrid,Arsenal,Player_397,0,0,7,91,54,Draw
+176,2025-10-22,Chelsea,Arsenal,Player_103,0,0,4,35,40,Win
+177,2023-01-26,Arsenal,Chelsea,Player_82,2,0,5,35,59,Loss
+178,2023-07-21,Chelsea,Liverpool,Player_96,1,0,4,92,77,Draw
+179,2024-12-27,Chelsea,PSG,Player_122,1,0,1,89,62,Loss
+180,2025-06-23,Arsenal,Barcelona,Player_9,1,1,1,109,77,Win
+181,2024-09-06,Liverpool,Juventus,Player_110,0,0,5,96,47,Draw
+182,2024-12-19,Liverpool,Barcelona,Player_350,1,0,1,44,68,Win
+183,2023-02-28,Juventus,Arsenal,Player_8,1,0,3,34,50,Loss
+184,2025-04-19,Chelsea,Juventus,Player_202,0,0,2,49,36,Win
+185,2023-09-09,Liverpool,Liverpool,Player_33,0,1,3,61,61,Win
+186,2024-03-22,Juventus,PSG,Player_351,2,0,3,97,59,Win
+187,2023-03-04,Arsenal,Arsenal,Player_69,0,1,5,36,28,Draw
+188,2025-07-02,Chelsea,Barcelona,Player_95,2,0,6,75,73,Loss
+189,2023-03-04,Liverpool,Bayern,Player_245,0,0,4,10,27,Win
+190,2024-04-26,Bayern,Barcelona,Player_205,2,0,5,25,82,Draw
+191,2024-07-15,Arsenal,Arsenal,Player_313,1,0,0,54,62,Loss
+192,2024-01-15,Chelsea,Bayern,Player_375,0,0,7,92,78,Loss
+193,2024-04-20,PSG,Liverpool,Player_57,1,0,7,10,36,Win
+194,2024-06-03,Real Madrid,Bayern,Player_155,0,0,5,49,27,Draw
+195,2025-06-05,Chelsea,Juventus,Player_130,3,0,7,21,11,Draw
+196,2025-03-17,Liverpool,Real Madrid,Player_151,0,0,7,93,44,Win
+197,2023-11-08,Arsenal,Barcelona,Player_86,0,1,7,18,69,Draw
+198,2023-11-15,PSG,Real Madrid,Player_329,0,0,3,108,42,Loss
+199,2023-03-15,Arsenal,Barcelona,Player_196,0,0,6,45,41,Loss
+200,2024-02-19,Chelsea,Juventus,Player_323,0,1,4,81,77,Win
+201,2025-03-21,Juventus,Liverpool,Player_63,1,0,6,109,54,Win
+202,2023-09-30,Juventus,Bayern,Player_376,3,0,5,37,64,Loss
+203,2023-01-20,Bayern,Chelsea,Player_309,0,1,0,115,45,Draw
+204,2023-07-06,Arsenal,Liverpool,Player_249,0,0,2,91,87,Win
+205,2025-07-04,Bayern,Juventus,Player_78,0,1,7,54,73,Draw
+206,2025-10-03,Liverpool,Chelsea,Player_177,1,0,3,64,16,Loss
+207,2025-08-29,Juventus,Juventus,Player_383,1,0,1,20,34,Draw
+208,2023-08-19,Chelsea,Barcelona,Player_199,1,0,5,110,50,Loss
+209,2023-04-08,Real Madrid,Juventus,Player_263,0,0,5,77,76,Loss
+210,2023-06-29,Liverpool,PSG,Player_187,0,0,0,116,39,Win
+211,2023-05-23,Liverpool,Juventus,Player_162,0,0,3,57,47,Loss
+212,2023-08-09,Liverpool,Bayern,Player_194,0,1,4,84,86,Win
+213,2025-08-06,Liverpool,Chelsea,Player_154,1,0,5,25,93,Win
+214,2025-07-02,Arsenal,Bayern,Player_378,0,0,3,79,35,Win
+215,2023-10-07,Liverpool,Real Madrid,Player_71,0,0,3,61,88,Loss
+216,2024-02-17,Chelsea,Chelsea,Player_79,0,1,3,74,92,Loss
+217,2025-09-03,Barcelona,Arsenal,Player_353,0,0,4,31,86,Loss
+218,2025-11-24,Bayern,Juventus,Player_59,0,1,1,114,43,Loss
+219,2025-03-19,PSG,Bayern,Player_25,0,1,3,60,82,Loss
+220,2023-08-26,Juventus,Arsenal,Player_399,1,1,7,107,10,Draw
+221,2024-04-01,Barcelona,Barcelona,Player_101,1,1,1,80,34,Draw
+222,2024-07-11,Bayern,Liverpool,Player_261,0,0,5,96,61,Draw
+223,2024-08-20,Chelsea,Arsenal,Player_237,1,0,5,32,53,Loss
+224,2025-01-25,Barcelona,Chelsea,Player_289,0,0,6,34,21,Draw
+225,2024-09-11,Real Madrid,Bayern,Player_187,0,0,3,62,93,Draw
+226,2025-02-22,Juventus,Barcelona,Player_272,0,0,2,90,93,Win
+227,2023-08-18,Arsenal,Real Madrid,Player_253,1,0,7,118,11,Win
+228,2025-01-24,Chelsea,Arsenal,Player_192,0,0,6,33,17,Loss
+229,2023-05-06,Arsenal,Arsenal,Player_378,0,1,2,36,12,Draw
+230,2025-01-02,Liverpool,Real Madrid,Player_181,1,0,7,91,32,Draw
+231,2023-09-17,Liverpool,Bayern,Player_145,1,0,5,78,69,Win
+232,2025-06-30,Real Madrid,Chelsea,Player_229,1,0,3,66,32,Draw
+233,2023-07-06,Arsenal,Barcelona,Player_265,0,0,1,37,35,Draw
+234,2025-09-02,Liverpool,Arsenal,Player_308,0,0,7,115,39,Win
+235,2024-10-31,Juventus,Real Madrid,Player_193,0,1,6,68,28,Win
+236,2025-10-15,Arsenal,Arsenal,Player_19,0,0,5,117,19,Win
+237,2025-07-25,Chelsea,Real Madrid,Player_386,1,0,6,68,82,Draw
+238,2025-09-09,Liverpool,Liverpool,Player_126,0,1,7,55,55,Loss
+239,2024-03-01,Arsenal,PSG,Player_246,0,0,1,118,18,Loss
+240,2025-04-20,PSG,Barcelona,Player_212,0,0,1,76,28,Draw
+241,2025-04-17,PSG,Juventus,Player_103,0,0,5,13,10,Draw
+242,2024-08-30,Juventus,PSG,Player_261,1,0,6,58,88,Loss
+243,2025-09-10,Liverpool,Barcelona,Player_104,1,0,6,95,82,Loss
+244,2024-08-30,Juventus,Barcelona,Player_377,0,0,7,64,36,Draw
+245,2023-06-19,Chelsea,Chelsea,Player_399,2,0,4,70,33,Win
+246,2023-01-06,PSG,PSG,Player_230,0,0,2,79,69,Loss
+247,2023-10-18,Arsenal,Real Madrid,Player_188,1,0,3,90,13,Win
+248,2024-01-21,Arsenal,Liverpool,Player_202,0,0,5,84,13,Draw
+249,2023-12-18,Barcelona,Arsenal,Player_133,2,0,0,60,29,Draw
+250,2025-01-01,Chelsea,Juventus,Player_363,0,0,5,45,61,Loss
+251,2023-07-20,PSG,Arsenal,Player_344,1,0,0,56,51,Loss
+252,2025-02-21,Bayern,Liverpool,Player_174,1,0,2,104,51,Draw
+253,2024-04-12,Chelsea,Bayern,Player_162,0,0,6,84,84,Draw
+254,2023-02-01,Bayern,Chelsea,Player_224,1,0,6,113,51,Win
+255,2023-08-27,Real Madrid,Chelsea,Player_26,0,1,6,61,19,Win
+256,2025-10-21,Bayern,Arsenal,Player_131,1,0,5,101,23,Draw
+257,2025-09-01,Bayern,Arsenal,Player_160,0,0,1,50,92,Win
+258,2024-01-11,Real Madrid,Arsenal,Player_189,1,0,3,111,86,Win
+259,2024-12-14,Barcelona,Liverpool,Player_145,0,1,6,115,41,Win
+260,2024-07-11,Bayern,Arsenal,Player_124,1,1,2,42,85,Loss
+261,2023-01-13,Liverpool,Liverpool,Player_134,0,0,4,42,29,Draw
+262,2024-05-04,Juventus,Barcelona,Player_19,0,0,5,36,66,Loss
+263,2024-03-24,Liverpool,Bayern,Player_254,1,0,2,97,32,Draw
+264,2024-11-28,Arsenal,Liverpool,Player_249,0,0,4,39,55,Draw
+265,2023-01-26,Chelsea,Chelsea,Player_224,0,0,4,119,81,Loss
+266,2024-05-16,Barcelona,Liverpool,Player_309,0,0,7,91,51,Loss
+267,2023-03-24,PSG,Chelsea,Player_269,0,0,7,72,31,Draw
+268,2023-07-23,PSG,Arsenal,Player_135,1,0,6,46,13,Loss
+269,2025-09-06,Arsenal,Bayern,Player_287,2,0,2,47,19,Loss
+270,2025-05-15,Bayern,Arsenal,Player_356,0,0,4,113,76,Draw
+271,2024-05-23,Juventus,Liverpool,Player_239,0,0,4,59,58,Loss
+272,2025-09-09,PSG,Bayern,Player_68,0,1,4,42,74,Loss
+273,2025-02-17,Liverpool,Real Madrid,Player_106,0,0,0,16,33,Win
+274,2024-04-04,PSG,PSG,Player_134,0,0,4,94,83,Loss
+275,2023-05-08,Liverpool,Arsenal,Player_296,1,1,2,99,83,Loss
+276,2025-03-19,Real Madrid,Real Madrid,Player_90,0,0,6,82,35,Loss
+277,2025-10-29,Bayern,Arsenal,Player_311,2,0,5,12,13,Loss
+278,2024-02-07,Bayern,Chelsea,Player_378,1,0,3,90,42,Draw
+279,2025-08-17,Liverpool,Chelsea,Player_354,2,0,1,85,81,Draw
+280,2023-07-24,Bayern,Bayern,Player_217,0,0,4,74,66,Win
+281,2025-11-25,Real Madrid,Bayern,Player_370,1,0,6,63,93,Win
+282,2025-07-23,Arsenal,Arsenal,Player_103,1,0,0,80,50,Draw
+283,2025-04-28,Bayern,Chelsea,Player_119,0,0,0,104,78,Draw
+284,2023-10-09,Barcelona,Bayern,Player_194,1,0,7,49,19,Draw
+285,2023-09-22,Liverpool,PSG,Player_355,0,0,2,25,75,Draw
+286,2023-06-14,Barcelona,Liverpool,Player_129,0,0,2,97,78,Loss
+287,2024-05-07,Juventus,PSG,Player_392,0,0,5,34,55,Draw
+288,2023-04-04,Bayern,Juventus,Player_178,0,0,4,51,24,Loss
+289,2023-03-26,Juventus,Chelsea,Player_104,0,0,2,114,35,Win
+290,2024-11-29,Arsenal,Liverpool,Player_273,1,0,0,25,65,Loss
+291,2025-12-18,PSG,Real Madrid,Player_73,0,2,0,89,71,Loss
+292,2025-10-07,Arsenal,Barcelona,Player_45,0,0,3,53,92,Win
+293,2025-12-14,Arsenal,Arsenal,Player_65,1,0,5,33,88,Win
+294,2025-03-10,Chelsea,Juventus,Player_172,0,0,6,13,62,Draw
+295,2023-02-17,Bayern,Barcelona,Player_36,0,0,1,67,69,Loss
+296,2023-12-11,Liverpool,Arsenal,Player_83,0,0,4,43,25,Win
+297,2024-09-09,Arsenal,Bayern,Player_397,0,0,5,12,34,Loss
+298,2023-06-02,Liverpool,Bayern,Player_400,0,0,1,33,23,Win
+299,2024-04-15,Arsenal,PSG,Player_275,1,0,2,91,35,Loss
+300,2024-03-19,Chelsea,Arsenal,Player_297,1,0,4,20,74,Loss
+301,2024-09-24,Liverpool,Arsenal,Player_371,1,0,2,111,73,Loss
+302,2023-05-29,PSG,Real Madrid,Player_365,0,0,6,61,30,Draw
+303,2024-11-05,PSG,Chelsea,Player_266,0,1,6,23,84,Loss
+304,2025-11-25,Juventus,Barcelona,Player_15,1,0,2,99,64,Win
+305,2025-04-26,Barcelona,Liverpool,Player_6,0,1,5,41,59,Draw
+306,2025-06-17,Real Madrid,Bayern,Player_119,1,0,6,44,89,Loss
+307,2023-01-23,Barcelona,PSG,Player_125,0,0,5,82,36,Loss
+308,2025-01-24,Juventus,Arsenal,Player_386,0,0,6,70,59,Win
+309,2025-03-19,PSG,PSG,Player_233,0,0,5,115,81,Loss
+310,2023-09-18,Barcelona,PSG,Player_235,0,0,0,16,27,Win
+311,2023-01-14,Arsenal,Chelsea,Player_369,0,1,6,26,53,Draw
+312,2025-03-29,Liverpool,Barcelona,Player_138,0,0,6,12,14,Draw
+313,2023-09-02,Juventus,Juventus,Player_357,0,0,3,112,86,Draw
+314,2023-04-16,Juventus,Arsenal,Player_191,0,1,4,101,22,Loss
+315,2023-05-02,Barcelona,Bayern,Player_11,2,0,3,56,94,Win
+316,2025-08-12,Liverpool,Bayern,Player_379,1,0,1,92,66,Loss
+317,2025-07-22,Arsenal,Real Madrid,Player_370,0,0,2,99,34,Draw
+318,2023-03-09,Juventus,PSG,Player_180,0,0,5,64,78,Loss
+319,2025-11-14,PSG,Arsenal,Player_234,0,0,5,93,76,Win
+320,2024-09-28,Arsenal,Real Madrid,Player_156,0,0,1,18,31,Draw
+321,2024-06-18,Real Madrid,PSG,Player_315,0,0,2,44,68,Loss
+322,2024-11-13,Arsenal,Real Madrid,Player_29,0,0,6,66,23,Draw
+323,2023-09-18,Arsenal,Chelsea,Player_264,1,1,2,27,10,Win
+324,2024-01-09,Bayern,Juventus,Player_45,1,1,6,101,78,Win
+325,2023-11-19,Chelsea,Liverpool,Player_347,1,0,5,22,60,Win
+326,2024-08-14,Bayern,Arsenal,Player_149,0,0,7,99,42,Loss
+327,2025-09-02,Barcelona,Bayern,Player_26,2,1,0,54,89,Win
+328,2025-10-02,PSG,Real Madrid,Player_296,0,0,7,71,44,Draw
+329,2024-07-31,Arsenal,Liverpool,Player_1,0,0,5,60,10,Win
+330,2023-12-08,PSG,Juventus,Player_338,0,0,7,69,66,Draw
+331,2025-04-14,Real Madrid,Juventus,Player_394,0,0,3,28,30,Win
+332,2024-06-02,Arsenal,PSG,Player_284,0,1,3,36,42,Loss
+333,2023-06-19,Barcelona,Real Madrid,Player_172,1,0,0,15,88,Win
+334,2023-05-12,Bayern,Barcelona,Player_341,2,1,4,60,52,Win
+335,2025-01-27,PSG,Liverpool,Player_285,0,0,5,22,68,Draw
+336,2024-02-10,PSG,PSG,Player_249,0,0,3,23,41,Loss
+337,2023-04-30,PSG,Arsenal,Player_206,1,0,2,101,40,Win
+338,2024-02-13,Arsenal,Arsenal,Player_56,0,0,1,14,17,Win
+339,2023-10-13,Juventus,Liverpool,Player_343,0,0,2,47,24,Draw
+340,2025-12-16,Juventus,Arsenal,Player_254,0,2,1,101,59,Win
+341,2024-06-30,Liverpool,Arsenal,Player_201,1,0,0,61,27,Win
+342,2024-03-04,Liverpool,PSG,Player_355,0,1,2,103,17,Loss
+343,2025-10-11,Bayern,Juventus,Player_307,0,1,4,74,83,Draw
+344,2025-04-11,Juventus,Barcelona,Player_275,0,0,1,23,31,Loss
+345,2023-06-16,PSG,PSG,Player_299,0,0,1,37,27,Draw
+346,2024-11-03,Bayern,Barcelona,Player_298,0,0,1,13,21,Draw
+347,2024-03-20,Chelsea,PSG,Player_396,1,1,7,64,44,Loss
+348,2023-03-31,Arsenal,Arsenal,Player_375,0,0,2,94,92,Draw
+349,2025-06-25,Liverpool,Juventus,Player_348,0,0,6,32,68,Draw
+350,2025-07-03,Bayern,Chelsea,Player_98,0,0,6,83,63,Win
+351,2025-02-26,PSG,Real Madrid,Player_242,1,0,2,46,42,Draw
+352,2024-07-30,Juventus,Bayern,Player_142,0,0,0,17,16,Win
+353,2025-08-20,Liverpool,Real Madrid,Player_7,0,0,4,108,56,Loss
+354,2023-03-28,Juventus,Chelsea,Player_308,1,0,2,118,12,Win
+355,2023-02-19,Barcelona,Barcelona,Player_51,0,1,6,96,82,Draw
+356,2023-05-27,Barcelona,Juventus,Player_272,0,0,7,78,83,Win
+357,2025-03-11,Arsenal,Liverpool,Player_46,0,0,2,35,18,Win
+358,2025-03-09,Chelsea,Juventus,Player_231,0,0,5,68,53,Draw
+359,2024-08-25,Arsenal,Juventus,Player_175,1,0,2,115,78,Loss
+360,2024-01-27,Liverpool,Real Madrid,Player_217,1,1,1,67,76,Loss
+361,2025-02-19,Liverpool,Barcelona,Player_167,1,0,3,112,49,Win
+362,2025-11-21,Real Madrid,PSG,Player_278,0,1,4,74,60,Draw
+363,2025-04-03,Barcelona,Liverpool,Player_238,1,0,5,119,54,Loss
+364,2025-09-28,Bayern,Juventus,Player_263,0,1,0,69,82,Loss
+365,2024-02-06,Arsenal,Barcelona,Player_98,1,0,0,117,78,Loss
+366,2023-10-25,Barcelona,Real Madrid,Player_3,0,0,1,40,80,Loss
+367,2025-05-06,Real Madrid,Real Madrid,Player_33,1,1,4,64,42,Win
+368,2024-04-29,Barcelona,Bayern,Player_109,1,0,3,76,90,Loss
+369,2025-08-09,Arsenal,Real Madrid,Player_272,0,0,0,37,78,Draw
+370,2024-05-02,PSG,Liverpool,Player_230,0,1,0,13,38,Win
+371,2024-11-19,Juventus,Chelsea,Player_225,1,1,3,112,78,Loss
+372,2025-06-05,PSG,Real Madrid,Player_29,0,0,2,57,88,Win
+373,2023-06-17,Arsenal,Bayern,Player_373,0,0,0,67,92,Draw
+374,2024-10-17,Barcelona,Liverpool,Player_399,1,0,6,74,43,Win
+375,2023-11-03,Chelsea,Liverpool,Player_127,0,0,4,79,20,Win
+376,2023-02-14,Juventus,Real Madrid,Player_212,0,0,0,109,66,Draw
+377,2023-11-11,Liverpool,Liverpool,Player_104,1,0,1,52,86,Loss
+378,2023-06-19,Real Madrid,Bayern,Player_134,0,1,3,95,19,Win
+379,2025-02-12,Bayern,PSG,Player_390,0,0,1,119,20,Win
+380,2023-03-25,Juventus,Liverpool,Player_309,0,0,7,99,30,Draw
+381,2023-07-18,Real Madrid,Juventus,Player_123,0,1,0,95,81,Win
+382,2024-06-17,Real Madrid,Liverpool,Player_15,1,0,1,56,61,Draw
+383,2023-01-17,Arsenal,Arsenal,Player_369,0,1,6,20,33,Win
+384,2024-12-31,Barcelona,Arsenal,Player_400,0,0,2,41,39,Draw
+385,2023-09-04,Juventus,Bayern,Player_198,0,1,2,88,82,Loss
+386,2024-02-04,Barcelona,Juventus,Player_378,1,0,3,71,33,Win
+387,2023-05-14,Real Madrid,Arsenal,Player_369,0,0,2,104,62,Loss
+388,2024-07-02,Chelsea,Chelsea,Player_84,0,1,0,58,14,Win
+389,2023-12-20,Barcelona,PSG,Player_319,1,0,4,17,56,Win
+390,2024-04-21,Juventus,Chelsea,Player_27,0,0,3,111,25,Loss
+391,2024-10-07,Arsenal,Juventus,Player_138,1,1,6,72,74,Draw
+392,2025-04-26,Real Madrid,PSG,Player_307,0,0,6,36,39,Draw
+393,2023-06-25,Real Madrid,Chelsea,Player_91,0,0,5,99,16,Loss
+394,2024-05-04,Real Madrid,Chelsea,Player_389,0,0,0,52,80,Loss
+395,2025-10-23,Liverpool,Liverpool,Player_114,3,0,6,27,55,Draw
+396,2023-11-11,Barcelona,Real Madrid,Player_141,0,0,5,116,52,Loss
+397,2025-01-11,Juventus,PSG,Player_298,1,0,0,96,17,Draw
+398,2023-02-23,Barcelona,Bayern,Player_215,1,1,0,74,16,Loss
+399,2023-04-18,PSG,Arsenal,Player_29,2,0,2,31,56,Draw
+400,2024-02-21,Chelsea,Real Madrid,Player_350,2,0,4,88,58,Loss
+401,2023-07-07,Bayern,Real Madrid,Player_118,1,0,7,95,59,Win
+402,2025-01-02,Juventus,Juventus,Player_53,1,1,5,50,52,Loss
+403,2024-02-17,Bayern,Chelsea,Player_41,0,0,4,117,34,Draw
+404,2023-10-06,Barcelona,Juventus,Player_397,1,0,2,62,39,Loss
+405,2023-08-22,Bayern,Liverpool,Player_312,2,0,5,33,87,Draw
+406,2025-11-15,PSG,Liverpool,Player_387,1,0,3,15,16,Draw
+407,2024-02-23,Chelsea,Chelsea,Player_143,0,0,2,45,11,Loss
+408,2023-04-07,Liverpool,Bayern,Player_352,2,0,3,49,44,Win
+409,2024-12-02,PSG,Real Madrid,Player_337,0,0,0,85,44,Win
+410,2025-03-29,Bayern,Liverpool,Player_391,2,0,1,23,34,Loss
+411,2023-10-08,Barcelona,Arsenal,Player_270,2,0,5,43,86,Loss
+412,2024-08-30,PSG,Chelsea,Player_148,1,0,5,100,21,Win
+413,2023-06-09,Chelsea,Arsenal,Player_95,1,2,0,63,83,Win
+414,2023-04-03,PSG,Liverpool,Player_132,0,1,0,56,45,Loss
+415,2023-02-20,Juventus,Real Madrid,Player_249,0,0,3,14,38,Loss
+416,2025-11-15,Chelsea,Real Madrid,Player_340,0,1,7,92,47,Draw
+417,2023-08-21,PSG,PSG,Player_318,1,0,7,11,17,Draw
+418,2025-10-26,Chelsea,Arsenal,Player_363,0,0,7,14,35,Draw
+419,2023-07-12,Juventus,Arsenal,Player_165,0,0,4,36,61,Win
+420,2025-10-05,PSG,Real Madrid,Player_161,0,1,2,52,41,Win
+421,2023-07-22,Barcelona,Liverpool,Player_97,0,0,1,20,89,Win
+422,2024-08-22,Real Madrid,Liverpool,Player_394,2,0,6,93,71,Win
+423,2024-06-07,Arsenal,Barcelona,Player_182,0,0,5,48,70,Draw
+424,2025-10-15,Arsenal,Juventus,Player_193,0,0,7,58,17,Loss
+425,2023-09-12,Bayern,Barcelona,Player_23,1,0,2,108,55,Draw
+426,2025-08-18,Juventus,PSG,Player_260,2,0,5,24,12,Win
+427,2025-05-20,Barcelona,PSG,Player_181,0,0,1,65,74,Loss
+428,2024-11-16,PSG,Bayern,Player_399,0,1,6,11,82,Win
+429,2024-02-04,Arsenal,Chelsea,Player_147,0,0,3,19,81,Draw
+430,2024-05-01,PSG,Arsenal,Player_65,0,0,1,47,78,Win
+431,2024-07-24,Real Madrid,Arsenal,Player_10,0,0,6,85,27,Draw
+432,2025-06-09,PSG,Real Madrid,Player_254,1,0,0,72,74,Draw
+433,2023-09-16,Juventus,Juventus,Player_93,0,1,4,32,81,Draw
+434,2023-05-27,PSG,PSG,Player_303,1,0,6,11,46,Loss
+435,2024-12-17,Real Madrid,PSG,Player_70,1,0,2,63,43,Loss
+436,2025-10-02,Arsenal,PSG,Player_235,1,0,6,102,57,Win
+437,2024-07-12,Chelsea,Real Madrid,Player_393,0,1,0,52,35,Loss
+438,2024-04-20,PSG,Real Madrid,Player_140,1,1,1,99,68,Loss
+439,2023-12-19,Real Madrid,Barcelona,Player_383,3,0,3,67,65,Loss
+440,2023-11-02,Chelsea,Barcelona,Player_237,0,0,3,86,65,Draw
+441,2023-06-03,Juventus,PSG,Player_38,0,0,4,15,60,Loss
+442,2023-07-26,Liverpool,Arsenal,Player_100,0,0,2,114,12,Draw
+443,2023-01-11,PSG,Juventus,Player_179,0,0,3,65,87,Draw
+444,2023-01-01,Bayern,Bayern,Player_249,0,1,1,84,52,Win
+445,2023-09-15,PSG,Arsenal,Player_393,1,0,6,60,10,Draw
+446,2025-02-23,Chelsea,Liverpool,Player_106,1,1,1,98,75,Win
+447,2025-08-28,Chelsea,Liverpool,Player_90,3,0,6,31,21,Draw
+448,2025-12-15,Liverpool,Real Madrid,Player_134,1,1,6,54,66,Win
+449,2024-08-24,Barcelona,Real Madrid,Player_145,0,0,0,95,31,Win
+450,2025-11-29,Juventus,Liverpool,Player_395,0,0,1,81,50,Draw
+451,2025-03-27,Juventus,Bayern,Player_227,1,0,3,31,32,Loss
+452,2025-06-26,Arsenal,Arsenal,Player_42,0,0,6,58,35,Win
+453,2023-05-19,Liverpool,Barcelona,Player_154,1,0,1,98,70,Draw
+454,2023-01-08,Chelsea,Bayern,Player_93,1,0,6,34,57,Loss
+455,2025-08-08,Chelsea,PSG,Player_140,1,1,7,74,11,Loss
+456,2023-06-22,Arsenal,Barcelona,Player_68,1,0,5,11,91,Win
+457,2024-03-08,Bayern,Real Madrid,Player_344,0,0,0,17,25,Win
+458,2025-03-18,Juventus,Chelsea,Player_294,0,0,0,91,91,Win
+459,2023-05-17,Juventus,Liverpool,Player_74,0,0,0,114,35,Loss
+460,2023-12-05,Liverpool,Liverpool,Player_264,2,0,5,115,51,Win
+461,2023-05-13,Arsenal,Real Madrid,Player_148,0,0,6,58,39,Draw
+462,2025-09-06,Real Madrid,Barcelona,Player_147,0,1,5,31,15,Win
+463,2023-07-15,Barcelona,Bayern,Player_142,0,0,2,81,11,Draw
+464,2023-05-15,Juventus,Arsenal,Player_123,0,1,0,21,12,Loss
+465,2025-05-05,Bayern,Arsenal,Player_98,1,1,1,32,18,Win
+466,2024-09-24,PSG,Juventus,Player_235,0,0,5,100,48,Loss
+467,2023-04-21,Juventus,Arsenal,Player_122,0,0,7,82,93,Win
+468,2023-08-15,Liverpool,PSG,Player_135,0,0,5,52,16,Loss
+469,2023-06-23,Arsenal,Liverpool,Player_135,0,0,6,49,28,Draw
+470,2025-10-20,Real Madrid,Chelsea,Player_138,0,0,5,37,15,Win
+471,2023-06-27,PSG,Liverpool,Player_252,0,0,1,33,79,Draw
+472,2025-03-23,Liverpool,Juventus,Player_330,0,0,0,58,26,Loss
+473,2024-01-01,Barcelona,Liverpool,Player_50,0,0,7,73,24,Draw
+474,2023-11-12,Real Madrid,Liverpool,Player_242,0,2,3,46,82,Loss
+475,2025-02-21,Liverpool,PSG,Player_389,1,0,3,105,80,Win
+476,2023-07-07,Real Madrid,Chelsea,Player_163,0,1,1,39,12,Draw
+477,2023-05-05,Bayern,Juventus,Player_331,0,0,6,12,55,Draw
+478,2023-03-30,Juventus,Bayern,Player_274,0,0,0,11,30,Draw
+479,2023-08-09,Juventus,Liverpool,Player_234,0,0,7,36,80,Win
+480,2024-11-07,Juventus,Arsenal,Player_257,1,0,5,118,79,Win
+481,2023-12-08,Arsenal,Juventus,Player_14,0,0,0,111,86,Draw
+482,2023-12-30,PSG,Real Madrid,Player_231,1,0,0,33,55,Loss
+483,2024-08-23,Real Madrid,Bayern,Player_358,2,0,0,89,75,Draw
+484,2023-07-08,Juventus,Real Madrid,Player_7,1,1,1,16,45,Win
+485,2024-02-10,Real Madrid,Chelsea,Player_41,2,0,4,75,78,Loss
+486,2025-01-20,Bayern,Barcelona,Player_6,1,0,2,112,58,Loss
+487,2024-07-04,PSG,Arsenal,Player_110,0,0,3,36,75,Draw
+488,2023-01-17,Bayern,Barcelona,Player_87,0,0,3,77,56,Loss
+489,2024-01-23,Liverpool,Chelsea,Player_132,1,0,4,72,70,Loss
+490,2024-05-14,Barcelona,Real Madrid,Player_24,1,0,0,37,66,Win
+491,2025-06-04,Real Madrid,Real Madrid,Player_274,0,0,5,71,23,Draw
+492,2024-02-27,Bayern,Chelsea,Player_216,2,1,0,14,94,Win
+493,2025-11-21,Chelsea,Bayern,Player_144,2,1,4,88,29,Win
+494,2023-05-19,Barcelona,Real Madrid,Player_105,1,0,2,80,55,Win
+495,2025-06-07,Juventus,Real Madrid,Player_396,0,0,7,35,37,Win
+496,2024-05-23,Liverpool,Chelsea,Player_318,0,0,0,18,22,Loss
+497,2024-11-20,Juventus,Arsenal,Player_282,0,0,5,36,33,Win
+498,2023-09-01,PSG,Juventus,Player_124,1,0,0,70,57,Win
+499,2024-03-17,Liverpool,Chelsea,Player_46,0,0,1,91,58,Win
+500,2025-02-27,Chelsea,Real Madrid,Player_352,1,0,3,86,20,Win
+501,2024-06-15,Liverpool,Arsenal,Player_81,0,0,0,100,92,Win
+502,2023-11-09,Arsenal,Chelsea,Player_1,0,0,1,111,59,Win
+503,2024-05-09,Liverpool,Chelsea,Player_52,0,0,5,71,91,Win
+504,2025-07-18,Arsenal,Juventus,Player_392,0,0,6,28,88,Loss
+505,2023-04-19,Bayern,Liverpool,Player_216,1,0,7,29,17,Draw
+506,2025-04-01,PSG,Liverpool,Player_338,0,0,0,111,71,Win
+507,2025-12-02,Arsenal,Barcelona,Player_45,0,1,2,57,29,Win
+508,2024-11-25,Juventus,Juventus,Player_327,1,1,4,47,13,Win
+509,2025-11-16,Barcelona,PSG,Player_324,0,0,7,66,83,Loss
+510,2023-11-06,Arsenal,Chelsea,Player_107,1,0,3,70,46,Draw
+511,2025-09-21,Barcelona,Liverpool,Player_328,3,0,5,108,88,Win
+512,2023-06-16,Barcelona,Liverpool,Player_297,0,0,5,113,12,Loss
+513,2023-03-01,Real Madrid,Bayern,Player_396,0,0,2,74,28,Win
+514,2024-09-17,Liverpool,PSG,Player_21,0,0,7,20,79,Win
+515,2024-03-30,Juventus,Bayern,Player_129,0,1,5,52,22,Loss
+516,2024-05-08,Juventus,Juventus,Player_295,1,0,6,66,85,Loss
+517,2023-08-29,Real Madrid,Arsenal,Player_272,0,0,2,41,92,Loss
+518,2023-10-02,Bayern,Bayern,Player_152,0,0,3,26,36,Loss
+519,2024-07-22,Barcelona,Barcelona,Player_173,0,0,3,97,11,Win
+520,2023-03-06,Juventus,Chelsea,Player_200,1,0,0,69,78,Draw
+521,2024-06-21,Bayern,Chelsea,Player_237,0,2,0,16,79,Win
+522,2023-12-14,Bayern,Arsenal,Player_64,0,0,2,115,10,Draw
+523,2023-10-21,Real Madrid,PSG,Player_293,2,2,5,70,79,Draw
+524,2025-08-15,Bayern,Barcelona,Player_133,1,1,4,45,71,Draw
+525,2023-05-03,Bayern,Chelsea,Player_99,1,1,5,49,89,Win
+526,2025-06-20,Liverpool,Chelsea,Player_153,0,0,6,103,46,Draw
+527,2023-01-18,Arsenal,PSG,Player_176,0,1,6,75,12,Draw
+528,2024-11-30,Arsenal,Real Madrid,Player_87,1,1,6,84,85,Win
+529,2024-11-18,Liverpool,Real Madrid,Player_146,0,0,5,103,39,Loss
+530,2025-10-05,Real Madrid,Arsenal,Player_6,1,1,1,110,22,Draw
+531,2023-01-19,PSG,Liverpool,Player_296,1,0,0,42,36,Loss
+532,2023-01-23,Arsenal,Liverpool,Player_170,1,0,1,39,60,Loss
+533,2023-01-25,Juventus,Bayern,Player_320,0,0,1,10,19,Draw
+534,2024-03-20,Juventus,Juventus,Player_360,0,0,1,69,78,Loss
+535,2025-09-23,Real Madrid,Liverpool,Player_157,0,1,4,25,24,Win
+536,2024-01-30,PSG,Juventus,Player_165,1,1,4,39,63,Loss
+537,2023-05-01,Barcelona,Bayern,Player_145,0,0,6,93,72,Draw
+538,2023-10-24,Chelsea,Chelsea,Player_263,0,0,2,22,52,Loss
+539,2023-01-05,Arsenal,PSG,Player_248,0,0,0,39,39,Loss
+540,2023-03-27,Chelsea,PSG,Player_243,0,0,5,113,52,Loss
+541,2025-10-20,Bayern,PSG,Player_279,0,0,7,82,81,Win
+542,2024-09-05,Real Madrid,Chelsea,Player_268,1,0,0,28,26,Draw
+543,2025-12-26,Bayern,Juventus,Player_127,0,0,7,18,83,Win
+544,2023-05-27,Arsenal,Chelsea,Player_331,3,0,6,60,74,Loss
+545,2023-11-01,Chelsea,PSG,Player_1,0,0,7,97,51,Loss
+546,2025-09-02,Chelsea,Real Madrid,Player_91,1,0,4,45,62,Loss
+547,2024-06-20,Bayern,Chelsea,Player_218,0,0,6,24,12,Win
+548,2023-05-27,Arsenal,Arsenal,Player_66,0,0,2,40,43,Win
+549,2025-06-02,Liverpool,Arsenal,Player_40,0,1,7,60,40,Draw
+550,2025-12-09,Real Madrid,Liverpool,Player_252,1,1,6,63,41,Loss
+551,2024-07-03,Juventus,Juventus,Player_335,0,0,1,118,36,Draw
+552,2025-07-30,Barcelona,Chelsea,Player_196,0,0,6,14,66,Win
+553,2025-12-19,Real Madrid,Arsenal,Player_92,0,0,4,107,80,Draw
+554,2023-08-20,Juventus,Juventus,Player_323,0,0,1,36,79,Draw
+555,2024-12-04,Juventus,PSG,Player_230,0,0,1,77,10,Loss
+556,2024-02-25,PSG,Juventus,Player_339,0,0,5,114,34,Draw
+557,2025-02-23,Chelsea,Barcelona,Player_28,1,0,0,63,41,Draw
+558,2024-02-15,Arsenal,Real Madrid,Player_392,1,0,2,91,58,Loss
+559,2024-08-18,Chelsea,Barcelona,Player_295,0,0,0,60,63,Draw
+560,2024-02-24,Real Madrid,Arsenal,Player_136,3,0,0,31,68,Loss
+561,2025-01-07,Barcelona,Barcelona,Player_244,1,0,6,78,28,Loss
+562,2025-06-16,PSG,Arsenal,Player_301,0,1,1,58,79,Loss
+563,2023-05-18,Barcelona,Real Madrid,Player_217,1,0,2,35,68,Loss
+564,2024-01-17,Chelsea,Juventus,Player_165,0,0,3,101,52,Win
+565,2024-05-17,Barcelona,Barcelona,Player_4,0,0,3,100,49,Loss
+566,2023-12-11,Chelsea,PSG,Player_291,0,0,1,23,25,Win
+567,2024-07-03,Real Madrid,Juventus,Player_99,0,0,1,83,64,Draw
+568,2025-05-31,Juventus,PSG,Player_56,1,1,7,98,58,Win
+569,2024-03-12,Bayern,Barcelona,Player_156,1,0,5,79,34,Win
+570,2025-11-27,PSG,Juventus,Player_70,0,0,1,33,37,Loss
+571,2025-11-27,Bayern,Juventus,Player_17,0,0,1,65,28,Draw
+572,2023-09-08,Barcelona,Arsenal,Player_47,0,0,2,76,51,Loss
+573,2025-06-04,Chelsea,Liverpool,Player_384,1,2,0,103,14,Draw
+574,2023-11-12,Bayern,Juventus,Player_393,0,1,5,35,55,Loss
+575,2023-12-06,Real Madrid,Juventus,Player_363,0,0,6,39,46,Draw
+576,2023-07-10,Juventus,Barcelona,Player_304,1,0,3,71,19,Win
+577,2024-11-07,Bayern,Real Madrid,Player_82,0,1,1,115,23,Draw
+578,2024-02-06,PSG,Barcelona,Player_53,1,1,7,88,21,Loss
+579,2024-05-20,Juventus,Liverpool,Player_327,1,0,7,93,25,Loss
+580,2025-03-16,Juventus,Barcelona,Player_189,2,0,5,107,48,Draw
+581,2025-12-26,Juventus,Chelsea,Player_398,1,0,7,27,44,Win
+582,2023-08-28,Barcelona,Bayern,Player_257,0,0,3,108,11,Loss
+583,2023-04-03,Liverpool,Bayern,Player_241,0,0,1,86,16,Loss
+584,2025-12-04,Arsenal,Barcelona,Player_299,0,0,7,95,68,Draw
+585,2024-07-18,Real Madrid,Bayern,Player_389,1,0,1,18,56,Draw
+586,2024-02-05,Chelsea,Barcelona,Player_361,0,1,4,21,74,Win
+587,2023-12-17,Bayern,Bayern,Player_61,0,0,2,13,69,Draw
+588,2025-08-24,Juventus,Bayern,Player_389,0,0,4,94,37,Win
+589,2024-05-08,Real Madrid,Juventus,Player_167,1,0,5,10,51,Draw
+590,2023-05-29,Juventus,Juventus,Player_376,2,0,5,50,72,Win
+591,2025-02-07,Juventus,PSG,Player_14,1,0,7,72,82,Loss
+592,2024-09-08,Bayern,Liverpool,Player_388,0,0,3,51,17,Draw
+593,2024-01-23,Arsenal,Real Madrid,Player_346,0,0,5,10,91,Win
+594,2023-01-02,Juventus,Liverpool,Player_296,3,1,4,119,86,Loss
+595,2024-04-26,Bayern,Arsenal,Player_255,0,0,7,57,93,Win
+596,2024-08-26,Real Madrid,Real Madrid,Player_137,1,0,1,25,61,Draw
+597,2024-05-30,Liverpool,PSG,Player_151,0,1,4,45,43,Win
+598,2024-04-16,Barcelona,Bayern,Player_101,0,0,1,56,61,Draw
+599,2023-01-11,Chelsea,Arsenal,Player_244,1,0,1,49,79,Win
+600,2024-11-29,Chelsea,Real Madrid,Player_182,1,1,7,99,86,Draw
+601,2024-05-13,Real Madrid,Juventus,Player_244,0,0,0,69,90,Loss
+602,2024-10-20,PSG,Bayern,Player_111,0,0,4,27,94,Loss
+603,2025-12-04,PSG,Juventus,Player_236,0,0,0,27,55,Loss
+604,2023-09-30,Arsenal,Chelsea,Player_53,1,1,3,91,26,Loss
+605,2025-08-05,Arsenal,Barcelona,Player_266,0,0,6,44,30,Win
+606,2023-10-29,Liverpool,Barcelona,Player_358,2,0,3,107,53,Loss
+607,2024-11-27,Arsenal,Barcelona,Player_333,0,0,2,51,87,Loss
+608,2025-11-16,Liverpool,Real Madrid,Player_335,1,0,4,65,16,Loss
+609,2023-01-23,Juventus,Juventus,Player_248,0,0,3,98,55,Loss
+610,2024-11-08,Barcelona,Real Madrid,Player_234,0,0,7,52,18,Win
+611,2024-11-07,Chelsea,Barcelona,Player_274,0,0,2,51,84,Win
+612,2023-11-08,Juventus,Juventus,Player_233,0,0,4,27,81,Win
+613,2023-12-03,Chelsea,Real Madrid,Player_370,0,0,4,95,90,Draw
+614,2025-07-21,Arsenal,Bayern,Player_151,0,1,4,96,34,Draw
+615,2024-11-12,Chelsea,Chelsea,Player_278,0,2,2,118,91,Loss
+616,2025-03-20,Bayern,Chelsea,Player_153,0,1,7,58,16,Draw
+617,2025-12-02,Arsenal,Juventus,Player_100,0,0,6,66,73,Loss
+618,2025-02-01,Arsenal,Real Madrid,Player_173,1,1,0,100,77,Draw
+619,2024-09-30,Arsenal,PSG,Player_315,2,1,1,39,43,Loss
+620,2023-11-24,Liverpool,Juventus,Player_201,0,1,3,51,19,Win
+621,2023-09-25,Arsenal,PSG,Player_11,1,1,2,88,74,Loss
+622,2024-03-27,Chelsea,Arsenal,Player_29,1,0,1,29,20,Loss
+623,2025-07-22,Real Madrid,Juventus,Player_94,0,1,0,28,34,Draw
+624,2025-02-17,Bayern,Real Madrid,Player_192,0,0,7,110,72,Draw
+625,2023-01-08,Arsenal,PSG,Player_71,0,0,3,117,16,Win
+626,2025-10-13,PSG,Barcelona,Player_251,0,0,0,91,71,Draw
+627,2023-06-11,Arsenal,PSG,Player_36,0,0,7,34,65,Win
+628,2024-05-16,PSG,Real Madrid,Player_105,0,0,4,47,52,Draw
+629,2023-08-08,Liverpool,Juventus,Player_254,1,0,6,101,42,Draw
+630,2025-05-27,Juventus,Bayern,Player_400,1,0,6,38,52,Draw
+631,2024-06-28,Real Madrid,Juventus,Player_332,1,0,6,89,62,Win
+632,2023-12-19,Liverpool,Barcelona,Player_111,0,0,6,26,62,Draw
+633,2024-07-02,Chelsea,Barcelona,Player_308,0,1,6,73,79,Win
+634,2025-02-28,PSG,Arsenal,Player_194,0,0,6,21,72,Loss
+635,2024-08-05,Barcelona,Bayern,Player_313,3,0,7,102,75,Loss
+636,2023-12-18,Chelsea,Juventus,Player_19,0,0,5,54,55,Win
+637,2023-10-03,Juventus,Juventus,Player_285,1,0,4,93,19,Win
+638,2025-02-06,PSG,Liverpool,Player_259,0,0,7,69,37,Draw
+639,2024-07-14,Juventus,PSG,Player_134,0,0,1,52,67,Draw
+640,2024-08-05,Bayern,Real Madrid,Player_252,0,0,7,117,87,Loss
+641,2024-05-09,PSG,Liverpool,Player_247,0,0,4,109,30,Win
+642,2025-04-02,Liverpool,Arsenal,Player_41,0,1,3,43,33,Loss
+643,2025-09-27,Liverpool,Bayern,Player_262,0,0,3,63,37,Win
+644,2024-12-15,Barcelona,Juventus,Player_133,1,0,1,113,74,Loss
+645,2024-12-12,Real Madrid,Barcelona,Player_159,0,0,1,44,92,Win
+646,2023-03-14,PSG,Barcelona,Player_220,0,1,5,17,45,Draw
+647,2025-01-09,Juventus,Chelsea,Player_20,0,1,0,10,25,Draw
+648,2023-07-30,PSG,Arsenal,Player_349,1,0,7,105,66,Draw
+649,2024-11-24,Chelsea,Barcelona,Player_75,0,0,0,38,59,Draw
+650,2024-10-05,Barcelona,Liverpool,Player_306,0,0,1,100,63,Loss
+651,2024-03-27,Real Madrid,Barcelona,Player_287,3,0,1,35,85,Win
+652,2024-12-24,Bayern,PSG,Player_348,1,0,3,75,63,Draw
+653,2023-06-06,Bayern,Barcelona,Player_256,0,0,3,70,88,Win
+654,2023-02-04,Liverpool,Arsenal,Player_214,0,1,1,36,10,Loss
+655,2024-10-11,PSG,Bayern,Player_205,0,0,0,17,78,Draw
+656,2024-03-30,Arsenal,Chelsea,Player_21,1,0,5,83,49,Draw
+657,2024-10-11,Juventus,Chelsea,Player_164,0,0,5,34,93,Win
+658,2024-08-14,Barcelona,Barcelona,Player_151,0,1,3,42,32,Loss
+659,2025-09-22,Barcelona,Barcelona,Player_390,0,0,6,77,53,Draw
+660,2024-10-09,Real Madrid,Bayern,Player_324,0,0,5,45,65,Loss
+661,2024-08-11,Chelsea,Juventus,Player_390,0,0,5,71,22,Win
+662,2024-03-23,Real Madrid,Bayern,Player_142,0,0,7,76,16,Loss
+663,2025-09-17,Real Madrid,PSG,Player_22,0,0,0,40,54,Win
+664,2023-03-28,Real Madrid,Real Madrid,Player_262,0,0,1,48,25,Draw
+665,2024-02-17,Real Madrid,Barcelona,Player_59,0,0,7,24,53,Draw
+666,2023-11-07,Bayern,PSG,Player_70,0,0,0,14,55,Loss
+667,2023-02-20,Bayern,Chelsea,Player_300,1,0,3,75,58,Loss
+668,2025-09-20,Arsenal,Arsenal,Player_175,2,1,1,46,50,Win
+669,2023-12-12,Liverpool,Real Madrid,Player_233,1,1,3,31,58,Draw
+670,2025-05-01,Bayern,Real Madrid,Player_91,0,0,2,82,58,Draw
+671,2024-06-07,Chelsea,Real Madrid,Player_180,1,1,7,115,65,Draw
+672,2023-04-04,PSG,Arsenal,Player_69,0,0,2,80,71,Win
+673,2024-12-10,Liverpool,Juventus,Player_178,0,1,3,79,39,Win
+674,2025-03-20,Juventus,PSG,Player_129,1,0,6,101,66,Loss
+675,2025-10-23,Arsenal,Arsenal,Player_327,0,1,6,93,62,Draw
+676,2024-03-23,Bayern,Real Madrid,Player_39,1,0,5,11,53,Loss
+677,2025-02-26,Bayern,Chelsea,Player_245,1,1,2,71,52,Loss
+678,2023-10-22,Juventus,Liverpool,Player_162,0,0,0,82,37,Win
+679,2025-11-08,Barcelona,Liverpool,Player_148,0,0,7,62,23,Loss
+680,2025-12-26,Real Madrid,Barcelona,Player_234,0,0,7,89,22,Draw
+681,2024-09-10,Juventus,Chelsea,Player_296,0,0,3,47,82,Loss
+682,2024-10-21,Chelsea,Real Madrid,Player_34,0,0,7,53,58,Draw
+683,2024-02-18,Real Madrid,Chelsea,Player_372,0,0,0,67,67,Loss
+684,2023-12-11,Liverpool,Arsenal,Player_66,1,0,3,56,52,Draw
+685,2023-05-16,Barcelona,Liverpool,Player_242,0,0,6,20,66,Win
+686,2025-06-11,Juventus,Bayern,Player_339,0,0,7,91,12,Win
+687,2024-09-26,Arsenal,Chelsea,Player_397,0,0,5,81,24,Draw
+688,2024-01-03,Liverpool,Liverpool,Player_215,0,0,3,21,59,Draw
+689,2025-02-27,Barcelona,Liverpool,Player_176,1,0,0,103,49,Loss
+690,2025-03-09,Juventus,Liverpool,Player_133,0,0,6,45,55,Win
+691,2025-07-08,Barcelona,Liverpool,Player_343,1,0,7,50,71,Loss
+692,2025-05-30,Bayern,Bayern,Player_7,0,2,1,85,27,Draw
+693,2023-08-29,Real Madrid,Liverpool,Player_259,2,0,3,47,68,Loss
+694,2024-05-02,Chelsea,PSG,Player_315,1,0,1,83,64,Loss
+695,2025-06-29,Arsenal,PSG,Player_18,3,1,7,78,54,Win
+696,2025-04-19,Chelsea,PSG,Player_21,0,1,7,48,77,Win
+697,2023-09-02,Juventus,Real Madrid,Player_228,0,0,4,28,71,Draw
+698,2023-03-30,Liverpool,Barcelona,Player_189,2,0,6,119,93,Draw
+699,2023-02-19,Arsenal,Chelsea,Player_160,0,1,5,38,66,Draw
+700,2025-12-22,Arsenal,Juventus,Player_239,0,0,0,102,54,Loss
+701,2024-01-04,PSG,Liverpool,Player_9,1,1,4,55,27,Win
+702,2023-05-12,Bayern,Liverpool,Player_225,0,0,2,96,15,Draw
+703,2025-12-16,Arsenal,Barcelona,Player_335,1,0,3,17,19,Win
+704,2025-11-22,Real Madrid,Real Madrid,Player_84,1,0,3,57,50,Draw
+705,2025-04-01,Real Madrid,Barcelona,Player_325,0,0,7,97,92,Draw
+706,2025-09-29,Juventus,Real Madrid,Player_62,0,0,1,30,50,Loss
+707,2023-12-03,Arsenal,PSG,Player_304,0,0,3,78,41,Draw
+708,2024-07-02,Real Madrid,PSG,Player_339,1,0,7,116,76,Draw
+709,2024-05-13,Juventus,Real Madrid,Player_327,1,1,0,105,78,Loss
+710,2025-11-19,Chelsea,Real Madrid,Player_260,0,0,6,81,78,Draw
+711,2025-06-21,Barcelona,Liverpool,Player_205,0,0,2,93,49,Win
+712,2023-01-23,Chelsea,PSG,Player_296,0,0,0,91,86,Win
+713,2025-01-18,Chelsea,Chelsea,Player_7,0,0,6,45,72,Win
+714,2025-01-15,Arsenal,PSG,Player_55,1,0,2,117,15,Draw
+715,2025-10-08,Barcelona,Arsenal,Player_124,2,1,7,44,85,Draw
+716,2024-08-19,Liverpool,Barcelona,Player_316,0,1,2,42,57,Draw
+717,2023-08-07,Bayern,Real Madrid,Player_310,2,0,3,10,57,Loss
+718,2024-07-27,PSG,Barcelona,Player_48,1,0,5,19,13,Draw
+719,2024-03-31,PSG,Juventus,Player_46,0,0,3,16,49,Loss
+720,2025-10-17,Barcelona,Liverpool,Player_154,0,0,7,49,63,Draw
+721,2025-05-19,Chelsea,Liverpool,Player_238,1,2,1,104,94,Loss
+722,2024-09-20,Barcelona,Bayern,Player_7,1,0,4,12,22,Loss
+723,2025-05-07,Real Madrid,Chelsea,Player_341,2,0,3,17,88,Win
+724,2025-08-24,Bayern,PSG,Player_309,0,0,3,47,94,Win
+725,2023-12-21,Barcelona,Bayern,Player_55,0,0,6,108,63,Loss
+726,2025-05-15,Barcelona,Juventus,Player_390,0,0,0,114,87,Win
+727,2023-05-10,Liverpool,Liverpool,Player_344,0,0,7,18,85,Draw
+728,2024-12-23,PSG,Bayern,Player_176,1,0,0,62,49,Loss
+729,2025-04-13,Chelsea,Real Madrid,Player_78,0,0,6,116,69,Loss
+730,2025-06-15,Bayern,Liverpool,Player_101,0,0,3,35,89,Draw
+731,2025-09-03,Arsenal,Bayern,Player_352,0,0,2,43,87,Draw
+732,2023-03-24,Barcelona,PSG,Player_262,0,0,7,78,38,Win
+733,2024-02-08,Chelsea,Bayern,Player_221,0,1,3,57,46,Draw
+734,2025-08-30,Bayern,Arsenal,Player_33,0,0,1,39,60,Loss
+735,2023-04-26,PSG,Bayern,Player_389,0,0,6,79,32,Win
+736,2025-10-19,Juventus,PSG,Player_54,0,1,4,68,44,Win
+737,2025-05-23,Barcelona,Arsenal,Player_282,0,0,6,55,36,Draw
+738,2025-10-16,Barcelona,PSG,Player_3,0,1,0,79,36,Loss
+739,2024-09-10,Real Madrid,Juventus,Player_185,1,0,4,24,65,Draw
+740,2024-11-24,Liverpool,Liverpool,Player_288,0,0,4,92,13,Win
+741,2023-04-02,Liverpool,PSG,Player_55,0,0,4,12,61,Loss
+742,2024-09-12,Arsenal,PSG,Player_288,0,0,0,37,28,Loss
+743,2023-12-27,Chelsea,PSG,Player_117,1,1,7,107,72,Win
+744,2024-06-24,Bayern,Liverpool,Player_250,0,3,2,52,85,Draw
+745,2023-12-12,Barcelona,Barcelona,Player_61,2,0,3,112,60,Loss
+746,2025-11-18,Real Madrid,Real Madrid,Player_169,0,0,2,94,78,Win
+747,2025-07-19,Real Madrid,Liverpool,Player_209,0,0,2,36,55,Win
+748,2023-01-11,Arsenal,Barcelona,Player_287,0,1,6,96,14,Win
+749,2024-08-09,Juventus,Barcelona,Player_306,1,0,7,98,24,Win
+750,2024-05-26,Barcelona,Juventus,Player_87,0,1,1,71,69,Loss
+751,2024-07-08,Chelsea,Real Madrid,Player_368,0,0,4,101,16,Win
+752,2023-10-26,Liverpool,Arsenal,Player_184,1,0,3,34,91,Loss
+753,2024-03-05,Barcelona,Chelsea,Player_184,2,0,1,109,22,Draw
+754,2024-04-20,Juventus,Chelsea,Player_302,0,1,6,51,90,Win
+755,2024-04-25,Chelsea,Barcelona,Player_264,1,2,1,101,69,Draw
+756,2023-07-15,Real Madrid,Real Madrid,Player_399,1,1,0,62,88,Draw
+757,2024-11-27,Chelsea,Juventus,Player_122,2,0,2,24,60,Win
+758,2025-12-28,Chelsea,Liverpool,Player_303,1,0,7,103,86,Loss
+759,2025-04-05,Bayern,Barcelona,Player_328,0,1,6,77,81,Draw
+760,2024-02-24,Arsenal,Liverpool,Player_207,1,0,1,110,54,Win
+761,2025-10-19,Real Madrid,Chelsea,Player_204,1,0,7,69,44,Loss
+762,2025-10-21,Juventus,Juventus,Player_385,1,0,1,16,58,Win
+763,2025-04-25,Chelsea,Juventus,Player_47,1,0,1,15,67,Win
+764,2025-07-15,Real Madrid,Chelsea,Player_287,0,0,4,42,68,Loss
+765,2023-10-17,Real Madrid,Bayern,Player_15,1,0,5,31,47,Win
+766,2023-12-13,Bayern,Juventus,Player_27,0,0,4,65,24,Draw
+767,2024-09-09,Real Madrid,PSG,Player_185,0,0,4,53,71,Win
+768,2025-06-26,Liverpool,Barcelona,Player_231,1,0,6,32,64,Draw
+769,2025-03-20,Liverpool,Barcelona,Player_45,0,0,3,58,83,Win
+770,2023-09-19,Chelsea,Bayern,Player_33,0,0,0,64,30,Draw
+771,2024-02-21,Bayern,Real Madrid,Player_269,0,1,1,39,90,Loss
+772,2025-12-30,Barcelona,Juventus,Player_285,2,0,3,49,80,Win
+773,2024-07-13,PSG,PSG,Player_149,0,0,5,108,37,Draw
+774,2025-10-10,Arsenal,Chelsea,Player_138,1,1,0,78,84,Win
+775,2024-11-27,Liverpool,PSG,Player_256,1,0,5,112,53,Loss
+776,2023-11-21,Bayern,Liverpool,Player_376,0,1,4,51,90,Loss
+777,2024-05-04,Real Madrid,Juventus,Player_359,0,0,4,99,36,Loss
+778,2025-12-21,Real Madrid,Juventus,Player_128,1,0,1,58,28,Win
+779,2024-08-02,Barcelona,Bayern,Player_281,0,0,7,20,62,Win
+780,2025-05-03,Barcelona,Juventus,Player_346,0,0,6,27,75,Draw
+781,2023-08-07,Barcelona,Juventus,Player_377,0,1,0,34,72,Draw
+782,2025-01-31,Real Madrid,Juventus,Player_295,0,0,3,77,23,Draw
+783,2024-06-12,Real Madrid,PSG,Player_143,1,0,4,10,53,Win
+784,2024-12-25,Chelsea,Arsenal,Player_260,0,0,0,94,52,Loss
+785,2024-05-17,Chelsea,Juventus,Player_104,0,1,2,18,73,Win
+786,2024-04-03,Juventus,Chelsea,Player_214,1,0,3,83,34,Win
+787,2023-11-02,Chelsea,Barcelona,Player_76,1,0,6,98,26,Draw
+788,2025-10-15,Arsenal,PSG,Player_241,0,0,0,29,29,Loss
+789,2025-07-02,Liverpool,Chelsea,Player_114,0,0,4,70,14,Win
+790,2023-02-05,Barcelona,Liverpool,Player_100,0,0,3,17,91,Draw
+791,2025-01-04,Barcelona,Juventus,Player_63,1,0,2,68,86,Loss
+792,2023-02-08,Bayern,Chelsea,Player_336,0,0,3,94,56,Loss
+793,2024-02-23,Arsenal,PSG,Player_62,0,0,1,32,67,Loss
+794,2025-11-10,Arsenal,Juventus,Player_89,0,0,2,33,60,Draw
+795,2024-04-13,Arsenal,Real Madrid,Player_374,0,0,3,115,37,Loss
+796,2024-12-03,Chelsea,Juventus,Player_54,1,0,4,61,29,Loss
+797,2024-12-26,Real Madrid,Real Madrid,Player_125,0,0,4,82,77,Draw
+798,2023-03-07,Juventus,Liverpool,Player_377,2,1,3,37,90,Loss
+799,2025-02-26,Bayern,Bayern,Player_233,1,0,4,36,87,Draw
+800,2025-04-23,Real Madrid,Bayern,Player_152,0,2,3,52,49,Loss
+801,2023-01-21,Chelsea,PSG,Player_229,0,0,0,68,82,Win
+802,2024-09-13,PSG,Arsenal,Player_149,0,0,1,45,20,Loss
+803,2023-06-15,Chelsea,Juventus,Player_175,0,0,0,28,46,Draw
+804,2025-06-25,PSG,Barcelona,Player_317,3,0,1,115,53,Win
+805,2023-07-27,Bayern,Juventus,Player_322,1,0,1,45,44,Draw
+806,2025-01-23,Juventus,Barcelona,Player_48,1,0,6,93,12,Draw
+807,2024-07-09,Bayern,Bayern,Player_307,1,0,3,108,69,Draw
+808,2025-08-26,PSG,Barcelona,Player_67,2,0,0,73,27,Win
+809,2024-02-09,Barcelona,Arsenal,Player_106,0,1,7,97,10,Loss
+810,2023-06-23,Chelsea,PSG,Player_144,0,0,2,29,48,Win
+811,2024-11-28,Juventus,Barcelona,Player_390,0,1,4,113,33,Win
+812,2024-05-30,Chelsea,Arsenal,Player_101,2,0,4,17,91,Win
+813,2023-02-15,Real Madrid,Chelsea,Player_172,1,1,4,26,21,Draw
+814,2025-02-27,Chelsea,Bayern,Player_395,0,1,1,71,20,Win
+815,2023-02-01,Bayern,Juventus,Player_263,0,1,0,114,62,Draw
+816,2024-04-03,Real Madrid,Bayern,Player_90,0,0,4,46,14,Win
+817,2025-03-30,Real Madrid,Bayern,Player_170,0,0,1,80,56,Loss
+818,2023-06-27,Bayern,Real Madrid,Player_238,0,1,2,12,46,Draw
+819,2025-07-02,Juventus,Real Madrid,Player_115,1,0,7,64,24,Win
+820,2024-06-22,Arsenal,Barcelona,Player_27,0,2,4,34,19,Loss
+821,2025-02-19,Real Madrid,Barcelona,Player_259,0,1,1,37,62,Loss
+822,2024-02-05,Real Madrid,Juventus,Player_13,0,1,5,73,41,Loss
+823,2024-10-19,Barcelona,Real Madrid,Player_102,0,0,6,84,48,Loss
+824,2025-01-22,Arsenal,Barcelona,Player_127,1,1,0,60,21,Loss
+825,2023-10-21,Arsenal,PSG,Player_280,0,2,6,66,26,Draw
+826,2025-11-15,Liverpool,Juventus,Player_34,1,0,7,30,52,Loss
+827,2023-06-06,Chelsea,Real Madrid,Player_100,0,1,5,29,23,Draw
+828,2025-10-29,Arsenal,PSG,Player_13,1,1,5,65,83,Loss
+829,2024-12-15,Bayern,Juventus,Player_204,0,1,5,64,62,Loss
+830,2024-07-25,Real Madrid,Chelsea,Player_175,1,0,7,51,58,Loss
+831,2024-02-03,Barcelona,Arsenal,Player_276,0,0,4,109,17,Loss
+832,2024-09-29,Barcelona,Real Madrid,Player_131,1,0,2,111,71,Loss
+833,2023-08-07,Bayern,Bayern,Player_228,1,0,2,94,52,Draw
+834,2023-04-27,Barcelona,PSG,Player_289,0,0,5,53,83,Win
+835,2023-09-08,Bayern,Chelsea,Player_76,0,0,3,10,61,Win
+836,2024-02-25,Real Madrid,PSG,Player_296,0,0,5,22,90,Loss
+837,2025-12-03,Barcelona,Chelsea,Player_271,3,0,4,63,45,Draw
+838,2023-06-25,Barcelona,Arsenal,Player_160,0,0,7,46,91,Draw
+839,2023-04-01,Liverpool,PSG,Player_126,1,0,4,85,54,Draw
+840,2024-06-15,Juventus,Arsenal,Player_116,0,0,6,37,80,Loss
+841,2024-09-18,Chelsea,Chelsea,Player_259,1,0,0,13,43,Win
+842,2025-06-01,Chelsea,PSG,Player_261,1,0,6,10,82,Win
+843,2024-11-25,Liverpool,Juventus,Player_123,1,4,4,118,58,Draw
+844,2025-03-11,Bayern,PSG,Player_300,1,0,4,69,90,Draw
+845,2023-07-08,Bayern,PSG,Player_369,0,0,2,37,21,Loss
+846,2025-12-22,Real Madrid,Chelsea,Player_363,0,0,3,103,50,Draw
+847,2025-04-01,PSG,Arsenal,Player_77,0,0,6,50,13,Win
+848,2023-11-17,Juventus,Arsenal,Player_295,1,0,2,25,33,Draw
+849,2025-10-01,Arsenal,Chelsea,Player_375,1,1,2,40,22,Loss
+850,2025-07-24,Barcelona,Real Madrid,Player_351,0,0,3,118,93,Win
+851,2025-05-18,Chelsea,Arsenal,Player_245,1,0,6,69,30,Win
+852,2024-10-01,PSG,Real Madrid,Player_246,1,1,7,39,65,Win
+853,2023-09-28,Juventus,Bayern,Player_299,0,0,0,30,67,Win
+854,2025-10-21,Real Madrid,Bayern,Player_36,0,0,5,37,49,Loss
+855,2025-01-22,Juventus,Juventus,Player_166,2,2,5,116,47,Loss
+856,2023-08-12,Barcelona,Bayern,Player_217,0,0,5,112,80,Win
+857,2023-09-24,Arsenal,PSG,Player_201,1,0,1,31,43,Draw
+858,2023-10-05,Real Madrid,Chelsea,Player_383,0,0,2,45,17,Win
+859,2024-03-22,Bayern,Bayern,Player_16,1,0,6,102,24,Draw
+860,2025-07-14,Juventus,Chelsea,Player_43,0,0,5,73,63,Loss
+861,2025-07-23,Juventus,Juventus,Player_36,0,0,7,117,13,Loss
+862,2023-02-15,Bayern,Liverpool,Player_369,0,0,3,45,44,Draw
+863,2025-04-06,Chelsea,Bayern,Player_384,0,0,1,20,29,Draw
+864,2025-06-24,Arsenal,Chelsea,Player_122,0,0,3,105,17,Loss
+865,2025-08-17,PSG,Real Madrid,Player_2,2,0,2,41,33,Draw
+866,2025-08-04,Barcelona,Chelsea,Player_46,0,0,3,47,77,Win
+867,2023-01-01,Bayern,Liverpool,Player_331,2,0,7,100,66,Draw
+868,2023-04-01,Arsenal,Bayern,Player_157,1,3,0,111,35,Draw
+869,2023-01-31,Arsenal,Barcelona,Player_176,1,0,6,75,82,Win
+870,2024-01-23,Bayern,Arsenal,Player_317,2,1,3,61,67,Loss
+871,2024-08-26,Juventus,PSG,Player_283,0,0,2,10,58,Draw
+872,2025-07-01,Barcelona,Arsenal,Player_245,3,0,6,94,66,Win
+873,2023-06-27,Juventus,Liverpool,Player_351,2,1,4,17,81,Win
+874,2025-11-06,Chelsea,Arsenal,Player_143,0,0,3,46,32,Loss
+875,2024-01-09,Juventus,Bayern,Player_124,0,0,6,48,64,Draw
+876,2023-11-28,Arsenal,Juventus,Player_234,1,0,7,117,38,Win
+877,2025-06-21,Arsenal,Bayern,Player_153,0,0,0,11,25,Win
+878,2023-11-20,PSG,Barcelona,Player_369,0,1,0,56,46,Draw
+879,2023-12-19,Real Madrid,Real Madrid,Player_162,0,0,3,103,74,Draw
+880,2023-07-23,PSG,Liverpool,Player_172,0,0,0,73,19,Loss
+881,2025-12-23,PSG,PSG,Player_396,1,2,1,48,81,Draw
+882,2023-03-11,Arsenal,PSG,Player_323,0,0,1,61,81,Win
+883,2024-12-12,Arsenal,Real Madrid,Player_328,0,0,3,101,45,Loss
+884,2023-11-19,Barcelona,Arsenal,Player_341,1,0,7,103,70,Draw
+885,2025-01-07,Arsenal,Liverpool,Player_378,0,0,0,21,12,Loss
+886,2025-06-28,Arsenal,Barcelona,Player_215,1,0,7,85,86,Win
+887,2024-02-08,Bayern,Real Madrid,Player_261,0,1,1,68,63,Draw
+888,2024-05-09,Barcelona,Arsenal,Player_90,1,0,2,99,14,Loss
+889,2023-10-30,Bayern,Juventus,Player_341,0,1,0,76,47,Draw
+890,2023-07-30,Bayern,Real Madrid,Player_283,1,0,3,48,80,Draw
+891,2025-10-26,Chelsea,Barcelona,Player_219,1,1,5,102,20,Draw
+892,2023-09-16,Real Madrid,Arsenal,Player_258,0,1,2,98,91,Win
+893,2025-07-07,Chelsea,Real Madrid,Player_178,0,0,7,63,28,Loss
+894,2025-10-30,Real Madrid,Real Madrid,Player_209,1,0,5,74,45,Win
+895,2025-12-16,Arsenal,Bayern,Player_2,1,0,6,24,38,Loss
+896,2024-05-12,Liverpool,Chelsea,Player_185,1,0,2,77,48,Loss
+897,2025-05-30,PSG,Real Madrid,Player_371,0,0,3,35,54,Win
+898,2025-03-11,PSG,Barcelona,Player_226,0,0,4,13,30,Win
+899,2023-08-28,PSG,PSG,Player_204,1,0,4,29,71,Draw
+900,2023-01-17,Real Madrid,Bayern,Player_39,0,0,1,20,81,Loss
+901,2025-06-20,Real Madrid,Bayern,Player_275,1,0,6,82,90,Win
+902,2025-11-17,Real Madrid,Real Madrid,Player_143,0,0,4,103,11,Draw
+903,2024-03-01,Real Madrid,Chelsea,Player_104,0,1,5,57,21,Win
+904,2025-07-05,Juventus,Liverpool,Player_305,2,1,1,67,82,Loss
+905,2025-04-15,Real Madrid,Bayern,Player_365,1,0,4,74,42,Loss
+906,2023-11-10,PSG,Real Madrid,Player_203,1,0,4,71,65,Win
+907,2024-10-10,Arsenal,Juventus,Player_140,0,0,5,61,42,Win
+908,2024-11-01,PSG,Arsenal,Player_183,0,1,0,68,72,Win
+909,2024-07-19,Juventus,Barcelona,Player_121,0,0,3,92,79,Win
+910,2025-03-24,PSG,Barcelona,Player_379,0,0,0,58,78,Draw
+911,2023-03-11,Barcelona,Bayern,Player_48,0,0,3,34,43,Draw
+912,2023-12-24,Bayern,Juventus,Player_118,1,0,3,45,80,Draw
+913,2025-05-01,PSG,Liverpool,Player_45,0,1,7,42,93,Win
+914,2023-06-17,Chelsea,Barcelona,Player_131,0,2,6,41,15,Loss
+915,2023-12-27,Chelsea,Juventus,Player_144,0,0,7,95,55,Draw
+916,2025-10-11,Real Madrid,Real Madrid,Player_274,0,0,0,30,31,Loss
+917,2023-05-20,PSG,PSG,Player_127,1,0,4,15,67,Draw
+918,2025-04-29,Barcelona,Juventus,Player_40,1,1,2,15,46,Draw
+919,2024-01-21,Chelsea,Real Madrid,Player_73,1,1,4,32,11,Win
+920,2025-11-13,Juventus,Juventus,Player_356,0,3,5,116,77,Win
+921,2023-09-25,Chelsea,Juventus,Player_390,1,0,2,83,31,Win
+922,2023-07-17,Juventus,Arsenal,Player_308,1,1,7,38,28,Loss
+923,2023-01-13,Real Madrid,Liverpool,Player_160,1,0,2,86,80,Draw
+924,2023-04-22,Chelsea,Arsenal,Player_56,0,0,0,95,66,Loss
+925,2024-05-17,Juventus,Juventus,Player_285,0,0,6,85,22,Loss
+926,2024-07-23,Juventus,Chelsea,Player_356,0,0,1,115,83,Win
+927,2023-12-18,PSG,Barcelona,Player_331,2,0,4,86,76,Loss
+928,2023-11-09,PSG,Real Madrid,Player_165,0,0,5,119,58,Win
+929,2025-01-15,Barcelona,Bayern,Player_326,1,1,6,92,19,Draw
+930,2023-12-24,Real Madrid,Chelsea,Player_15,0,0,2,38,18,Win
+931,2023-02-21,Barcelona,Chelsea,Player_173,0,2,5,35,31,Loss
+932,2025-08-11,PSG,Real Madrid,Player_109,1,1,5,118,29,Loss
+933,2024-06-19,Real Madrid,Arsenal,Player_26,0,1,5,36,66,Win
+934,2025-11-07,Real Madrid,Arsenal,Player_253,2,0,3,80,53,Loss
+935,2023-02-13,Chelsea,Arsenal,Player_341,2,0,4,12,90,Loss
+936,2025-09-03,Chelsea,Arsenal,Player_46,3,1,6,16,19,Draw
+937,2025-10-09,PSG,Chelsea,Player_124,0,0,4,98,27,Loss
+938,2025-11-07,Arsenal,Bayern,Player_20,0,0,6,31,47,Draw
+939,2024-07-31,Barcelona,Liverpool,Player_12,1,1,4,97,55,Draw
+940,2023-01-19,Chelsea,PSG,Player_65,0,0,3,28,24,Draw
+941,2025-05-23,Chelsea,Bayern,Player_293,0,1,5,47,23,Draw
+942,2023-06-26,Liverpool,PSG,Player_28,0,0,5,64,17,Win
+943,2023-01-23,Real Madrid,PSG,Player_276,1,0,1,29,11,Draw
+944,2024-05-03,Chelsea,PSG,Player_138,1,1,5,112,80,Loss
+945,2023-03-31,Barcelona,Liverpool,Player_41,0,1,4,106,29,Win
+946,2025-10-23,Liverpool,Arsenal,Player_232,1,1,0,100,56,Win
+947,2025-09-26,Liverpool,Real Madrid,Player_46,1,0,2,43,93,Win
+948,2024-10-17,Liverpool,Bayern,Player_54,1,0,4,93,41,Win
+949,2025-04-24,Juventus,Chelsea,Player_227,1,0,5,39,77,Win
+950,2024-05-10,Liverpool,Liverpool,Player_249,0,0,7,55,21,Win
+951,2025-01-15,Liverpool,Juventus,Player_19,0,0,2,81,85,Loss
+952,2024-12-13,Chelsea,Barcelona,Player_264,0,1,4,23,42,Win
+953,2024-12-17,Barcelona,Barcelona,Player_357,0,0,1,74,44,Loss
+954,2023-12-09,Barcelona,PSG,Player_77,1,1,5,28,78,Draw
+955,2024-10-08,Real Madrid,PSG,Player_108,0,0,3,41,23,Win
+956,2023-12-20,Juventus,Real Madrid,Player_301,1,0,6,95,20,Draw
+957,2024-02-13,Liverpool,Barcelona,Player_263,1,0,3,88,45,Loss
+958,2024-08-14,Bayern,Arsenal,Player_256,1,1,5,54,24,Draw
+959,2024-09-21,Liverpool,Barcelona,Player_389,0,0,3,39,77,Win
+960,2025-01-29,Barcelona,Liverpool,Player_97,0,0,1,99,36,Loss
+961,2023-12-01,Juventus,PSG,Player_334,0,0,2,90,12,Loss
+962,2023-02-23,Chelsea,Real Madrid,Player_106,0,0,7,50,52,Draw
+963,2025-06-03,Bayern,Arsenal,Player_191,0,0,5,80,35,Draw
+964,2025-05-27,Bayern,Barcelona,Player_278,1,0,2,23,76,Draw
+965,2025-01-16,Bayern,Arsenal,Player_210,1,0,6,99,81,Draw
+966,2023-12-01,Juventus,Real Madrid,Player_76,0,0,3,97,40,Draw
+967,2025-04-01,Juventus,Chelsea,Player_345,0,1,0,114,79,Win
+968,2023-11-09,Bayern,Juventus,Player_345,1,0,5,79,50,Win
+969,2024-02-21,Liverpool,Bayern,Player_231,0,0,7,116,45,Loss
+970,2025-01-01,Real Madrid,Juventus,Player_57,0,0,6,33,59,Loss
+971,2025-11-06,Chelsea,Chelsea,Player_280,0,0,5,24,21,Draw
+972,2023-05-22,Chelsea,Chelsea,Player_110,1,0,5,42,94,Win
+973,2025-03-17,Barcelona,Juventus,Player_262,1,0,4,113,36,Draw
+974,2024-04-15,Chelsea,Liverpool,Player_59,2,0,0,71,15,Win
+975,2025-02-19,Barcelona,Chelsea,Player_16,1,0,2,21,91,Draw
+976,2023-09-05,Chelsea,Liverpool,Player_392,1,0,3,116,71,Loss
+977,2024-07-08,Chelsea,Real Madrid,Player_329,1,1,3,79,90,Loss
+978,2024-03-16,Chelsea,PSG,Player_244,1,1,4,56,25,Draw
+979,2024-06-22,PSG,Juventus,Player_169,0,0,1,14,34,Loss
+980,2023-06-16,Arsenal,Bayern,Player_59,0,0,1,25,81,Loss
+981,2024-11-02,Barcelona,Chelsea,Player_243,0,0,0,19,69,Draw
+982,2025-04-09,Chelsea,Arsenal,Player_334,1,0,2,64,33,Draw
+983,2025-01-30,Liverpool,Chelsea,Player_199,2,0,6,98,84,Loss
+984,2025-06-19,Liverpool,Real Madrid,Player_70,0,1,5,33,10,Loss
+985,2023-12-12,Arsenal,Arsenal,Player_228,0,0,5,62,37,Loss
+986,2025-04-05,Real Madrid,Liverpool,Player_52,3,0,1,48,44,Draw
+987,2025-10-02,Bayern,Real Madrid,Player_188,0,0,4,105,76,Win
+988,2024-05-03,PSG,Barcelona,Player_359,0,1,4,113,89,Win
+989,2023-08-27,Juventus,Chelsea,Player_192,0,0,3,17,36,Loss
+990,2025-03-27,Chelsea,Bayern,Player_175,1,0,6,97,52,Draw
+991,2025-01-06,Bayern,Real Madrid,Player_348,1,1,3,36,29,Win
+992,2023-07-27,Liverpool,Real Madrid,Player_224,0,0,1,44,72,Loss
+993,2023-01-12,PSG,Chelsea,Player_117,0,0,3,35,88,Draw
+994,2023-11-09,Juventus,Real Madrid,Player_20,0,0,1,115,30,Win
+995,2024-12-16,Arsenal,Liverpool,Player_261,1,1,7,20,35,Loss
+996,2023-12-24,Liverpool,Real Madrid,Player_14,1,0,4,59,64,Loss
+997,2023-04-09,Barcelona,PSG,Player_153,1,0,1,111,45,Win
+998,2023-12-19,Barcelona,Real Madrid,Player_371,0,0,1,66,93,Draw
+999,2024-04-14,Arsenal,Real Madrid,Player_385,1,0,5,10,42,Win
+1000,2025-08-04,Barcelona,Arsenal,Player_58,1,0,4,30,36,Loss
+1001,2023-11-05,Juventus,Chelsea,Player_153,1,0,4,109,51,Loss
+1002,2023-04-14,Juventus,Arsenal,Player_138,0,1,5,14,64,Draw
+1003,2025-12-25,Arsenal,PSG,Player_5,0,0,0,49,50,Loss
+1004,2024-09-24,Chelsea,Barcelona,Player_225,0,1,4,104,67,Win
+1005,2024-05-27,Arsenal,Juventus,Player_210,1,0,0,64,14,Draw
+1006,2025-04-13,Barcelona,PSG,Player_130,1,0,3,69,71,Draw
+1007,2025-08-28,Juventus,PSG,Player_179,1,2,3,63,30,Draw
+1008,2023-12-09,Liverpool,Liverpool,Player_69,2,0,2,101,70,Win
+1009,2024-11-20,Arsenal,Arsenal,Player_9,0,0,4,49,76,Draw
+1010,2024-10-13,Chelsea,Liverpool,Player_3,0,0,6,62,27,Loss
+1011,2024-12-14,PSG,PSG,Player_338,1,0,2,115,35,Draw
+1012,2023-01-14,Bayern,Chelsea,Player_192,0,0,2,46,91,Win
+1013,2023-12-22,Arsenal,Barcelona,Player_30,0,0,4,95,60,Win
+1014,2023-07-10,Barcelona,Chelsea,Player_166,0,2,7,82,27,Loss
+1015,2025-03-23,Barcelona,PSG,Player_158,1,0,6,116,20,Win
+1016,2024-10-04,Bayern,Real Madrid,Player_382,1,0,4,67,67,Loss
+1017,2025-03-12,Barcelona,Juventus,Player_347,1,0,4,99,71,Win
+1018,2024-11-21,PSG,Arsenal,Player_72,0,2,1,20,30,Loss
+1019,2025-01-30,PSG,Juventus,Player_297,0,0,6,13,62,Win
+1020,2024-09-28,Chelsea,Real Madrid,Player_308,1,0,5,59,81,Loss
+1021,2025-09-13,PSG,Bayern,Player_296,0,0,2,56,36,Win
+1022,2023-02-02,Arsenal,Chelsea,Player_118,0,1,4,96,35,Loss
+1023,2024-05-26,Real Madrid,Liverpool,Player_308,0,1,2,57,55,Loss
+1024,2023-08-25,Arsenal,Chelsea,Player_158,2,0,2,10,44,Win
+1025,2023-01-07,Bayern,Bayern,Player_155,1,1,5,90,51,Draw
+1026,2023-12-23,Arsenal,PSG,Player_328,0,0,5,53,17,Win
+1027,2024-01-21,Bayern,Arsenal,Player_317,1,0,2,50,59,Draw
+1028,2024-03-28,Arsenal,Juventus,Player_116,2,1,7,78,37,Win
+1029,2024-08-25,Bayern,Liverpool,Player_121,2,0,5,85,79,Loss
+1030,2023-08-07,Chelsea,Arsenal,Player_4,0,1,3,112,72,Win
+1031,2024-05-06,Juventus,Chelsea,Player_264,0,0,1,105,50,Loss
+1032,2023-03-14,Arsenal,Arsenal,Player_381,0,0,5,34,40,Win
+1033,2023-09-11,Bayern,Arsenal,Player_164,1,2,6,108,75,Draw
+1034,2024-05-26,Bayern,Real Madrid,Player_42,1,1,7,70,78,Draw
+1035,2025-07-26,Barcelona,Bayern,Player_217,0,0,6,113,77,Draw
+1036,2024-11-08,Arsenal,Juventus,Player_126,0,0,1,44,54,Loss
+1037,2024-01-07,Bayern,PSG,Player_249,2,1,2,59,82,Draw
+1038,2024-10-30,Arsenal,Liverpool,Player_173,0,0,3,45,10,Win
+1039,2025-02-22,Juventus,PSG,Player_298,1,0,7,92,60,Loss
+1040,2024-01-25,Real Madrid,Juventus,Player_303,0,0,0,17,48,Loss
+1041,2025-10-21,Liverpool,Liverpool,Player_384,0,1,1,57,79,Win
+1042,2023-06-25,Bayern,Real Madrid,Player_394,1,0,0,76,42,Win
+1043,2024-11-06,Chelsea,Chelsea,Player_57,1,0,4,23,42,Draw
+1044,2024-10-05,PSG,Liverpool,Player_398,0,0,3,98,92,Loss
+1045,2024-08-15,Liverpool,Chelsea,Player_66,0,1,2,76,47,Draw
+1046,2024-04-25,PSG,Juventus,Player_381,0,0,4,20,41,Win
+1047,2025-03-10,Bayern,Bayern,Player_247,1,0,6,105,81,Win
+1048,2024-02-05,Juventus,Arsenal,Player_316,0,0,6,28,53,Win
+1049,2024-01-29,Barcelona,Juventus,Player_208,1,0,3,72,30,Loss
+1050,2023-03-25,Real Madrid,Bayern,Player_157,0,0,6,10,20,Draw
+1051,2025-12-17,PSG,PSG,Player_258,0,0,5,52,26,Loss
+1052,2025-09-09,Bayern,Liverpool,Player_240,1,0,1,21,74,Win
+1053,2025-08-04,Juventus,Chelsea,Player_288,2,0,0,66,85,Loss
+1054,2023-01-17,Bayern,Arsenal,Player_66,1,0,4,61,61,Draw
+1055,2023-12-12,Liverpool,Real Madrid,Player_304,0,0,3,86,79,Loss
+1056,2023-06-03,Juventus,Arsenal,Player_198,1,1,7,72,26,Loss
+1057,2025-07-03,Arsenal,Chelsea,Player_159,0,0,3,112,63,Win
+1058,2025-04-22,Real Madrid,Chelsea,Player_265,0,0,5,13,40,Draw
+1059,2025-11-25,Chelsea,Arsenal,Player_223,1,2,0,32,50,Draw
+1060,2025-03-15,Arsenal,Barcelona,Player_21,1,1,6,109,62,Draw
+1061,2024-02-03,Arsenal,Real Madrid,Player_195,0,0,5,70,91,Loss
+1062,2024-01-21,PSG,PSG,Player_334,0,1,6,117,61,Loss
+1063,2024-11-05,Barcelona,Chelsea,Player_29,0,0,5,110,92,Loss
+1064,2024-07-06,Arsenal,Real Madrid,Player_396,0,0,6,98,76,Loss
+1065,2025-09-12,Liverpool,Real Madrid,Player_379,0,0,6,81,79,Draw
+1066,2023-01-28,PSG,Chelsea,Player_333,0,0,1,102,21,Draw
+1067,2025-09-08,Real Madrid,PSG,Player_186,0,0,5,72,83,Win
+1068,2024-04-18,Arsenal,Liverpool,Player_270,1,0,7,115,31,Win
+1069,2023-03-04,Arsenal,Bayern,Player_55,2,0,0,80,82,Draw
+1070,2024-01-11,Liverpool,Juventus,Player_269,0,0,0,24,47,Draw
+1071,2025-11-16,Arsenal,Bayern,Player_60,1,0,7,61,41,Loss
+1072,2023-11-06,Real Madrid,Bayern,Player_119,2,0,0,41,26,Loss
+1073,2023-11-11,Juventus,Arsenal,Player_151,0,0,4,40,10,Loss
+1074,2023-08-13,Liverpool,Real Madrid,Player_19,0,1,4,56,73,Draw
+1075,2025-04-19,PSG,PSG,Player_287,0,0,2,35,56,Draw
+1076,2023-01-20,Arsenal,Real Madrid,Player_203,0,0,2,76,17,Win
+1077,2025-03-08,Real Madrid,Barcelona,Player_20,0,2,3,64,60,Win
+1078,2025-05-04,Juventus,Liverpool,Player_164,1,0,3,26,82,Win
+1079,2023-10-07,Real Madrid,Chelsea,Player_299,0,0,5,75,68,Loss
+1080,2023-11-30,PSG,Barcelona,Player_102,1,1,1,94,17,Draw
+1081,2024-08-16,Arsenal,Juventus,Player_311,0,1,4,104,91,Win
+1082,2025-11-23,Arsenal,Juventus,Player_78,0,0,2,12,82,Draw
+1083,2024-10-20,PSG,Liverpool,Player_16,1,0,3,77,55,Loss
+1084,2024-06-23,Bayern,Arsenal,Player_141,1,0,7,42,69,Draw
+1085,2023-05-22,Real Madrid,Barcelona,Player_177,0,0,5,91,75,Draw
+1086,2023-11-20,Barcelona,PSG,Player_99,0,2,4,51,50,Draw
+1087,2025-02-03,PSG,Chelsea,Player_2,1,0,3,23,38,Win
+1088,2025-09-19,Real Madrid,Arsenal,Player_271,0,0,7,26,40,Draw
+1089,2024-09-24,Real Madrid,Barcelona,Player_298,0,1,7,118,36,Loss
+1090,2025-10-14,Liverpool,Juventus,Player_216,1,0,2,32,81,Win
+1091,2024-07-19,Real Madrid,Juventus,Player_238,1,1,1,93,13,Loss
+1092,2025-02-09,Juventus,Barcelona,Player_81,1,0,1,34,17,Loss
+1093,2025-12-02,PSG,Bayern,Player_281,1,1,4,61,16,Loss
+1094,2024-02-28,Juventus,Chelsea,Player_183,0,0,3,43,74,Win
+1095,2025-12-02,Arsenal,PSG,Player_175,1,0,3,82,77,Win
+1096,2024-08-07,Barcelona,Real Madrid,Player_132,1,0,4,61,87,Loss
+1097,2024-03-01,Arsenal,Real Madrid,Player_255,0,0,2,83,37,Draw
+1098,2024-08-15,Chelsea,PSG,Player_307,0,0,7,14,82,Win
+1099,2025-02-08,Liverpool,Liverpool,Player_36,0,0,4,49,79,Draw
+1100,2023-09-21,Arsenal,Chelsea,Player_158,1,0,1,88,64,Draw
+1101,2023-05-29,Barcelona,PSG,Player_349,2,1,4,112,69,Win
+1102,2023-04-17,Arsenal,Arsenal,Player_92,1,1,0,56,56,Loss
+1103,2024-04-22,Barcelona,Real Madrid,Player_355,1,0,3,105,26,Win
+1104,2025-04-11,Liverpool,PSG,Player_9,1,0,7,15,83,Draw
+1105,2025-04-22,Liverpool,Chelsea,Player_309,0,0,5,82,88,Win
+1106,2025-05-27,Juventus,Juventus,Player_285,1,0,6,92,73,Loss
+1107,2025-05-27,Chelsea,PSG,Player_255,0,0,6,89,80,Draw
+1108,2023-11-12,Arsenal,Real Madrid,Player_103,0,0,0,48,87,Draw
+1109,2025-02-02,Chelsea,Liverpool,Player_121,1,0,7,39,74,Loss
+1110,2025-03-19,Bayern,Juventus,Player_43,1,0,2,103,79,Loss
+1111,2025-10-14,Barcelona,Bayern,Player_229,0,0,5,64,71,Win
+1112,2025-04-02,Chelsea,Arsenal,Player_196,2,0,0,64,30,Win
+1113,2025-05-13,Arsenal,Chelsea,Player_223,0,1,0,24,28,Loss
+1114,2024-10-20,Liverpool,Chelsea,Player_382,1,0,7,91,67,Loss
+1115,2025-12-31,Arsenal,Real Madrid,Player_169,0,0,7,22,68,Loss
+1116,2025-09-21,Liverpool,Liverpool,Player_57,0,0,6,80,93,Win
+1117,2024-04-07,Real Madrid,Barcelona,Player_187,0,0,1,78,39,Loss
+1118,2024-03-21,Real Madrid,Bayern,Player_17,1,0,7,48,14,Draw
+1119,2024-02-24,Chelsea,Real Madrid,Player_229,0,0,6,95,49,Draw
+1120,2024-01-21,Barcelona,Real Madrid,Player_392,1,0,6,35,41,Win
+1121,2023-12-19,Real Madrid,Liverpool,Player_30,1,1,1,48,60,Loss
+1122,2023-02-12,Real Madrid,Real Madrid,Player_275,0,0,1,55,17,Draw
+1123,2025-10-18,Juventus,Liverpool,Player_83,1,0,4,83,10,Draw
+1124,2024-12-09,PSG,Arsenal,Player_346,0,0,7,26,73,Draw
+1125,2025-08-24,Chelsea,Chelsea,Player_268,1,0,5,69,42,Draw
+1126,2025-04-15,PSG,PSG,Player_310,1,0,5,51,59,Win
+1127,2025-03-21,Real Madrid,Arsenal,Player_324,0,0,6,34,76,Win
+1128,2023-08-21,Chelsea,Liverpool,Player_71,1,0,0,101,25,Win
+1129,2023-02-26,PSG,Real Madrid,Player_241,1,0,4,17,25,Win
+1130,2025-05-03,Arsenal,PSG,Player_388,0,1,2,66,67,Win
+1131,2024-07-24,Bayern,PSG,Player_254,1,1,5,22,87,Win
+1132,2024-10-11,Juventus,Arsenal,Player_193,0,0,1,113,82,Win
+1133,2023-03-13,Bayern,Juventus,Player_125,0,0,4,32,61,Draw
+1134,2023-03-12,Real Madrid,Real Madrid,Player_349,0,1,0,76,37,Loss
+1135,2023-08-11,Barcelona,Barcelona,Player_362,1,1,5,71,11,Win
+1136,2025-02-10,Liverpool,Liverpool,Player_383,0,0,6,116,49,Win
+1137,2025-12-06,Real Madrid,Bayern,Player_364,0,0,4,62,48,Loss
+1138,2024-01-25,Real Madrid,Liverpool,Player_320,0,0,4,78,10,Loss
+1139,2023-06-14,Real Madrid,Bayern,Player_394,2,1,6,91,84,Draw
+1140,2024-01-25,Juventus,Chelsea,Player_188,2,0,4,103,22,Loss
+1141,2025-04-23,Barcelona,Bayern,Player_125,1,0,5,64,88,Loss
+1142,2024-02-09,Liverpool,PSG,Player_15,1,0,4,27,75,Win
+1143,2023-02-10,Liverpool,Chelsea,Player_1,1,1,2,68,35,Draw
+1144,2024-09-25,Juventus,Real Madrid,Player_216,0,0,4,61,79,Loss
+1145,2023-07-11,Bayern,Arsenal,Player_273,0,2,1,80,72,Draw
+1146,2023-08-21,Chelsea,Liverpool,Player_277,0,0,3,94,81,Draw
+1147,2023-05-24,Real Madrid,Juventus,Player_70,0,0,7,45,77,Win
+1148,2025-08-06,Real Madrid,Bayern,Player_380,0,0,6,33,85,Draw
+1149,2024-07-26,Bayern,Bayern,Player_185,0,0,3,96,55,Win
+1150,2025-12-24,PSG,Real Madrid,Player_301,0,2,0,110,43,Loss
+1151,2024-03-10,Chelsea,Barcelona,Player_223,0,0,3,24,19,Draw
+1152,2025-05-13,Chelsea,Bayern,Player_347,0,1,1,96,78,Draw
+1153,2023-11-14,Barcelona,PSG,Player_4,0,1,4,24,20,Win
+1154,2025-12-01,Arsenal,Juventus,Player_181,0,0,4,35,46,Win
+1155,2024-05-02,Barcelona,Barcelona,Player_332,1,0,4,55,27,Win
+1156,2024-10-15,Chelsea,Barcelona,Player_337,0,0,5,90,41,Win
+1157,2023-06-15,Real Madrid,Barcelona,Player_336,0,0,3,21,84,Loss
+1158,2023-07-13,Arsenal,Arsenal,Player_62,1,0,3,118,64,Win
+1159,2024-11-04,Liverpool,PSG,Player_358,1,0,5,119,20,Win
+1160,2025-11-07,Barcelona,Liverpool,Player_170,0,1,2,55,38,Win
+1161,2025-08-06,PSG,Real Madrid,Player_31,1,0,7,75,77,Win
+1162,2024-08-04,Bayern,Chelsea,Player_346,0,0,1,18,35,Loss
+1163,2025-10-27,Chelsea,Arsenal,Player_21,1,0,2,34,45,Loss
+1164,2023-08-08,PSG,Juventus,Player_221,0,0,7,34,82,Loss
+1165,2025-03-03,Bayern,Chelsea,Player_167,1,1,4,47,26,Loss
+1166,2023-12-08,PSG,Liverpool,Player_281,1,0,5,15,29,Draw
+1167,2024-09-12,Barcelona,PSG,Player_174,1,0,0,79,45,Loss
+1168,2023-04-22,Arsenal,Arsenal,Player_238,0,0,6,108,71,Win
+1169,2024-10-09,Juventus,Arsenal,Player_207,1,0,4,98,93,Loss
+1170,2023-07-20,Real Madrid,Barcelona,Player_365,1,1,7,101,50,Draw
+1171,2024-11-30,Liverpool,Liverpool,Player_34,2,2,3,80,24,Win
+1172,2024-10-10,Juventus,PSG,Player_357,0,0,6,24,16,Loss
+1173,2024-06-06,Bayern,PSG,Player_390,0,0,2,60,45,Draw
+1174,2023-07-10,Chelsea,Real Madrid,Player_8,2,0,7,71,56,Win
+1175,2023-11-03,Real Madrid,PSG,Player_55,2,0,0,66,74,Loss
+1176,2024-06-21,Barcelona,Bayern,Player_276,0,1,3,66,46,Win
+1177,2023-04-17,Juventus,Liverpool,Player_369,0,0,2,84,32,Loss
+1178,2025-01-25,Real Madrid,Liverpool,Player_352,0,0,3,91,93,Draw
+1179,2025-07-28,Chelsea,Barcelona,Player_333,3,0,5,106,15,Win
+1180,2025-08-09,Arsenal,Real Madrid,Player_270,2,0,7,79,82,Win
+1181,2025-04-12,Bayern,Bayern,Player_371,0,0,1,82,36,Draw
+1182,2025-09-12,PSG,Juventus,Player_206,1,0,4,81,42,Win
+1183,2024-03-24,Arsenal,Liverpool,Player_86,1,0,6,20,22,Loss
+1184,2023-02-17,Real Madrid,Liverpool,Player_124,0,1,5,116,77,Draw
+1185,2024-12-28,Chelsea,Juventus,Player_92,0,0,5,83,71,Loss
+1186,2025-04-03,Barcelona,Arsenal,Player_51,1,0,6,90,77,Win
+1187,2023-03-11,Real Madrid,Liverpool,Player_156,2,0,5,11,49,Loss
+1188,2024-04-23,Barcelona,Real Madrid,Player_210,3,0,4,57,56,Win
+1189,2023-09-18,Chelsea,Bayern,Player_115,1,0,6,61,47,Draw
+1190,2025-03-05,Barcelona,Barcelona,Player_5,0,0,6,61,61,Draw
+1191,2024-06-09,Arsenal,Barcelona,Player_196,1,0,2,82,91,Draw
+1192,2025-02-11,Chelsea,Bayern,Player_146,1,0,7,11,47,Loss
+1193,2025-06-22,Real Madrid,Chelsea,Player_186,0,0,6,24,42,Loss
+1194,2024-10-29,Real Madrid,PSG,Player_52,1,2,4,80,79,Loss
+1195,2023-02-16,Real Madrid,Chelsea,Player_42,0,0,6,78,26,Loss
+1196,2023-09-02,Real Madrid,Real Madrid,Player_20,0,0,3,74,64,Draw
+1197,2025-01-07,Juventus,Real Madrid,Player_31,0,0,6,108,18,Win
+1198,2023-04-18,Chelsea,Juventus,Player_44,2,1,2,119,37,Loss
+1199,2024-11-23,Chelsea,Real Madrid,Player_189,3,0,1,57,24,Draw
+1200,2025-11-30,Real Madrid,Arsenal,Player_13,0,0,2,112,14,Loss
+1201,2025-06-18,Juventus,Arsenal,Player_374,1,0,1,24,59,Draw
+1202,2023-06-29,Arsenal,Chelsea,Player_48,0,0,7,13,84,Loss
+1203,2024-04-10,Liverpool,Arsenal,Player_345,0,1,2,24,90,Win
+1204,2024-11-23,Barcelona,Real Madrid,Player_17,2,0,6,11,94,Draw
+1205,2025-11-19,Chelsea,Real Madrid,Player_171,1,0,0,84,47,Win
+1206,2024-06-12,Liverpool,Liverpool,Player_291,0,0,2,29,54,Win
+1207,2025-06-18,Chelsea,Bayern,Player_25,0,0,4,59,35,Win
+1208,2024-12-15,Real Madrid,Bayern,Player_150,0,0,5,117,64,Draw
+1209,2024-04-28,Arsenal,Juventus,Player_118,0,0,5,14,23,Draw
+1210,2023-12-12,Arsenal,Liverpool,Player_92,0,0,7,85,49,Loss
+1211,2024-11-04,Chelsea,Chelsea,Player_387,0,0,7,32,45,Loss
+1212,2024-11-10,Liverpool,Chelsea,Player_350,0,0,6,71,71,Win
+1213,2025-03-19,Juventus,Real Madrid,Player_55,0,1,7,14,47,Draw
+1214,2025-11-12,Bayern,Chelsea,Player_257,1,0,6,12,77,Draw
+1215,2025-06-10,Bayern,Liverpool,Player_311,2,0,5,99,57,Loss
+1216,2024-05-08,Liverpool,Liverpool,Player_399,0,0,0,70,39,Loss
+1217,2024-02-11,Liverpool,Arsenal,Player_158,0,2,2,36,27,Draw
+1218,2024-02-21,PSG,PSG,Player_84,0,0,3,16,48,Win
+1219,2025-09-19,Juventus,Chelsea,Player_67,1,0,5,29,38,Loss
+1220,2024-11-14,PSG,Arsenal,Player_150,0,0,0,59,43,Draw
+1221,2024-03-13,Barcelona,Bayern,Player_346,2,0,4,37,82,Loss
+1222,2025-07-30,Liverpool,PSG,Player_301,0,1,4,87,85,Loss
+1223,2025-07-09,Barcelona,Barcelona,Player_217,1,0,5,37,62,Draw
+1224,2024-06-24,Chelsea,Chelsea,Player_293,0,0,3,112,35,Loss
+1225,2024-04-21,Chelsea,Arsenal,Player_165,0,0,1,62,68,Win
+1226,2025-12-12,Real Madrid,PSG,Player_207,0,0,6,80,80,Loss
+1227,2025-09-05,Arsenal,Real Madrid,Player_16,0,0,3,116,64,Draw
+1228,2024-02-18,Barcelona,PSG,Player_241,1,0,6,73,76,Loss
+1229,2025-01-04,Arsenal,Juventus,Player_298,0,0,6,33,76,Draw
+1230,2023-03-25,Barcelona,Bayern,Player_334,1,0,4,59,59,Loss
+1231,2023-06-14,Chelsea,Chelsea,Player_259,1,0,7,63,28,Loss
+1232,2024-09-27,Liverpool,Chelsea,Player_104,0,2,6,92,28,Draw
+1233,2024-02-03,Barcelona,Real Madrid,Player_232,1,0,5,21,75,Loss
+1234,2024-12-03,Real Madrid,Juventus,Player_151,1,0,6,59,57,Loss
+1235,2024-09-03,Arsenal,Chelsea,Player_25,0,0,1,29,70,Loss
+1236,2023-08-15,Chelsea,Barcelona,Player_360,0,0,3,53,72,Draw
+1237,2023-07-14,Liverpool,Real Madrid,Player_235,1,0,4,47,59,Loss
+1238,2024-04-24,Barcelona,PSG,Player_295,1,0,5,109,60,Win
+1239,2023-12-15,Barcelona,Real Madrid,Player_264,0,2,4,62,37,Win
+1240,2025-10-29,Liverpool,Juventus,Player_15,1,0,7,43,65,Draw
+1241,2023-03-28,Real Madrid,Juventus,Player_55,1,1,2,61,79,Draw
+1242,2023-10-30,Bayern,Arsenal,Player_357,1,0,0,35,63,Win
+1243,2024-12-14,Real Madrid,Arsenal,Player_225,1,0,2,46,60,Loss
+1244,2025-11-16,Real Madrid,Real Madrid,Player_189,0,0,0,51,91,Loss
+1245,2023-02-12,Real Madrid,Real Madrid,Player_82,1,0,0,41,80,Draw
+1246,2023-12-08,Arsenal,Chelsea,Player_46,0,0,6,90,62,Loss
+1247,2023-07-02,Chelsea,PSG,Player_341,0,1,2,50,28,Win
+1248,2024-06-12,Chelsea,Juventus,Player_244,0,1,0,107,75,Loss
+1249,2023-02-04,Liverpool,PSG,Player_187,2,2,0,34,39,Win
+1250,2023-11-20,Liverpool,PSG,Player_333,0,0,4,114,84,Loss
+1251,2023-05-24,PSG,PSG,Player_105,1,0,1,77,75,Draw
+1252,2024-01-11,Liverpool,Chelsea,Player_374,0,0,5,87,31,Draw
+1253,2024-03-09,Juventus,Arsenal,Player_74,0,0,5,115,17,Loss
+1254,2025-11-16,Real Madrid,Chelsea,Player_8,0,0,3,61,36,Loss
+1255,2024-04-15,Real Madrid,Real Madrid,Player_160,0,0,5,62,19,Draw
+1256,2023-05-05,Bayern,Barcelona,Player_392,3,0,1,66,19,Loss
+1257,2024-04-29,Arsenal,Real Madrid,Player_220,0,0,0,51,21,Win
+1258,2024-11-14,Bayern,Chelsea,Player_333,0,2,0,104,84,Draw
+1259,2025-01-02,PSG,Chelsea,Player_289,0,1,2,115,45,Win
+1260,2023-12-28,Liverpool,Real Madrid,Player_78,0,0,7,117,89,Draw
+1261,2023-02-05,Real Madrid,PSG,Player_105,1,0,3,81,14,Loss
+1262,2024-03-06,PSG,Real Madrid,Player_216,0,0,7,68,37,Loss
+1263,2024-01-28,Bayern,Real Madrid,Player_72,0,0,4,105,85,Draw
+1264,2024-08-31,Barcelona,Bayern,Player_324,1,0,6,104,45,Loss
+1265,2025-12-08,Juventus,Chelsea,Player_44,1,2,7,47,19,Win
+1266,2024-04-21,Juventus,Liverpool,Player_220,0,0,6,87,25,Win
+1267,2023-12-14,Chelsea,Barcelona,Player_237,1,0,7,64,38,Win
+1268,2023-08-12,Real Madrid,Liverpool,Player_174,0,0,3,84,77,Win
+1269,2024-09-29,Real Madrid,Liverpool,Player_131,2,1,5,66,51,Draw
+1270,2023-01-22,Chelsea,Juventus,Player_53,0,1,3,104,66,Draw
+1271,2025-08-15,Juventus,Liverpool,Player_41,0,0,2,69,34,Loss
+1272,2024-10-18,Bayern,Arsenal,Player_6,0,1,6,114,90,Win
+1273,2023-06-23,PSG,Juventus,Player_383,0,0,4,67,27,Win
+1274,2023-05-28,PSG,Chelsea,Player_45,0,0,7,103,55,Win
+1275,2024-01-31,Liverpool,Chelsea,Player_162,1,0,0,67,72,Loss
+1276,2025-10-30,Juventus,PSG,Player_276,1,2,4,35,34,Win
+1277,2025-05-26,Juventus,Liverpool,Player_95,0,0,5,52,28,Win
+1278,2025-08-26,Juventus,Liverpool,Player_292,0,0,0,82,76,Win
+1279,2025-11-15,Juventus,Arsenal,Player_20,0,0,1,73,12,Loss
+1280,2025-12-09,PSG,Liverpool,Player_46,0,0,0,94,81,Draw
+1281,2024-06-06,Chelsea,Bayern,Player_88,1,0,7,11,69,Loss
+1282,2024-10-09,Real Madrid,PSG,Player_29,0,0,0,111,86,Loss
+1283,2025-09-14,Liverpool,Chelsea,Player_50,1,0,1,41,33,Draw
+1284,2025-09-30,Real Madrid,Real Madrid,Player_243,0,0,7,59,76,Draw
+1285,2025-01-01,Chelsea,Bayern,Player_224,0,1,7,36,47,Win
+1286,2023-10-14,Juventus,Barcelona,Player_98,1,0,4,70,78,Loss
+1287,2023-05-30,Liverpool,Chelsea,Player_13,0,0,3,39,77,Loss
+1288,2023-04-20,Arsenal,PSG,Player_238,2,1,2,110,19,Draw
+1289,2023-04-13,Liverpool,Chelsea,Player_2,0,0,2,100,78,Win
+1290,2023-12-16,Bayern,Liverpool,Player_122,1,1,7,82,70,Draw
+1291,2023-12-08,Bayern,PSG,Player_3,1,0,5,39,37,Loss
+1292,2024-10-08,Juventus,Real Madrid,Player_70,1,0,5,104,85,Loss
+1293,2025-10-11,PSG,Arsenal,Player_245,0,0,7,91,26,Win
+1294,2024-04-23,Liverpool,PSG,Player_333,0,0,5,15,48,Loss
+1295,2023-08-05,PSG,PSG,Player_88,0,0,2,79,22,Loss
+1296,2025-11-18,Real Madrid,Chelsea,Player_143,0,0,3,57,80,Draw
+1297,2023-08-31,Bayern,Arsenal,Player_211,2,0,2,70,46,Loss
+1298,2023-05-26,Juventus,Real Madrid,Player_46,0,0,4,51,28,Win
+1299,2024-06-27,Chelsea,PSG,Player_144,3,0,7,55,60,Loss
+1300,2025-01-24,Juventus,Barcelona,Player_234,1,1,2,61,36,Loss
