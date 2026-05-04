@@ -1,8 +1,8 @@
-# hello today i will finish the remaining concept in the video which is data cleaning.vars
+# Hello today i will finish the remaining concept in the video which is data cleaning.
 # 
 
 # Data cleaning is the process of fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset. It is an important step in the data analysis process as it helps to ensure that the data is accurate and reliable for analysis.
-# As we know daat cleaning is very important in data analysis.since 80% of data values in real world are strings so before we analyse them we have to clean them.
+# As we know data cleaning is very important in data analysis.since 80% of data values in real world are strings so before we analyse them we have to clean them.
 
 import pandas as pd
 df=pd.read_csv('full_order_analysis_project/data/orders.csv',index_col='id')
@@ -49,7 +49,7 @@ df=df.drop_duplicates()    # this will remove the duplicate rows from the data f
 print(df)
 
 print('='*12,'this is all bout data cleaning and also pandas by bro code','='*12,'\n','i will continue data visualization.','\n','thank you very much for your time.')
-# I have finished every thing in the video i got some practical knowledge about what panda can do and how we can use use for data cleaning so panda is the most important library for data analysis i have to master it  with real company data sets.
-# 75%  of paso now the most importtant thing for me is getting job  and learning from the experts in data analysis and also data scientists.  
+# I have finished every thing in the video i got some practical knowledge about what panda can do and how we can use  for data cleaning so panda is the most important library for data analysis i have to master it  with real company data sets.
+# 75%  of work don on pasndas is data cleaning. now the most important thing for me is getting job  and learning from the experts in data analysis and also data scientists.  
  
 #  ============================================ THE END! ============================================
