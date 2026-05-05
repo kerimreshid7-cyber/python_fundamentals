@@ -1,14 +1,13 @@
 """
-PROJECT 2 — Customer Segmentation
-Identify high value customers.
+FOOTBALL PROJECT 2 — Team Performance
+Analyze team results.
 """
 
 import pandas as pd
 
-df = pd.read_csv("03_py_external_labs_by_brocode/weak3_mini_projects/a_business_data_2800.csv")
+df = pd.read_csv("03_py_external_labs_by_brocode/weak3_mini_projects/b_football_data_1300.csv")
 
-customer_value = df.groupby("customer_id")["revenue"].sum()
-top_customers = customer_value.sort_values(ascending=False).head(10)
+results = df.groupby("team")["result"].value_counts().unstack().fillna(0)
 
-print("\nTOP 10 CUSTOMERS")
-print(top_customers)
+print("\nTEAM PERFORMANCE TABLE\n")
+print(results)

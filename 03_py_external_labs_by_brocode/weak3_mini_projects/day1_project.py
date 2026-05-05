@@ -27,7 +27,7 @@ print(f"Return Rate: {return_rate:.2f}%")
 print("="*40)
 
 
-print('======================================for sure the manager will love this report')
+print('======================================For sure, The manager will love this report.======================================')
 
 
 
