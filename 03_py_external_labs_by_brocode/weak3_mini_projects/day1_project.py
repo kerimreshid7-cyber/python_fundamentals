@@ -17,17 +17,17 @@ total_orders = df["order_id"].nunique()
 avg_order_value = df["revenue"].mean()
 return_rate = df["returned"].mean() * 100
 
-print("\n" + "="*50)
+print("\n" + "="*40)
 print("EXECUTIVE KPI REPORT")
-print("="*50)
+print("="*40)
 print(f"Total Revenue: ${total_revenue:,.2f}")
 print(f"Total Orders: {total_orders}")
 print(f"Average Order Value: ${avg_order_value:.2f}")
 print(f"Return Rate: {return_rate:.2f}%")
-print("="*50)
+print("="*40)
 
 
-
+print('======================================for sure the manager will love this report')
 
 
 
