@@ -1,3 +1,7 @@
+
+# I love foot ball and as we know the foot ball industry is a multi-billion dollar industry with a huge fan base around the world. Analyzing team performance can provide valuable insights 
+# for coaches, players, and fans alike. In this project, i tried to analyze team results using a dataset containing match outcomes for various teams. 
+
 """
 FOOTBALL PROJECT 2 — Team Performance
 Analyze team results.
