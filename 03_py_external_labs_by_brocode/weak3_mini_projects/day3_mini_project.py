@@ -21,3 +21,6 @@ print("WEAKEST MARKET:", country_rev.idxmin())
 # Insights:
 # • Identify expansion opportunities
 # • Find underperforming regions
+
+
+# finally , i  understod how to think like a data analyst not only that i also learned how to concatinate what i learned in the previous mini projects. 
