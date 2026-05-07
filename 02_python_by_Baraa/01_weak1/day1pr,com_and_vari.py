@@ -69,3 +69,4 @@ print("""some thing new to print just to give a shot.
       \t 2
 """)
 
+# pytho is smart languge and it has many features that make it easy to use and learn. I am happy to start learning python with barra.

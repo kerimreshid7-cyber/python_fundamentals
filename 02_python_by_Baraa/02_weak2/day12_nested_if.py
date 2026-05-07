@@ -72,4 +72,4 @@ else:
 
 #i will master this concept through time over many practical challenges.
 
-
+# i think i have understood the concept of nested if and how to use it in real life challenges. 
