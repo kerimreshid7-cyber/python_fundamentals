@@ -17,3 +17,4 @@ print(players)
 
 # Insights:
 # • Top performers
+# • Potential transfer targets
