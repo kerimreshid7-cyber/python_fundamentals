@@ -18,3 +18,4 @@ print(players)
 # Insights:
 # • Top performers
 # • Potential transfer targets
+# wow i am getting good at this. I am analyzing the data and finding out the top goal scorers. 
