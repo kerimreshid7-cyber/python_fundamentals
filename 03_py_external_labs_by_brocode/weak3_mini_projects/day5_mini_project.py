@@ -19,3 +19,4 @@ print(channel_perf)
 
 # Insights:
 # • Which channels deserve more budget
+# wow pandas is really powerful. I have just loaded the data and grouped it by marketing channel to see which one generates the most revenue.
