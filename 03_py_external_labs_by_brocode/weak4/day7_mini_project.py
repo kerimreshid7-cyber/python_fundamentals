@@ -1,0 +1,21 @@
+# hello how are you today? we will be working on a mini project that analyzes business data. 
+
+
+"""
+PROJECT 4 — Product Category Analysis
+Find best selling product categories.
+"""
+
+import pandas as pd
+
+df = pd.read_csv("business_2800.csv")
+
+category = df.groupby("product_category")["revenue"].agg(["sum","mean","count"])
+category = category.sort_values("sum", ascending=False)
+
+print("\nCATEGORY PERFORMANCE\n")
+print(category)
+
+# Insights:
+# • Top revenue category
+# • Weak categories needing strategy
