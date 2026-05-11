@@ -8,7 +8,7 @@ Find best selling product categories.
 
 import pandas as pd
 
-df = pd.read_csv("business_2800.csv")
+df = pd.read_csv("03_py_external_labs_by_brocode/weak3_mini_projects/a_business_data_2800.csv")
 
 category = df.groupby("product_category")["revenue"].agg(["sum","mean","count"])
 category = category.sort_values("sum", ascending=False)
