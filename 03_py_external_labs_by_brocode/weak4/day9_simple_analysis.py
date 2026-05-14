@@ -15,3 +15,4 @@ print("Avg delivery (returned):", returns[1])
 
 # Insights:
 # • Logistics impact on customer satisfaction
+# • Potential for improving delivery times to reduce returns
