@@ -69,3 +69,10 @@ for file in files:
     file=file.strip().lower().replace("txt","csv")
     print(f"processing {file}" )
 
+# and then we can use for loop to do some calculations like sum and average and so on.
+numbers=[1,2,3,4,5]
+total=0
+for number in numbers:  
+    total=total+number
+average=total/len(numbers)
+print(f"the average is {average}")  
