@@ -17,3 +17,4 @@ print("One-time Customers:", single)
 
 # insights
 # The analysis of customer loyalty reveals that there is a significant number of repeat customers, which indicates
+# strong customer satisfaction and engagement with the business. This suggests that the company is successfully retaining customers, which can lead to increased revenue and long-term growth. However, the presence of one-time customers also highlights an opportunity for the business to implement strategies aimed at converting these customers into repeat buyers, such as personalized marketing campaigns or loyalty programs.
