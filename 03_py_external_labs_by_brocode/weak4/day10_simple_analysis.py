@@ -16,3 +16,4 @@ print(top_customers)
 # Insights:
 # • VIP customers and retention strategy
 # • Targeted marketing campaigns
+# • Personalized offers and loyalty programs
