@@ -15,3 +15,4 @@ print(playmakers)
 # Insights:
 # • Creative players and midfield strength
 # • Tactical focus on playmaking
+# • Player development and training
