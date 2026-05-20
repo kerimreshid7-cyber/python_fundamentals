@@ -53,3 +53,4 @@ print(df.groupby(['payment_method','category'])['discount'].sum())    # i have t
 
 
 # aggrgation with group by
+print(df.groupby('payment_method')['discount'].max().to_frame(name='max_discount'))   # we can also change the name of the column by using to_frame method and name parameter.
