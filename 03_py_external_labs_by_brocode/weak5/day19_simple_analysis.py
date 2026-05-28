@@ -11,3 +11,6 @@ labels = ["Low","Medium","High","Premium"]
 df["price_segment"] = pd.cut(df["price"], bins=bins, labels=labels)
 
 print(df.groupby("price_segment")["revenue"].sum())
+
+
+
