@@ -14,3 +14,4 @@ print("\nAverage Items Per Order:", basket)
 # insights
 # The average basket size indicates that customers are purchasing a moderate number of items per order, which
 # can be useful for inventory management and marketing strategies. Businesses can use this information to optimize their product offerings and promotions to encourage larger purchases, ultimately increasing revenue.
+# Additionally, understanding the average basket size can help in forecasting demand and managing supply chain logistics more effectively.
