@@ -9,3 +9,4 @@ print("Avg goals:", df["goals"].mean())
 
 # insights  
 # The average goals per match is a key performance indicator that provides insights into the offensive capabilities of the teams in the league. A higher average suggests a more attacking style of play, which can be more entertaining for fans and may indicate a competitive league. Conversely, a lower average may suggest a more defensive approach, which could impact the overall excitement of the matches. Understanding this metric can help teams and analysts identify trends and make strategic decisions to improve performance.
+# The average goals per match can also be used to compare different leagues or seasons, providing insights into the evolution of playing styles and the effectiveness of various strategies. Additionally, it can help in predicting future outcomes and setting expectations for fans and stakeholders.
