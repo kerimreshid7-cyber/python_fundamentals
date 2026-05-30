@@ -12,3 +12,4 @@ print(df.groupby("weekday")["revenue"].sum().sort_values(ascending=False))
 
 #insight: 
 # The business generates the most revenue on Fridays, followed by Saturdays and Sundays. This suggests that the business may want to focus its marketing efforts on these days to maximize revenue. Additionally, it may be beneficial to analyze the factors contributing to higher revenue on these days, such as promotions, customer behavior, or product offerings, to further optimize sales strategies.
+# The lower revenue on Mondays and Tuesdays may indicate an opportunity to implement targeted promotions or marketing campaigns to boost sales on these days. Understanding the reasons behind the variations in revenue across different days of the week can help the business make informed decisions to enhance overall performance.
