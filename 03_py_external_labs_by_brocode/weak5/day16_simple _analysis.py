@@ -10,3 +10,4 @@ print(df.groupby("player")["assists"].sum().sort_values(ascending=False).head(10
 
 # insights
 # The top assist players in the dataset are identified based on the total number of assists they have contributed. The player with the highest number of assists is likely a key playmaker for their team,
+# contributing significantly to the team's offensive success. Analyzing the top assist players can provide insights into their influence on the game and their ability to create scoring opportunities for their teammates.
