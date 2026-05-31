@@ -81,3 +81,5 @@ try:
 except:
     print(f'{customer2} not found')
 
+# insight:
+# 1. The most common payment method is Credit Card, followed by PayPal and Bank
