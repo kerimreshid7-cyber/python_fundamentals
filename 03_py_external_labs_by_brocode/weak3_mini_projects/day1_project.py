@@ -30,5 +30,8 @@ print("="*40)
 print('======================================For sure, The manager will love this report.======================================')
 
 
-
+# Insights:
+# • Total Revenue: Indicates overall sales performance.
+# • Total Orders: Reflects customer engagement and sales volume.
+# • Average Order Value: Shows average spending per order.
 
