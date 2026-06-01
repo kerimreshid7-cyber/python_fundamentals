@@ -15,3 +15,8 @@ results = df.groupby("team")["result"].value_counts().unstack().fillna(0)
 
 print("\nTEAM PERFORMANCE TABLE\n")
 print(results)
+
+# Insights:
+# • Identify top-performing teams
+# • Analyze win/loss ratios
+# • Assess team consistency
