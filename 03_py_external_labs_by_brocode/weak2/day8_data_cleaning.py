@@ -51,5 +51,5 @@ print(df)
 print('='*12,'this is all bout data cleaning and also pandas by bro code','='*12,'\n','i will continue data visualization.','\n','thank you very much for your time.')
 # I have finished every thing in the video i got some practical knowledge about what panda can do and how we can use  for data cleaning so panda is the most important library for data analysis i have to master it  with real company data sets.
 # 75%  of work don on pasndas is data cleaning. now the most important thing for me is getting job  and learning from the experts in data analysis and also data scientists.  
- 
+# so i have to practice more and more and also i have to do some mini projects to get more practical knowledge about data analysis and also data cleaning.
 #  ============================================ THE END! ============================================
