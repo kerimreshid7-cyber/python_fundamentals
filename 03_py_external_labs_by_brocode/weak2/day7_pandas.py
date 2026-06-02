@@ -58,3 +58,4 @@ print(df.groupby('payment_method')['discount'].max().to_frame(name='max_discount
 # insights
 # 1. the maximum discount given for each payment method.
 # 2. the total discount given for each payment method and category.
+# 3. the average price for each category.
