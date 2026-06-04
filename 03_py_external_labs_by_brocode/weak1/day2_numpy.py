@@ -56,7 +56,7 @@ print(array_2d2*array_2d)    # we can apply eveything i think with differnt arra
 # comparision oprators
 stu_scores=np.array([91,34,45,76,100,80])
 
-print(stu_scores==100)     # we will get boool value in the out put
+print(stu_scores==100)     # we will get bool value in the out put.
 print(f'is pass?{stu_scores>50}')
 
 # or we can do by another advanced way
@@ -84,6 +84,7 @@ products=multiplicand*multiplier
 print('==========multiple table==========')
 print(products)
 
-# so to brodcast two arrays fist we have to compare the last or the right dim if they are the same or on them are 1 
+# so to brodcast two arrays fist we have to compare the last or the right dim if they are the same or one of  them are 1 
 # fine jump to to next again if the are the same or one of the two are 1 the we can apply broadcasting on them.
 
+# If we have two arrays with different shapes but they are compatible for brodcasting we can apply brodcasting on them and we will get the result as if they were the same shape.
