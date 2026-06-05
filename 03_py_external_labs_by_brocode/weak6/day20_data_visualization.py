@@ -5,14 +5,76 @@
 # so lets start todays lesson which is matplotlib
 
 # from pathlib import Path
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
+# import numpy as np
+
+# import numpy as np
+# import matplotlib.pyplot as plt
+
+# x = np.array([2023, 2024, 2025, 2026])
+
+# y1 = np.array([3, 23, 46, 5])
+# y2 = np.array([45, 43, 14, 10])
+# y3 = np.array([100, 43, 14, 200])
+
+# line_style = dict(
+#     marker=".",
+#     markersize=30,
+#     markerfacecolor="#1cd3fc",
+#     linewidth=3
+# )
+
+# plt.plot(x, y1, **line_style)
+# plt.plot(x, y2, **line_style)
+# plt.plot(x, y3, **line_style)
+
+# plt.show()
+from tkinter import font
+
+
 import numpy as np
+import matplotlib.pyplot as plt
 
 x = np.array([2023, 2024, 2025, 2026])
-y = np.array([3, 23, 46, 64])
 
-plt.plot(x, y, marker=".", markersize=30)
+y1 = np.array([3, 23, 46, 5])
+y2 = np.array([45, 43, 14, 10])
+y3 = np.array([100, 43, 14, 200])
+
+line_style = dict(
+    marker=".",
+    markersize=20,
+    markerfacecolor="#1cd3fc",
+    linewidth=3
+)
+
+plt.plot(x, y1, label="Person A", **line_style)
+plt.plot(x, y2, label="Person B", **line_style)
+plt.plot(x, y3, label="Person C", **line_style)
+
+# Show values for y1
+for i in range(len(x)):
+    plt.text(x[i], y1[i], str(y1[i]))
+
+# Show values for y2
+for i in range(len(x)):
+    plt.text(x[i], y2[i], str(y2[i]))
+
+# Show values for y3
+for i in range(len(x)):
+    plt.text(x[i], y3[i], str(y3[i]))
+
+plt.title("Performance Comparison")
+plt.xlabel("Year")
+plt.ylabel("Value")
+
+plt.yticks(range(0, 201, 10))
+plt.grid(True)
+plt.legend()
+
 plt.show()
+
+
 
 # """
 # weak6 day20 — Data Visualization Example
