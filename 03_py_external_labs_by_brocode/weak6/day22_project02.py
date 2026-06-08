@@ -30,7 +30,7 @@ plt.pie(
 )
 plt.title('Kerim Reshid College')
 
-#scatter is used to show the relation ship between two variables 
+#scatter is used to show the relation ship between two variables or it show the relation ship between two numerical variables.
 # it used to identify corelation (+,-,None)
 # example study hour and test result
 
@@ -80,3 +80,6 @@ plt.show()
 # plt.close()
 # print("Saved plots/project02_orders_by_country.png")
 
+# insights:
+#  I understand from this project that the pie chart is used to show the percentage of the total for different categories, while the scatter plot is used to show the relationship between two numerical variables. In the pie chart example, we can see the distribution of students in different categories (freshman, swe, cs) and their respective percentages. In the scatter plot example,
+#  we can compare the study hours and test results for two students (Stu_A and Stu_B) to identify any correlation between them.
