@@ -10,14 +10,14 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# df = pd.read_csv("03_py_external_labs_with_brocode/weak3_mini_projects/a_business_data_2800.csv")
+df = pd.read_csv("03_py_external_labs_with_brocode/weak3_mini_projects/a_business_data_2800.csv")
 
-# # print(df.columns.tolist())
+# print(df.columns.tolist())
 
-# type_count=df['country'].value_counts()
+type_count=df['country'].value_counts()
 
-# plt.bar(type_count.index,type_count.values)
-# plt.show()
+plt.bar(type_count.index,type_count.values)
+plt.show()
 
 
 """
