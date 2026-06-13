@@ -23,3 +23,7 @@ fig = px.bar(returned, x="marketing_channel", y="returned", text="returned", col
 fig.update_layout(showlegend=False)
 fig.write_image(PLOTS_DIR / "project06_returns_by_channel.png")
 print("Saved plots/project06_returns_by_channel.png")
+
+# Insights:
+# 1. The "Email" channel has the highest number of returned orders, indicating potential issues with customer satisfaction or product quality for customers acquired through email marketing.
+# 2. The "Social Media" channel has the second-highest returns, suggesting that customers acquired through social media may also
