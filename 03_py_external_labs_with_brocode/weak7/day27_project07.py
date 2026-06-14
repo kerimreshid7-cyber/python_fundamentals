@@ -23,3 +23,7 @@ fig.update_xaxes(title="Month")
 fig.update_yaxes(title="Revenue")
 fig.write_image(PLOTS_DIR / "project07_monthly_revenue_trend.png")
 print("Saved plots/project07_monthly_revenue_trend.png")
+
+# insights:
+# 1. The monthly revenue trend shows a general upward trend over the period analyzed, indicating
+#    that the business is experiencing growth in revenue.
