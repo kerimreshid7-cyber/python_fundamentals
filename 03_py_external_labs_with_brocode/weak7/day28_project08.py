@@ -1,3 +1,6 @@
+
+# today i will do mini analytics projecct.
+
 """
 Business Project 8 — Top Customers by Revenue
 """
@@ -21,3 +24,8 @@ plt.tight_layout()
 plt.savefig(PLOTS_DIR / "project08_top_customers_by_revenue.png", dpi=150)
 plt.close()
 print("Saved plots/project08_top_customers_by_revenue.png")
+
+
+#insights:
+# 1. The top 10 customers contribute significantly to the overall revenue, indicating a strong reliance on a small group of customers for business success.
+# 2. The revenue distribution among the
