@@ -16,3 +16,7 @@ fig = px.pie(category_share, names="product_category", values="revenue", hole=0.
              title="Revenue Share by Product Category")
 fig.write_image(PLOTS_DIR / "project09_category_revenue_share.png")
 print("Saved plots/project09_category_revenue_share.png")
+
+#insights:
+# 1. The revenue share is heavily skewed towards a few product categories, suggesting that the business may benefit from diversifying its product offerings to reduce dependency on a limited number of categories.
+# 2. The largest category contributes a significant portion of the total revenue, indicating that it is a key driver of the business's financial performance and may warrant further investment and focus.
