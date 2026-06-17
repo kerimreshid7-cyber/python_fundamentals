@@ -16,3 +16,8 @@ fig = px.scatter(sample, x="price", y="quantity", size="revenue", color="product
                  hover_data=["country", "marketing_channel"], title="Price vs Quantity Bubble Chart")
 fig.write_image(PLOTS_DIR / "project10_price_quantity_bubble.png")
 print("Saved plots/project10_price_quantity_bubble.png")
+
+# insights:
+# 1. There is a positive correlation between price and quantity, indicating that higher-priced products
+#    tend to be sold in larger quantities, which may suggest that customers perceive higher-priced items as more valuable or of better quality.
+# 2. The bubble chart reveals that certain product categories dominate in terms of revenue, as
