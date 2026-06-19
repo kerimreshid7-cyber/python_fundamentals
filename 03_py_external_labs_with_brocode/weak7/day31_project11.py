@@ -23,3 +23,8 @@ plt.tight_layout()
 plt.savefig(PLOTS_DIR / "project11_daily_order_count.png", dpi=150)
 plt.close()
 print("Saved plots/project11_daily_order_count.png")
+
+
+# insights:
+# 1, This line chart shows the daily order count over time, revealing trends and patterns in customer purchasing behavior, such as peaks during holidays or promotional events.
+# 2. The chart can help identify seasonal trends, allowing the business to optimize inventory and
