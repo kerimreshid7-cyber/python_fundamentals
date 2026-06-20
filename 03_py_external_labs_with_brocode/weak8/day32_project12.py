@@ -22,3 +22,8 @@ plt.tight_layout()
 plt.savefig(PLOTS_DIR / "project12_country_revenue_heatmap.png", dpi=150)
 plt.close()
 print("Saved plots/project12_country_revenue_heatmap.png")
+
+
+# insights:
+# 1. The heatmap provides a clear visual representation of revenue distribution across different countries and marketing channels, allowing the business to identify which combinations are most profitable.
+# 2. By analyzing the heatmap, the business can make informed decisions on where to allocate marketing resources and which channels to
