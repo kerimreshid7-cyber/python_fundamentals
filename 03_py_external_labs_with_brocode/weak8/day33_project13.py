@@ -21,3 +21,8 @@ plt.tight_layout()
 plt.savefig(PLOTS_DIR / "project13_goals_by_team.png", dpi=150)
 plt.close()
 print("Saved plots/project13_goals_by_team.png")
+
+
+# insights:
+# 1. The bar chart highlights the top 10 teams with the highest total goals, providing a clear visual representation of their offensive performance.
+# 2. By analyzing the chart, football
