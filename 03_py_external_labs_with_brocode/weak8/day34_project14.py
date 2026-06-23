@@ -22,3 +22,7 @@ plt.tight_layout()
 plt.savefig(PLOTS_DIR / "project14_top_assist_players.png", dpi=150)
 plt.close()
 print("Saved plots/project14_top_assist_players.png")
+
+# Insights:
+# 1, Identify the top assist players in the dataset.
+# 2, Analyze the distribution of assists among players.
