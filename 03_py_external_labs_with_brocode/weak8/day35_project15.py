@@ -15,3 +15,8 @@ fig = px.scatter(df, x="shots", y="passes", color="result", size="minutes_played
                  hover_data=["player", "team", "opponent"], title="Shots vs Passes by Match Result")
 fig.write_image(PLOTS_DIR / "project15_shots_vs_passes.png")
 print("Saved plots/project15_shots_vs_passes.png")
+
+# insights:
+# 1, Explore the relationship between shots and passes in football matches.
+# 2, Analyze how the number of shots and passes varies with match results (win,loose and draw).
+
