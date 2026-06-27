@@ -24,3 +24,7 @@ plt.tight_layout()
 plt.savefig(PLOTS_DIR / "project18_player_contribution_ratio.png", dpi=150)
 plt.close()
 print("Saved plots/project18_player_contribution_ratio.png")
+
+#insights:
+# 1, Identify the top players based on their combined contributions (goals + assists).
+# 2, Analyze the distribution of contributions among players to understand their impact on the team's performance
