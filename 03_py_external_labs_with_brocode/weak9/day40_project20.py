@@ -18,3 +18,8 @@ fig = px.scatter(summary.reset_index(), x="minutes_played", y="total_contributio
                  size="goals", hover_data=["player", "assists"], title="Top Performers: Contribution vs Minutes")
 fig.write_image(PLOTS_DIR / "project20_top_performers_scatter.png")
 print("Saved plots/project20_top_performers_scatter.png")
+
+
+# Insisghts:
+# 1. The scatter plot illustrates the relationship between minutes played and total contributions (goals + assists) for players with more than 50 minutes played.
+# 2. Players with higher minutes played tend to have higher total contributions, indicating that consistent playtime is crucial for performance.
