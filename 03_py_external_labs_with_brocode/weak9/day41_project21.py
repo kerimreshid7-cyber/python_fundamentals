@@ -21,3 +21,7 @@ plt.tight_layout()
 plt.savefig(PLOTS_DIR / "project21_passes_boxplot_by_result.png", dpi=150)
 plt.close()
 print("Saved plots/project21_passes_boxplot_by_result.png")
+
+# Insights:
+# 1. The boxplot shows the distribution of passes made by players based on match results (win, draw, loss).
+# 2. Players tend to make more passes in matches that result in a win compared to draws or losses, suggesting that successful teams may have better ball control and passing strategies.
