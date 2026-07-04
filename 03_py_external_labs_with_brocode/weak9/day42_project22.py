@@ -22,3 +22,8 @@ plt.tight_layout()
 plt.savefig(PLOTS_DIR / "project22_team_performance_heatmap.png", dpi=150)
 plt.close()
 print("Saved plots/project22_team_performance_heatmap.png")
+
+
+# Insights:
+# 1. The heatmap illustrates the total number of goals scored by each team based on match results (win, draw, loss).
+# 2. Teams with higher goal counts in wins may indicate stronger offensive capabilities, while lower
