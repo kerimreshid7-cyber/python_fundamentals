@@ -15,3 +15,8 @@ opponent_shots = df.groupby(["date", "opponent"])["shots"].sum().reset_index()
 fig = px.line(opponent_shots, x="date", y="shots", color="opponent", title="Opponent Shots Trend")
 fig.write_image(PLOTS_DIR / "project23_opponent_shots_trend.png")
 print("Saved plots/project23_opponent_shots_trend.png")
+
+
+# Insights:
+# 1. The line chart illustrates the trend of shots taken by opponents over time, providing insights into their offensive strategies.
+# 2. Peaks in the chart may indicate periods of increased offensive pressure from specific opponents, while troughs may suggest defensive dominance or less aggressive play.
