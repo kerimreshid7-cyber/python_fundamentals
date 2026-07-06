@@ -18,3 +18,6 @@ result_team = df.groupby(["team", "result"]).size().reset_index(name="count")
 fig = px.bar(result_team, x="team", y="count", color="result", title="Match Result Counts by Team")
 fig.write_image(PLOTS_DIR / "project24_team_result_stacked.png")
 print("Saved plots/project24_team_result_stacked.png")
+
+# Insights:
+# 1. The stacked bar chart provides a clear visual representation of the distribution of match results (win, loss, draw) for each team, allowing for easy comparison of performance across teams.
