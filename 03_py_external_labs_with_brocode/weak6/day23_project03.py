@@ -39,22 +39,22 @@ plt.ylabel("Number of Employees")
 plt.show()   # but what if we do it by others like bar chart?   i mean what is the differnce usig this and  others in this data.
 
 
-# """
-# Business Project 3 — Price Distribution
-# """
+"""
+Business Project 3 — Price Distribution
+"""
 
 
-# BASE_DIR = Path(__file__).resolve().parent
-# PLOTS_DIR = BASE_DIR / "plots"
-# PLOTS_DIR.mkdir(exist_ok=True)
+BASE_DIR = Path(__file__).resolve().parent
+PLOTS_DIR = BASE_DIR / "plots"
+PLOTS_DIR.mkdir(exist_ok=True)
 
-# df = pd.read_csv(BASE_DIR / "a_business_data_2800.csv", parse_dates=["order_date"])
-# plt.figure(figsize=(10, 6))
-# sns.histplot(df["price"], kde=True, color="#2ca02c", bins=35)
-# plt.title("Product Price Distribution")
-# plt.xlabel("Price")
-# plt.ylabel("Count")
-# plt.tight_layout()
-# plt.savefig(PLOTS_DIR / "project03_price_distribution.png", dpi=150)
-# plt.close()
-# print("Saved plots/project03_price_distribution.png")
+df = pd.read_csv(BASE_DIR / "a_business_data_2800.csv", parse_dates=["order_date"])
+plt.figure(figsize=(10, 6))
+sns.histplot(df["price"], kde=True, color="#2ca02c", bins=35)
+plt.title("Product Price Distribution")
+plt.xlabel("Price")
+plt.ylabel("Count")
+plt.tight_layout()
+plt.savefig(PLOTS_DIR / "project03_price_distribution.png", dpi=150)
+plt.close()
+print("Saved plots/project03_price_distribution.png")

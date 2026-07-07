@@ -60,25 +60,25 @@ plt.ylabel('Test Result')
 plt.legend()
 
 plt.show()
-# """
-# Business Project 2 — Top Countries by Order Count
-# """
+"""
+Business Project 2 — Top Countries by Order Count
+"""
 
 
-# BASE_DIR = Path(__file__).resolve().parent
-# PLOTS_DIR = BASE_DIR / "plots"
-# PLOTS_DIR.mkdir(exist_ok=True)
+BASE_DIR = Path(__file__).resolve().parent
+PLOTS_DIR = BASE_DIR / "plots"
+PLOTS_DIR.mkdir(exist_ok=True)
 
-# df = pd.read_csv(BASE_DIR / "a_business_data_2800.csv", parse_dates=["order_date"])
-# orders_country = df["country"].value_counts().head(10)
-# plt.figure(figsize=(8, 8))
-# orders_country.plot(kind="pie", autopct="%1.1f%%", startangle=140, pctdistance=0.75)
-# plt.title("Top 10 Countries by Order Count")
-# plt.ylabel("")
-# plt.tight_layout()
-# plt.savefig(PLOTS_DIR / "project02_orders_by_country.png", dpi=150)
-# plt.close()
-# print("Saved plots/project02_orders_by_country.png")
+df = pd.read_csv(BASE_DIR / "a_business_data_2800.csv", parse_dates=["order_date"])
+orders_country = df["country"].value_counts().head(10)
+plt.figure(figsize=(8, 8))
+orders_country.plot(kind="pie", autopct="%1.1f%%", startangle=140, pctdistance=0.75)
+plt.title("Top 10 Countries by Order Count")
+plt.ylabel("")
+plt.tight_layout()
+plt.savefig(PLOTS_DIR / "project02_orders_by_country.png", dpi=150)
+plt.close()
+print("Saved plots/project02_orders_by_country.png")
 
 # insights:
 #  I understand from this project that the pie chart is used to show the percentage of the total for different categories, while the scatter plot is used to show the relationship between two numerical variables. In the pie chart example, we can see the distribution of students in different categories (freshman, swe, cs) and their respective percentages. In the scatter plot example,

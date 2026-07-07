@@ -5,7 +5,7 @@ Identify strongest and weakest markets.
 
 import pandas as pd
 
-df = pd.read_csv("03_py_external_labs_by_brocode/weak3_mini_projects/a_business_data_2800.csv")
+df = pd.read_csv("03_py_external_labs_with_brocode/weak3_mini_projects/a_business_data_2800.csv")
 
 country_rev = df.groupby("country")["revenue"].sum().sort_values(ascending=False)
 

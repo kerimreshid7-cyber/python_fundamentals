@@ -33,7 +33,7 @@ print(df)     # we will get the first 5 and last 5 rows and the discribtion for 
 
 # selection by column/s
 print(df['payment_method'])
-# print(df2['name'].to_string)   #to get specificcol but all rows using .to_string
+# print(df2['name'].to_string)   #to get specific col but all rows using .to_string
 print()
 print('==========================wow ===============================')
 
