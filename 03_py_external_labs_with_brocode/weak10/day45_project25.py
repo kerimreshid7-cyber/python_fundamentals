@@ -1,6 +1,6 @@
 
 
-# Today I will do mini analytics prooject on to the football data.
+# Today I will do mini analytics project on the football data.
 
 """
 Football Project 25 — Football Stats Correlation
@@ -25,3 +25,6 @@ plt.tight_layout()
 plt.savefig(PLOTS_DIR / "project25_numeric_correlation_heatmap.png", dpi=150)
 plt.close()
 print("Saved plots/project25_numeric_correlation_heatmap.png")
+
+# Insights:
+# 1. The heatmap provides a visual representation of the correlation between different football statistics, allowing for easy identification of strong positive or negative relationships.
