@@ -82,4 +82,7 @@ print('=========here is the updated Data frame====================','\n',df)
 
 
 # but the question is how can we update Data frame?
-
+# I think we can update the data frame by using loc and iloc method. so lets see how to do it.
+# here we go
+df.loc['stu4','gpa']=3.9
+print('=========here is the updated Data frame====================','\n',df)
