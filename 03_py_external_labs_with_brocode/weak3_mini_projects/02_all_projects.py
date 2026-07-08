@@ -291,3 +291,5 @@ def run_all_projects(save_figures: bool = True) -> None:
 
 if __name__ == "__main__":
     run_all_projects()
+
+# I have completed the code for the 25 mini projects using matplotlib, seaborn, and plotly for visual analysis of business and football datasets. Each project generates a specific visualization and saves it to the "plots" directory.
