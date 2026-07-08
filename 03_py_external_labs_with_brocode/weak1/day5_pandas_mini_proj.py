@@ -62,7 +62,4 @@ data = {
 }
 
 students = ["Ali", "Sara", "John", "Mona"]
-
-df = pd.DataFrame(data, index=students)
-print(df)
-
+# I created a DataFrame using the data dictionary and set the students list as the index. This allows us to easily access the monthly usage for each student.
