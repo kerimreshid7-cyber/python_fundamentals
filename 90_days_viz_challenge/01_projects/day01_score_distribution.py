@@ -12,3 +12,7 @@ plt.grid(axis='y', alpha=0.3)
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day01_score_distribution.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 1: Score Distribution Histogram")
+
+# Insights:
+# 1. The majority of students have scores between 60 and 80.
+# 2. There are a few students with scores below 40, indicating potential areas for improvement.
