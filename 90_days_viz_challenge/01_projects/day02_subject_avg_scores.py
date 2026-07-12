@@ -1,3 +1,5 @@
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -13,3 +15,8 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day02_subject_avg_scores.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 2: Subject-wise Average Scores")
+
+# Insights:
+# 1. The subject with the highest average score is 'Mathematics', indicating strong performance in that area.
+# 2. 'Science' and 'English' follow with moderate average scores, suggesting room for improvement.
+# 3. 'History' has the lowest average score, highlighting a potential need for targeted support or curriculum adjustments.
