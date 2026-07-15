@@ -12,3 +12,8 @@ plt.grid(axis='y', alpha=0.3)
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day05_attendance_distribution.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 5: Attendance Percentage Distribution")
+
+#insights:
+# 1. The histogram illustrates the distribution of attendance percentages among students, highlighting the most common attendance ranges.
+# 2. The shape of the distribution can provide insights into student engagement and attendance patterns,
+#    which may inform strategies for improving attendance rates.
