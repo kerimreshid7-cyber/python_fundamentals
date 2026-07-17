@@ -15,3 +15,7 @@ plt.grid(axis='y', alpha=0.3)
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day06_pass_fail_ratio.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 6: Pass/Fail Ratio")
+
+# Insights:
+# 1. The bar chart provides a clear visual representation of the number of students who passed versus those who failed, allowing for easy comparison of the two groups.
+# 2. The chart shows the distribution of students across the two categories, making it easy to identify which group is larger.
