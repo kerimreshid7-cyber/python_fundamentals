@@ -15,3 +15,9 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day07_subject_count.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 7: Subject Count Bar Chart")
+
+
+# Insights:
+# 1. The bar chart provides a clear visual representation of the number of students enrolled in each subject, allowing for easy comparison of the popularity of different subjects.
+# 2. The chart shows the distribution of students across various subjects, making it easy to identify which subjects have the highest and
+    
