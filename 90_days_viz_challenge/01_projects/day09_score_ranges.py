@@ -17,3 +17,8 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day09_score_ranges.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 9: Score Range Distribution")
+
+
+# INSIGHTs:
+# 1. The bar chart effectively illustrates the distribution of scores across different ranges, providing a clear overview of how students are performing in various score brackets.
+# 2. The visualization highlights the concentration of scores in specific ranges, which can help identify areas where students may need additional support or resources.
