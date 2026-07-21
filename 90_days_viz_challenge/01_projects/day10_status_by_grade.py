@@ -16,3 +16,8 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day10_status_by_grade.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 10: Status by Grade")
+
+
+# INSIGHTs:
+# 1. The bar chart provides a clear comparison of pass and fail counts across different grades, allowing for easy identification of trends in student performance.
+# 2. The visualization can help educators identify which grades may require additional support or intervention to improve student outcomes, as well as highlight areas of
