@@ -1,3 +1,6 @@
+"""Project description: Teacher Performance.
+This script creates a visualization that explores teacher performance in the dataset for the 90 Days of Visualization Challenge."""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 

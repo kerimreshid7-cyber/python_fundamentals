@@ -1,3 +1,6 @@
+"""Project description: Status By Grade.
+This script creates a visualization that explores status by grade in the dataset for the 90 Days of Visualization Challenge."""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 

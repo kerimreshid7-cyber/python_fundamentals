@@ -1,3 +1,6 @@
+"""Project description: Subject Avg Scores.
+This script creates a visualization that explores subject avg scores in the dataset for the 90 Days of Visualization Challenge."""
+
 
 
 import pandas as pd

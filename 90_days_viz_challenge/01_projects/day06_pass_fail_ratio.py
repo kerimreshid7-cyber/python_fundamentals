@@ -1,3 +1,6 @@
+"""Project description: Pass Fail Ratio.
+This script creates a visualization that explores pass fail ratio in the dataset for the 90 Days of Visualization Challenge."""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 

@@ -1,3 +1,6 @@
+"""Project description: Top20 Students.
+This script creates a visualization that explores top20 students in the dataset for the 90 Days of Visualization Challenge."""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
