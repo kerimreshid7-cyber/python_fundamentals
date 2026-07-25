@@ -17,3 +17,7 @@ plt.grid(axis='y', alpha=0.3)
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day12_gpa_distribution.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 12: GPA Distribution")
+
+# Insights:
+# 1. The histogram provides a clear view of the distribution of GPAs among students, allowing for the identification of common GPA ranges and potential outliers.
+# 2. The mean GPA line helps to contextualize the overall performance of the student population, indicating whether the majority of students are performing above or below average.
