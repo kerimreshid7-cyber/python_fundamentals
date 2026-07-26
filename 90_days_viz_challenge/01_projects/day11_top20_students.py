@@ -20,4 +20,4 @@ print("✓ Day 11: Top 20 Students by Score")
 
 # INSIGHTs:
 # 1. The horizontal bar chart effectively highlights the top 20 students based on their scores, allowing for easy comparison of their performance.
-# 2. This visualization can be used to recognize and celebrate the achievements of high-performing students, as well as to identify potential role models for their peers
+# 2. This visualization can be used to recognize and celebrate the achievements of high-performing students, as well as to identify potential role models for their peers.

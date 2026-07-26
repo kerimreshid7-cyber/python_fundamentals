@@ -14,3 +14,7 @@ plt.title('Day 13: Student Remarks Distribution', fontsize=14, fontweight='bold'
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day13_remarks_distribution.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 13: Remarks Distribution")
+
+# Insights:
+# 1. The pie chart provides a clear visual representation of the distribution of student remarks, allowing for easy identification of the most common remarks given to students.
+# 2. The chart highlights the proportion of each remark category, making it easy to understand the overall sentiment and feedback provided to students and identify areas for improvement in teaching and learning.
