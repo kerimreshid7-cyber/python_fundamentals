@@ -18,3 +18,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day14_attendance_by_grade.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 14: Attendance by Grade")
+
+# Insights:
+# 1. The bar chart provides a clear visual representation of the average attendance percentage for each grade, allowing for easy comparison of attendance rates across different grades.
+# 2. This visualization can help identify grades with lower attendance rates, which may indicate potential issues that need to be addressed to improve
