@@ -16,3 +16,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day15_subject_difficulty.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 15: Subject Difficulty")
+
+# Insights:
+# 1. The horizontal bar chart provides a clear visual representation of the average score for each subject, allowing for easy comparison of subject difficulty based on average scores.
+# 2. This visualization can help identify subjects that may be more challenging for students, which can inform curriculum adjustments or additional support for students in those subjects.
