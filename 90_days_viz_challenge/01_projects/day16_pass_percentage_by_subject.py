@@ -19,3 +19,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day16_pass_percentage_by_subject.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 16: Pass Percentage by Subject")
+
+# Insights:
+# 1. The bar chart provides a clear visual representation of the pass percentage for each subject, allowing for easy comparison of student performance across different subjects.
+# 2. This visualization can help identify subjects where students may be struggling, which can inform targeted interventions or additional support for students in those subjects.
