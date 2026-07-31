@@ -22,3 +22,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day18_score_gpa_by_subject.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 18: Score vs GPA by Subject")
+
+# Insights:
+# 1. The scatter plot provides a visual representation of the relationship between score and GPA for each subject, allowing for easy comparison of performance across different subjects.
+# 2. This visualization can help identify trends and patterns in student performance, which can inform teaching strategies and curriculum development for each subject.
