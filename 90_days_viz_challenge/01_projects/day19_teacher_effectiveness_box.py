@@ -18,3 +18,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day19_teacher_effectiveness_box.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 19: Teacher Effectiveness Box Plot")
+
+# Insights:
+# 1. The box plot provides a visual representation of the distribution of scores for each teacher, allowing for easy comparison of teacher effectiveness based on student performance.
+# 2. This visualization can help identify trends and patterns in teacher effectiveness, which can inform professional development and teaching strategies for each teacher.
