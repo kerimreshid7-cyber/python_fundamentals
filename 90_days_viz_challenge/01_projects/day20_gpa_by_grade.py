@@ -17,3 +17,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day20_gpa_by_grade.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 20: Grade-wise GPA Distribution")
+
+# Insights:
+#1. The box plot provides a visual representation of the distribution of GPA for each grade, allowing for easy comparison of academic performance across different grade levels.    
+#2. This visualization can help identify trends and patterns in GPA distribution, which can inform educational strategies and interventions for students in different grades.
