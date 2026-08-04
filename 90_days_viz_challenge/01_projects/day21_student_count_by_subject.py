@@ -16,3 +16,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day21_student_count_by_subject.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 21: Subject-wise Student Count")
+
+# Insights:
+#1. The horizontal bar chart provides a clear visual representation of the number of students enrolled in each subject, allowing for easy comparison of student interest and participation across different subjects.
+#2. This visualization can help identify trends and patterns in subject popularity, which can inform curriculum planning and resource allocation for educational institutions.
