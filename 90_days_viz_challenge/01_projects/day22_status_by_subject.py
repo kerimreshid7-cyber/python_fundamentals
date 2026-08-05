@@ -19,3 +19,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day22_status_by_subject.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 22: Status by Subject")
+
+# Insights:
+# 1. The bar chart provides a clear visual representation of the pass/fail status distribution across different subjects, allowing for easy comparison of student performance in each subject.
+# 2. This visualization can help identify subjects where students may be struggling, which can inform targeted interventions and support strategies to improve student outcomes.
