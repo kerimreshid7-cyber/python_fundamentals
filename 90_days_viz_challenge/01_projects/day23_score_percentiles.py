@@ -20,3 +20,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day23_score_percentiles.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 23: Score Percentiles")
+
+# Insights:
+# 1. The bar chart provides a clear visual representation of the score distribution across different percentiles, allowing for easy comparison of student performance at various levels.
+# 2. This visualization can help identify the range of scores that students are achieving, which can inform targeted interventions and support strategies to improve student outcomes.
