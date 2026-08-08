@@ -21,3 +21,7 @@ plt.colorbar(label='GPA')
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day24_attendance_vs_score.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 24: Attendance vs Score")
+
+# Insights:
+# 1. The scatter plot illustrates the relationship between attendance percentage and scores, with a trend line indicating a positive correlation.       
+# 2. The color gradient representing GPA adds an additional layer of information, allowing for the observation of how GPA varies with attendance and scores, which can inform strategies to improve student performance.

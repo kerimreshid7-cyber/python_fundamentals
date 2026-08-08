@@ -21,3 +21,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day25_top_performers_by_grade.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 25: Top Performers by Grade")
+
+# Insights:
+# 1. The bar charts provide a clear visual representation of the top 10 performers in each grade, allowing for easy comparison of student performance within and across grades.
+# 2. This visualization can help identify high-achieving students and inform strategies for recognizing and supporting their academic success.
