@@ -18,3 +18,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day26_score_by_subject_box.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 26: Score by Subject Box Plot")
+
+# Insights:
+# 1. The box plot provides a clear visual representation of the score distribution for each subject, allowing for easy comparison of student performance across different subjects.
+# 2. This visualization can help identify subjects where students are excelling or struggling, informing strategies for targeted academic support and curriculum adjustments.
