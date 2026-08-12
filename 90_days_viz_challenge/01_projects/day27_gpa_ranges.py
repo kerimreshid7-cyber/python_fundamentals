@@ -20,3 +20,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day27_gpa_ranges.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 27: GPA Ranges Distribution")
+
+# Insights:
+# 1. The majority of students fall within the 3.0-3.5 GPA range, indicating a strong academic performance among the student population.
+# 2. The 0-2.5 GPA range has the lowest count, suggesting a smaller number of students with lower academic performance.
