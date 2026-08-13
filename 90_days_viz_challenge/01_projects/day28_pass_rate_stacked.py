@@ -19,3 +19,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day28_pass_rate_stacked.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 28: Subject-wise Pass Rate")
+
+# Insights:
+# 1. The pass rate varies significantly across different subjects, with some subjects having a higher percentage of students passing compared to others.
+# 2. Subjects with a higher pass rate may indicate better teaching methods or student engagement, while subjects with lower pass rates may require additional support or resources to improve student outcomes.
