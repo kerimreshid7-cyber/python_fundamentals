@@ -17,3 +17,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day29_score_by_grade_box.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 29: Grade Distribution Box Plot")
+
+# Insights:
+# 1. The box plot reveals the distribution of scores across different grades, highlighting the median, quartiles, and potential outliers.
+# 2. Grades with a wider interquartile range may indicate greater variability in student performance, while grades with a narrower range may suggest more consistent performance among students.
