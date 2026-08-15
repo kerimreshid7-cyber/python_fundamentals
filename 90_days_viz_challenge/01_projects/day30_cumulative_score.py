@@ -18,3 +18,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day30_cumulative_score.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 30: Cumulative Score Distribution")
+
+# Insights:
+# 1. The cumulative score plot provides a clear visualization of how scores accumulate across the dataset, allowing for easy identification of score thresholds and distribution patterns.
+# 2. The steepness of the curve indicates the density of scores in certain ranges, with flatter sections suggesting fewer students achieving those scores.
