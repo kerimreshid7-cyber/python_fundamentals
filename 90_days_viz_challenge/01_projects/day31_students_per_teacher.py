@@ -16,3 +16,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day31_students_per_teacher.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 31: Students per Teacher")
+
+# Insights:
+# 1. The bar chart highlights the top 20 teachers with the highest number of students, providing a clear view of the distribution of student counts among teachers.
+# 2. The visualization allows for easy identification of teachers with significantly higher student loads, which may indicate potential areas for resource allocation or support within the educational institution.
