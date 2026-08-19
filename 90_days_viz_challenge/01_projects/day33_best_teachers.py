@@ -18,3 +18,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day33_best_teachers.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 33: Best Performing Teachers")
+
+# Insights:
+# 1. The bar chart highlights the top 15 teachers based on their average student scores, providing a clear visual representation of their performance.
+# 2. This visualization can help identify effective teaching practices and recognize teachers who are contributing significantly to student success, potentially serving as A role models for their peers.
