@@ -18,3 +18,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day34_subject_popularity.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 34: Subject Popularity")
+
+#Insights:
+# 1. The horizontal bar chart effectively displays the popularity of different subjects based on the number of students enrolled, allowing for easy comparison across subjects.
+# 2. This visualization can help educators and administrators identify which subjects are most in demand, potentially guiding curriculum development and resource allocation to better meet student interests and needs.
