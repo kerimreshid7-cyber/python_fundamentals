@@ -19,3 +19,6 @@ plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evide
 plt.close()
 print("✓ Day 35: Teacher Load Distribution")
 
+# Insights:
+# 1. The histogram provides a clear view of the distribution of students per teacher, highlighting  the range and frequency of teacher loads across the dataset.
+# 2. The mean line indicates the average number of students per teacher, which can help identify teachers who may be overburdened or underutilized, guiding decisions for resource allocation and workload balancing in educational institutions.
