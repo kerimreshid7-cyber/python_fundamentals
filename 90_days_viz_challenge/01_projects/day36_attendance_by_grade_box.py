@@ -16,3 +16,8 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day36_attendance_by_grade_box.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 36: Grade-wise Attendance")
+
+# Insights:
+# 1. The boxplot shows the distribution of attendance percentages across different grades, allowing for easy comparison.
+# 2. The median attendance percentage varies across grades, indicating differences in attendance behavior among students.
+# 3. Outliers in attendance percentages can be observed in certain grades, which may warrant further investigation into the reasons behind these anomalies.
