@@ -17,3 +17,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day37_worst_performers.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 37: Top 10 Worst Performers")
+
+# Insights:
+# 1. The bar chart highlights the bottom 10 students based on their scores, providing a clear visual representation of their performance.
+# 2. The visualization can help identify students who may need additional support or intervention to improve their academic performance.
