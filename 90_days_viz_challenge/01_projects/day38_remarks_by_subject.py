@@ -19,3 +19,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day38_remarks_by_subject.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 38: Subject-wise Remarks Distribution")
+
+# Insights:
+# 1. The bar chart illustrates the distribution of remarks across different subjects, allowing for a quick comparison of how students are performing in each subject.
+# 2. This visualization can help educators identify subjects where students may be struggling and require additional support or resources to improve their performance.
