@@ -19,3 +19,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day39_exam_timeline.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 39: Exam Date Timeline")
+
+# Insights:
+# 1. The line chart illustrates the distribution of exams over time, allowing for a quick comparison of how exams are scheduled throughout the academic year.
+# 2. This visualization can help educators identify periods of high exam frequency, which may require additional planning or support for students and staff to manage the workload effectively.
