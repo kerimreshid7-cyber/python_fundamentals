@@ -19,3 +19,8 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day40_remarks_by_grade.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 40: Remarks by Grade")
+
+
+# Insights:
+# 1. The visualization shows the distribution of remarks across different grades in the dataset.    
+# 2. It helps identify which grades have higher counts of specific remarks, providing insights into student performance and areas that may require attention.
