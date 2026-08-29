@@ -17,3 +17,8 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day41_gpa_by_status.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 41: GPA vs Status")
+
+# Insights:
+# 1. The boxplot visualization shows the distribution of GPA scores based on the status of students (Pass/Fail).
+# 2. It helps identify the differences in GPA distributions between students who passed and those who failed, providing insights into academic performance and potential areas for improvement.
+
