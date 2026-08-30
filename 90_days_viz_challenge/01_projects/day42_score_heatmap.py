@@ -15,3 +15,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day42_score_heatmap.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 42: Score Distribution Heatmap")
+
+# Insights:
+# 1. The heatmap visualization shows the average scores of students across different grades and subjects.
+# 2. It helps identify patterns and trends in student performance, allowing educators to focus on specific grades or subjects that may require additional attention or resources for improvement.
