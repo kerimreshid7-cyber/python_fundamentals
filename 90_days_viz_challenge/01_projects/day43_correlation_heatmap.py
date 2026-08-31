@@ -15,3 +15,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day43_correlation_heatmap.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 43: Correlation Heatmap")
+
+# Insights:
+# 1. The correlation heatmap provides a visual representation of the relationships between score, GPA, and attendance percentage.
+# 2. It helps identify strong positive or negative correlations, allowing educators to understand how these factors may influence each other and make informed decisions to improve student performance.
