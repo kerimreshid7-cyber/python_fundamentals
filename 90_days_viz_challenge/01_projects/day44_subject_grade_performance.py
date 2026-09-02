@@ -19,3 +19,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day44_subject_grade_performance.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 44: Subject-Grade Performance")
+
+# Insights:
+# 1. The bar chart provides a visual representation of the number of passes for each subject across different grades, allowing educators to identify which subjects have higher or lower pass rates.
+# 2. It helps in understanding the performance of students in various subjects and grades, enabling targeted interventions to improve student outcomes and overall academic performance.
