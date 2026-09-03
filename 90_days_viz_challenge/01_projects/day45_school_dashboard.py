@@ -64,3 +64,7 @@ fig.suptitle('Day 45: School Analytics Summary Dashboard', fontsize=16, fontweig
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day45_school_dashboard.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 45: School Analytics Summary Dashboard")
+
+# Insights:
+# 1. The dashboard provides a comprehensive overview of various aspects of school performance, including score distribution, grade distribution, pass/fail ratio, subject average scores, attendance, GPA, remarks, status by grade, and top teachers.
+# 2. It allows educators and administrators to quickly identify areas of concern, track student performance, and make data-driven decisions to improve overall academic outcomes.
