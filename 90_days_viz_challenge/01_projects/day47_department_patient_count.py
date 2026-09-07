@@ -18,3 +18,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day47_department_patient_count.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 47: Department-wise Patient Count")
+
+# Insights:
+# 1. The visualization reveals that certain departments have significantly higher patient counts compared to others, indicating a potential focus area for resource allocation and management.
+# 2. The distribution of patient counts across departments can help hospital administrators identify trends and make informed decisions regarding staffing and departmental support.
