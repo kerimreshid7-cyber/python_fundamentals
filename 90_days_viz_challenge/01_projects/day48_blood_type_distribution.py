@@ -15,3 +15,7 @@ plt.title('Day 48: Blood Type Distribution', fontsize=14, fontweight='bold')
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day48_blood_type_distribution.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 48: Blood Type Distribution")
+
+# Insights:
+# 1. The visualization indicates that certain blood types are more prevalent in the dataset, which can have implications for blood donation and transfusion strategies.
+# 2. Understanding the distribution of blood types can help healthcare providers plan for emergencies and ensure that they have adequate supplies of the most common blood types available for patients in need.
