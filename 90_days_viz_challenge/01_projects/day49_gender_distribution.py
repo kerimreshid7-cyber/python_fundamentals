@@ -14,3 +14,7 @@ plt.title('Day 49: Gender Distribution', fontsize=14, fontweight='bold')
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day49_gender_distribution.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 49: Gender Distribution")
+
+# Insights:
+# 1. The visualization indicates the proportion of male and female patients in the dataset, which can provide insights into the demographics of the patient population.
+# 2. Understanding gender distribution can help healthcare providers tailor their services and resources to better meet the needs of their patients, as well as inform public health strategies and initiatives.
