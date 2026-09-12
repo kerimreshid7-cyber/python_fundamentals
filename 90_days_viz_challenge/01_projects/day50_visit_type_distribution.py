@@ -19,3 +19,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day50_visit_type_distribution.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 50: Visit Type Distribution")
+
+# Insights:
+# 1. The visualization shows the distribution of different visit types in the dataset, which can provide insights into the most common reasons for hospital visits.
+# 2. Understanding visit type distribution can help healthcare providers allocate resources effectively, improve patient care strategies, and identify areas for potential improvement in service delivery.
