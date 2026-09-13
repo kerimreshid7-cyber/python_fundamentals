@@ -16,3 +16,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day51_diagnosis_frequency.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 51: Diagnosis Frequency")
+
+# Insights:
+# 1. The horizontal bar chart provides a clear view of the frequency of different diagnoses in the dataset, allowing healthcare professionals to identify the most common health issues.
+# 2. Understanding diagnosis frequency can help in resource allocation, planning preventive measures, and improving patient care strategies by focusing on prevalent health conditions.
