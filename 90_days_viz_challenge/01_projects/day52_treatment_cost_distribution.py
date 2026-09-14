@@ -15,3 +15,8 @@ plt.grid(axis='y', alpha=0.3)
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day52_treatment_cost_distribution.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 52: Treatment Cost Distribution")
+
+# Insights:
+# 1. The histogram provides a clear view of the distribution of treatment costs in the dataset, allowing healthcare professionals to identify the most common cost ranges.
+# 2. Understanding treatment cost distribution can help in budgeting, resource allocation, and financial planning for healthcare facilities, ensuring that they can provide affordable care to patients while maintaining operational efficiency.
+
