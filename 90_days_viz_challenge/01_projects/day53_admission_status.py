@@ -17,4 +17,4 @@ print("✓ Day 53: Admission vs Non-admission")
 
 # Insights:
 # 1. The pie chart provides a clear visual representation of the proportion of patients who were admitted versus those who were not, allowing healthcare professionals to quickly assess admission trends.
-# 2. Understanding admission status can help in resource planning, patient flow management, and identifying potential areas for improvement in the admission process, ultimately enhancing patient care and hospital efficiency.
+# 2. Understanding admission status can help in resource planning, patient flow management, and identifying potential areas for improvement in the admission process, ultimately enhancing patient care and hospital efficiency. 
