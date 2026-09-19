@@ -14,3 +14,7 @@ plt.title('Day 55: Recovery Status Distribution', fontsize=14, fontweight='bold'
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day55_recovery_status.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 55: Recovery Status")
+
+# Insights:
+# 1. The pie chart provides a clear visual representation of the distribution of recovery statuses, allowing healthcare professionals to quickly assess the proportion of patients in different recovery categories.
+# 2. Understanding the distribution of recovery statuses can help in evaluating the effectiveness of treatments,identifying areas for improvement in patient care, and making informed decisions to enhance overall recovery outcomes.
