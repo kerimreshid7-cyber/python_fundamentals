@@ -16,3 +16,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day56_doctor_patient_count.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 56: Doctor-wise Patient Count")
+
+# Insights:
+# 1. The horizontal bar chart provides a clear visual representation of the top 15 doctors by patient count, allowing healthcare administrators to quickly identify which doctors are seeing the most patients.
+# 2. Understanding doctor-wise patient distribution can help in resource allocation, workload management, and identifying potential areas for improvement in patient care, ensuring that doctors are not overwhelmed and that patients receive timely attention.
