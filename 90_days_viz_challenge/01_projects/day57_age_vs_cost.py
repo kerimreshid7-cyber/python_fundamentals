@@ -21,3 +21,7 @@ plt.grid(alpha=0.3)
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day57_age_vs_cost.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 57: Age vs Treatment Cost")
+
+# Insights:
+# 1. The scatter plot illustrates the relationship between patient age and treatment cost, with a trend line indicating a positive correlation. This suggests that as age increases, treatment costs tend to rise, which may be due to the increased complexity of medical care required for older patients.
+# 2. Understanding the age-cost relationship can help healthcare providers and policymakers in budgeting, resource allocation, and designing age-specific healthcare programs, ensuring that older patients receive appropriate care without incurring excessive costs. 
