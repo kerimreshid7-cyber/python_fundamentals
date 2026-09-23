@@ -16,3 +16,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day58_dept_avg_cost.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 58: Department-wise Average Cost")
+
+# Insights:
+# 1. The bar chart illustrates the average treatment cost across different hospital departments, highlighting which departments incur higher costs on average. This information can be valuable for hospital management in identifying areas where cost optimization may be necessary.
+# 2. Understanding department-wise cost distribution can aid in strategic planning, resource allocation, and improving operational efficiency, ensuring that departments with higher costs are scrutinized for potential cost-saving measures without compromising patient care quality.
