@@ -19,3 +19,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day59_gender_by_dept.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 59: Gender by Department")
+
+# Insights:
+# 1. The bar chart illustrates the gender distribution across different hospital departments, providing insights into the representation of male and female patients in each department. This information can be valuable for hospital management in understanding patient demographics and tailoring services to meet the needs of different gender groups.
+# 2. Analyzing gender distribution by department can aid in identifying potential disparities in healthcare access and utilization, ensuring that both male and female patients receive equitable care and attention across all hospital departments.
