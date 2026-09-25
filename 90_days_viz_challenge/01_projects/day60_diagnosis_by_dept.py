@@ -19,3 +19,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day60_diagnosis_by_dept.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 60: Diagnosis by Department")
+ 
+# Insights:
+# 1. The bar chart illustrates the distribution of top diagnoses across different hospital departments, providing insights into the prevalence of various medical conditions in each department. This information can help hospital management identify areas of specialization and allocate resources effectively to address the most common diagnoses.
+# 2. Analyzing diagnosis distribution by department can aid in understanding patient needs and trends in healthcare, allowing for better planning and decision-making in terms of staffing, equipment, and treatment protocols to ensure optimal patient care across all hospital departments.
