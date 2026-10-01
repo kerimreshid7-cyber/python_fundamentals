@@ -19,3 +19,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day61_recovery_by_dept.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 61: Recovery Status by Department")
+
+# Insights:
+# 1. The bar chart illustrates the distribution of recovery status across different hospital departments, providing insights into the effectiveness of treatments and patient outcomes in each department. This information can help hospital management identify areas of improvement and allocate resources effectively to enhance patient recovery rates.
+# 2. Analyzing recovery status distribution by department can aid in understanding patient needs and trends in healthcare, allowing for better planning and decision-making in terms of staffing, equipment, and treatment protocols to ensure optimal patient care and recovery across all hospital departments.
