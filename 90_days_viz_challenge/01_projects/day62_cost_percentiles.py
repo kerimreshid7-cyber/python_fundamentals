@@ -20,3 +20,8 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day62_cost_percentiles.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 62: Treatment Cost Percentiles")
+
+
+# Insights:
+# 1. The bar chart illustrates the distribution of treatment costs across different percentiles, providing a clear view of how costs are distributed throughout the dataset.
+# 2. Analyzing cost percentiles can help hospital management identify trends in treatment costs, allowing for better budgeting and resource allocation to ensure cost-effective patient care.
