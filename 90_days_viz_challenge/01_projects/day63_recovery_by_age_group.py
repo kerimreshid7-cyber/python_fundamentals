@@ -22,3 +22,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day63_recovery_by_age_group.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 63: Age Groups by Recovery Status")
+
+# Insights:
+# 1. The bar chart illustrates the distribution of recovery status across different age groups, providing   a clear view of how recovery varies with age.
+# 2. Analyzing recovery by age group can help hospital management identify trends in patient recovery, allowing for better resource allocation and targeted care strategies to improve patient outcomes across different age demographics.
