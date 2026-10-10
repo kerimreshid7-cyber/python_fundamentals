@@ -19,3 +19,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day64_visit_timeline.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 64: Visit Date Timeline")
+
+# Insights:
+# 1. The line chart illustrates the number of visits over time, providing a clear view of visit trends and patterns.
+# 2. Analyzing visit timelines can help hospital management identify peak visit periods, allowing for better resource allocation and scheduling to improve patient care and reduce wait times.
