@@ -19,3 +19,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day65_blood_type_by_gender.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 65: Blood Type by Gender")
+
+# Insights:
+# 1. The bar chart illustrates the distribution of blood types across different genders, providing a clear view of gender-based blood type prevalence.
+# 2. Analyzing blood type distribution by gender can help healthcare providers understand potential differences in blood type prevalence, which may be relevant for medical research, blood donation campaigns, and personalized healthcare strategies.
