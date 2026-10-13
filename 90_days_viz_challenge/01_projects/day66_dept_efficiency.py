@@ -18,3 +18,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day66_dept_efficiency.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 66: Department Efficiency")
+
+# Insights:
+# 1. The horizontal bar chart illustrates the average cost per visit for each department, providing a clear view of department efficiency in terms of treatment costs.
+# 2. Analyzing department efficiency can help hospital administrators identify areas for cost optimization, improve resource allocation, and enhance overall patient care by focusing on departments with higher costs per visit.
