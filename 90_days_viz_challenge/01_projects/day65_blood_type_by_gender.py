@@ -23,3 +23,4 @@ print("✓ Day 65: Blood Type by Gender")
 # Insights:
 # 1. The bar chart illustrates the distribution of blood types across different genders, providing a clear view of gender-based blood type prevalence.
 # 2. Analyzing blood type distribution by gender can help healthcare providers understand potential differences in blood type prevalence, which may be relevant for medical research, blood donation campaigns, and personalized healthcare strategies.
+
