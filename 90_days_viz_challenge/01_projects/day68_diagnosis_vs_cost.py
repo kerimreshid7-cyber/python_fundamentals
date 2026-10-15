@@ -16,3 +16,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day68_diagnosis_vs_cost.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 68: Diagnosis vs Cost Relationship")
+
+# Insights:
+# 1. The horizontal bar chart illustrates the average treatment cost for each diagnosis, providing a clear view of the cost associated with different medical conditions.
+# 2. Analyzing the relationship between diagnosis and treatment cost can help healthcare providers identify high-cost diagnoses, optimize resource allocation, and implement cost-effective treatment strategies to improve patient care and reduce overall healthcare expenses.
