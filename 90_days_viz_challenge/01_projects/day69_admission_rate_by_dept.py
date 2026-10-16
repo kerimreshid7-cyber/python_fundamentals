@@ -19,3 +19,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day69_admission_rate_by_dept.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 69: Admission Rate by Department")
+
+# Insights:
+# 1. The bar chart illustrates the admission rate for each department, providing a clear view of how different departments perform in terms of patient admissions.
+# 2. Analyzing the admission rate by department can help hospital administrators identify departments with high or low admission rates, allowing them to allocate resources effectively, improve patient care, and optimize hospital operations.
