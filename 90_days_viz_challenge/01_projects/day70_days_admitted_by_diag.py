@@ -17,3 +17,7 @@ plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evide
 plt.close()
 print("✓ Day 70: Average Days Admitted by Diagnosis")
 
+
+# Insights:
+# 1. The horizontal bar chart illustrates the average number of days patients are admitted based on their diagnosis, providing a clear view of how different diagnoses impact hospital stay duration.
+# 2. Analyzing the average days admitted by diagnosis can help hospital administrators identify diagnoses that require longer hospital stays, allowing them to allocate resources effectively, improve patient care, and optimize hospital operations.
