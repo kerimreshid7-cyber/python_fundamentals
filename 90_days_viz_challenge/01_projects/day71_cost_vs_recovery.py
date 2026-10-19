@@ -17,3 +17,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day71_cost_vs_recovery.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 71: Treatment Cost vs Recovery Status")
+
+# Insights:
+# 1. The boxplot illustrates the distribution of treatment costs based on recovery status, providing a clear view of how recovery outcomes may be associated with the costs incurred during treatment.
+# 2. Analyzing treatment costs in relation to recovery status can help hospital administrators identify patterns and trends, allowing them to optimize resource allocation, improve patient care, and make informed decisions regarding treatment strategies and cost management.
