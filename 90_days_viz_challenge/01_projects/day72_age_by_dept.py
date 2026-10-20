@@ -18,3 +18,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day72_age_by_dept.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 72: Patient Age by Department")
+
+# Insights:
+# 1. The boxplot illustrates the distribution of patient ages across different hospital departments, providing a clear view of how age varies by department.
+# 2. Analyzing patient age in relation to department can help hospital administrators identify patterns and trends, allowing them to optimize resource allocation, improve patient care, and make informed decisions regarding treatment strategies and patient demographics.
