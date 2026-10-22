@@ -17,3 +17,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day73_cost_by_visit_type.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 73: Cost Distribution by Visit Type")
+
+# Insights:
+# 1. The boxplot illustrates the distribution of treatment costs across different visit types, providing a clear view of how costs vary by visit type.
+# 2. Analyzing treatment costs in relation to visit type can help hospital administrators identify patterns and trends, allowing them to optimize resource allocation, improve patient care, and make informed decisions regarding treatment strategies and patient demographics.
