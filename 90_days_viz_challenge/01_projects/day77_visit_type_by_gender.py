@@ -19,3 +19,7 @@ plt.tight_layout()
 plt.savefig('/home/kerim/Desktop/python_fundamentals/90_days_viz_challenge/evidences/day77_visit_type_by_gender.png', dpi=100, bbox_inches='tight')
 plt.close()
 print("✓ Day 77: Visit Type by Gender")
+
+# Insights:
+# 1. The visualization shows the distribution of visit types (e.g., emergency, routine, follow-up) by gender in the hospital dataset.
+# 2. It can be observed that certain visit types may have a higher representation of one gender over the other, which could indicate differences in healthcare-seeking behavior or health conditions between genders.
